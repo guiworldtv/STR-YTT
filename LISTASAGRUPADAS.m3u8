@@ -2509,38 +2509,38 @@ pipe:///usr/bin/env streamlink --stdout --default-stream best --url https://moip
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="RTP1.png",CBS NEWS
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/71df197d-619d-44ea-81fb-90471e2f8c29:DLS/variant/f3c61e3c5d923b324006bfcbb7466a9f/bandwidth/2808256.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/3dd25c7c-43ce-4f68-8acb-af58c1629918:MRN2/variant/f3c61e3c5d923b324006bfcbb7466a9f/bandwidth/2808256.m3u8
 
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",MMTV - COSTA RICA
-https://us-b4-p-e-cg11.cdn.mdstrm.com/live-stream/5a7b1e63a8da282c34d65445/publish/media_2000.m3u8?aid=579bd29dc99290cf08362c3b&sid=Yi6JwQspoVBEsBFmM9bfOtYBndlDMpmx&uid=EgMn7HranwgDZI6buG0K7AxQ32ZHKTQI&pid=B1gtBlAIuXeX7Pwc7Abh62QvwbjTRFso&dnt=true&without_cookies=false&es=us-b4-p-e-cg11.cdn.mdstrm.com&ote=1661786049086&ot=SDpEXarbNed25rSiZi9Yug&proto=https&pz=us&sid=Yi6JwQspoVBEsBFmM9bfOtYBndlDMpmx&uid=EgMn7HranwgDZI6buG0K7AxQ32ZHKTQI&pid=B1gtBlAIuXeX7Pwc7Abh62QvwbjTRFso&av=v5.2.274&an=screen&at=web-app&res=1280x720&dnt=true&without_cookies=false
+https://us-b4-p-e-qg12.cdn.mdstrm.com/live-stream/5a7b1e63a8da282c34d65445/publish/media_2000.m3u8?aid=579bd29dc99290cf08362c3b&sid=0jr6nmpiTzosd37vAWa8z102aNbPL8DZ&uid=60Do6RnVM1M9dAIxqsmkuKSaItfi7JcI&pid=Lq9xmEFAOn6MDILAJHjU1x0LNLLcRouj&dnt=true&without_cookies=false&es=us-b4-p-e-qg12.cdn.mdstrm.com&ote=1661791215683&ot=A5fzLgR5JdoAPoKcNKGAug&proto=https&pz=us&sid=0jr6nmpiTzosd37vAWa8z102aNbPL8DZ&uid=60Do6RnVM1M9dAIxqsmkuKSaItfi7JcI&pid=Lq9xmEFAOn6MDILAJHjU1x0LNLLcRouj&av=v5.2.274&an=screen&at=web-app&res=1280x720&dnt=true&without_cookies=false
 
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",TV+ - CHILE
-https://cl-a3-p-e-co3.cdn.mdstrm.com/live-stream/5c0e8b19e4c87f3f2d3e6a59/publish/media_2500.m3u8?aid=5c0e87c403a35601ebcffcf1&sid=yOdG00J5pDRjUM8HbVRLQYl34kn56hGv&uid=Z3QUcDynTvTcYvF4F5HVhCMplFgWCXq2&pid=VyE7HSmSZyyrvDgKaA5ZEpcBjxtWIBNe&dnt=true&without_cookies=false&es=cl-a3-p-e-co3.cdn.mdstrm.com&ote=1661786050432&ot=A09PsnvoW8C9DA8Kt6LSyA&proto=https&pz=cl&sid=yOdG00J5pDRjUM8HbVRLQYl34kn56hGv&uid=Z3QUcDynTvTcYvF4F5HVhCMplFgWCXq2&pid=VyE7HSmSZyyrvDgKaA5ZEpcBjxtWIBNe&av=v5.2.274&an=screen&at=web-app&res=1280x720&dnt=true&without_cookies=false 
+https://cl-a3-p-e-uy6.cdn.mdstrm.com/live-stream/5c0e8b19e4c87f3f2d3e6a59/publish/media_2500.m3u8?aid=5c0e87c403a35601ebcffcf1&sid=nHY2MTliPMXrEXJ3hhDWtjJILbhaKqKk&uid=Ea5CjyTbVAHPCzyh7JKLb2sEDIBoKGtJ&pid=eI7dwQkPyv6VoarpEzTeGo8SYOMyX1WN&dnt=true&without_cookies=false&es=cl-a3-p-e-uy6.cdn.mdstrm.com&ote=1661791216432&ot=q7qbVXTP5mjZqyjrA7z73Q&proto=https&pz=cl&sid=nHY2MTliPMXrEXJ3hhDWtjJILbhaKqKk&uid=Ea5CjyTbVAHPCzyh7JKLb2sEDIBoKGtJ&pid=eI7dwQkPyv6VoarpEzTeGo8SYOMyX1WN&av=v5.2.274&an=screen&at=web-app&res=1280x720&dnt=true&without_cookies=false 
 
 
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",TELEMETRO - CHILE
-https://us-b4-p-e-ja16.cdn.mdstrm.com/live-stream-dai/9117f0590fc44e748830d7f17a172c9a/manifest/f624fec49dadc88894ebeff1d974eab019af7757/5d88dd2229b0890723df2165/d9f68d2f-b4da-4b92-aca8-2831ad55ab4b/3.m3u8?aid=5d409041e10de808a34fce18&sid=darRf6ih11UXVU4MFdOubEJEntJPnCxj&uid=L1vPZe5SovZAnEUN43nJSw25HeJPNcUj&pid=ewhYfzWWDEKgEkgrSviK2MFvnVRWQ0m4&dnt=true&without_cookies=false&es=us-b5-p-e-kj2.cdn.mdstrm.com&ote=1661786051761&ot=O--wKAxl9OdHucGFoHrjRQ&proto=https&pz=us&sid=darRf6ih11UXVU4MFdOubEJEntJPnCxj&uid=L1vPZe5SovZAnEUN43nJSw25HeJPNcUj&pid=ewhYfzWWDEKgEkgrSviK2MFvnVRWQ0m4&av=v5.2.274&an=screen&at=web-app&res=1280x720&dnt=true&without_cookies=false&adInsertionSessionId=d9f68d2f-b4da-4b92-aca8-2831ad55ab4b          
+https://us-b4-p-e-zs14.cdn.mdstrm.com/live-stream-dai/9117f0590fc44e748830d7f17a172c9a/manifest/f624fec49dadc88894ebeff1d974eab019af7757/5d88dd2229b0890723df2165/1184c8c2-ae1f-4c0f-b5bc-0d9f683ac9f6/3.m3u8?aid=5d409041e10de808a34fce18&sid=mGskXxFVcy0EAgOBjRVM6Zgq790i4m0e&uid=Luio1v16oHYWJT1Bne9iX2TgNwgXmIxu&pid=JwsEOP8CHpNpx8P7X7ydxQQde83Rwqu8&dnt=true&without_cookies=false&es=us-b4-p-e-cg11.cdn.mdstrm.com&ote=1661791217336&ot=nGXpymSILkDVchAMAvrFLg&proto=https&pz=us&sid=mGskXxFVcy0EAgOBjRVM6Zgq790i4m0e&uid=Luio1v16oHYWJT1Bne9iX2TgNwgXmIxu&pid=JwsEOP8CHpNpx8P7X7ydxQQde83Rwqu8&av=v5.2.274&an=screen&at=web-app&res=1280x720&dnt=true&without_cookies=false&adInsertionSessionId=1184c8c2-ae1f-4c0f-b5bc-0d9f683ac9f6          
 
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",WEBAPP - CHILE
-https://us-b5-p-e-kj2.cdn.mdstrm.com/live-stream/6046495ddf98b007fa2fe807/publish/media_5000.m3u8?aid=5fc4f2223f549b07bc73cc1a&sid=GYxJUSj0rSS8Gz77nIfyqfsLxbnpzA9D&uid=WOEIJwBVHtIxX9jvUfPXMPGfKkqaljrY&pid=jsN3jdmXALZY18Hi50a4UZlFK98Rfk5Q&dnt=true&without_cookies=false&es=us-b5-p-e-kj2.cdn.mdstrm.com&ote=1661786052871&ot=lUcHY_YpsgGMTtGU6pQXAw&proto=https&pz=us&sid=GYxJUSj0rSS8Gz77nIfyqfsLxbnpzA9D&uid=WOEIJwBVHtIxX9jvUfPXMPGfKkqaljrY&pid=jsN3jdmXALZY18Hi50a4UZlFK98Rfk5Q&av=v5.2.274&an=screen&at=web-app&res=1280x720&dnt=true&without_cookies=false          
+https://us-b4-p-e-cg11.cdn.mdstrm.com/live-stream/6046495ddf98b007fa2fe807/publish/media_5000.m3u8?aid=5fc4f2223f549b07bc73cc1a&sid=peyTUVhvW5aHhhfZowsxih3hsxLa07Ry&uid=2coMIVILYJwxYw04GVXFkrdRzMlrXWBZ&pid=f1yKXrfenHkgYfm7HqQmjC3WiwHSTSqJ&dnt=true&without_cookies=false&es=us-b4-p-e-cg11.cdn.mdstrm.com&ote=1661791218112&ot=WMM8jikH0Se5pITpLN6Tpg&proto=https&pz=us&sid=peyTUVhvW5aHhhfZowsxih3hsxLa07Ry&uid=2coMIVILYJwxYw04GVXFkrdRzMlrXWBZ&pid=f1yKXrfenHkgYfm7HqQmjC3WiwHSTSqJ&av=v5.2.274&an=screen&at=web-app&res=1280x720&dnt=true&without_cookies=false          
        
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",SEÑAL OFICIAL - CHILE
-https://cl-a1-p-e-tz2.cdn.mdstrm.com/live-stream/6239f6d008e7ac488826f237/publish/media_2500.m3u8?aid=6228dbdaac1c9d08363b5335&sid=JJYSdoOEDZif6iHJ3NnJqEEYcLYL8rAI&uid=DVBU8UOm18FBGjblYv0G9ulGZtsOoAxa&pid=4c2ZyMbniuV6P2PBk8jOvKtU3dTJduMr&dnt=true&without_cookies=false&es=cl-a1-p-e-tz2.cdn.mdstrm.com&ote=1661786053518&ot=xLDcRo9NmjbBqaSflueN1w&proto=https&pz=cl&sid=JJYSdoOEDZif6iHJ3NnJqEEYcLYL8rAI&uid=DVBU8UOm18FBGjblYv0G9ulGZtsOoAxa&pid=4c2ZyMbniuV6P2PBk8jOvKtU3dTJduMr&av=v5.2.274&an=screen&at=web-app&res=1280x720&dnt=true&without_cookies=false        
+https://cl-a1-i-e-cl1.cdn.mdstrm.com/live-stream/6239f6d008e7ac488826f237/publish/media_2500.m3u8?aid=6228dbdaac1c9d08363b5335&sid=NThPYqLp0Czlmhvfmq1cW9ICXgyWantm&uid=WmxYH7QgA3Nrh4Ng9SwPucFLKeNVWfSG&pid=auB5QSQM3JGvraV72KvOuK146tFUkc75&dnt=true&without_cookies=false&es=cl-a1-i-e-cl1.cdn.mdstrm.com&ote=1661791218734&ot=HE9bNx6M3oW2ULhCI6Jakg&proto=https&pz=cl&sid=NThPYqLp0Czlmhvfmq1cW9ICXgyWantm&uid=WmxYH7QgA3Nrh4Ng9SwPucFLKeNVWfSG&pid=auB5QSQM3JGvraV72KvOuK146tFUkc75&av=v5.2.274&an=screen&at=web-app&res=1280x720&dnt=true&without_cookies=false        
 
 
 #EXTM3U
@@ -2553,8 +2553,8 @@ error: Unable to validate result: ValidationError:
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-#EXTINF:-1 tvg-id="" tvg-logo="https://s1.dmcdn.net/v/DOzUi1YTcSm80D12C/x1080",A Fazenda 8 Exclusivo Legendários Vale a Pena Ver Direito de 08 11 2015
-https://proxy-004.dc3.dailymotion.com/sec(saQeXx3qXZg3T3rkC8HACA07Naqe1H-9C7UUk_agEma4zBwVxzlnNVzC5-rs6vv5xYZLGjnZuvwK5aTTDBnfoV-j1Xn_2R0SoY3P-caAZME)/video/480/746/224647084_mp4_h264_aac.m3u8#cell=core
+#EXTINF:-1 tvg-id="" tvg-logo="https://s2.dmcdn.net/v/DOzUi1YTcSm80D12C/x1080",A Fazenda 8 Exclusivo Legendários Vale a Pena Ver Direito de 08 11 2015
+https://proxy-05.nyc.dailymotion.com/sec(saQeXx3qXZg3T3rkC8HACA07Naqe1H-9C7UUk_agEma4zBwVxzlnNVzC5-rs6vv5xYZLGjnZuvwK5aTTDBnfoV-j1Xn_2R0SoY3P-caAZME)/video/480/746/224647084_mp4_h264_aac.m3u8#cell=nyc
 
 #EXTM3U
 #EXT-X-VERSION:3
@@ -2566,7 +2566,7 @@ error: No playable streams found on this URL: https://www.rtp.pt/play/direto/rtp
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1 tvg-id="rtp2hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP 2
-https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/chunklist_b2540000_slpor.m3u8?token=1661832000_606f93350dc50c74564741d4bcde45068a0c5371
+error: No playable streams found on this URL: https://www.rtp.pt/play/direto/rtp2
 
 
 #EXTM3U
@@ -2610,25 +2610,25 @@ https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/chunklist_b640000
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1,YOUTUBEAOVIVO
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1661721272/ei/WIYLY5XzCd-A_9EPieGNyAY/ip/20.65.68.122/id/Fof55uxFeSs.3/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr2---sn-p5qs7nsk.googlevideo.com/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/initcwndbps/195000/mh/Lr/mm/44/mn/sn-p5qs7nsk/ms/lva/mv/m/mvi/2/pl/16/dover/11/pacing/0/keepalive/yes/fexp/24001373,24007246/mt/1661699321/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,vprv,playlist_type/sig/AOq0QJ8wRAIgRUELOvYUyiOH5-OjxOUHwnL56BskVcl0EqAZ4IC6SD0CIAFyr_7sW45rUit4ZoOSAWwIwqrRa8tRTOGHq4jQ4o1c/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRAIgDJyzCjLSZYGFG2k42ctvR0bITc8pj7xu_5xFSDquWrACIGQl4wILnv-8EEqN3wuDdS7-c3cHlRn4-UL7U8j2CVmX/playlist/index.m3u8
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1661726433/ei/gZoLY5GuBY3OgwOMgqvABA/ip/20.127.44.1/id/Fof55uxFeSs.3/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr2---sn-p5qs7nsk.googlevideo.com/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/initcwndbps/161250/mh/Lr/mm/44/mn/sn-p5qs7nsk/ms/lva/mv/m/mvi/2/pl/16/dover/11/pacing/0/keepalive/yes/fexp/24001373,24007246/mt/1661703885/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,vprv,playlist_type/sig/AOq0QJ8wRAIgTMaBQa309b6dnRm6q3C4f1yX0AX_cjtpYmCkBRYE7gcCIFvs4mbwzV87nVyMYoMYkt82eX0GIMwP3ubwISq3riX9/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRQIhAKMYe3KGZLRYb5Pcljz7hYgSl5T6NAutTB2o3HV-9HVAAiAgc9G_2RsVWah-eFEevdB4oLuiiClwhiZHAn31omvy0w%3D%3D/playlist/index.m3u8
 
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1 tvg-id="cnnpthd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",CNN Portugal
-https://video-auth6.iol.pt/live_cnn/live_cnn/edge_servers/cnn-720p/chunks.m3u8?nimblesessionid=219958054&wmsAuthSign=c2VydmVyX3RpbWU9OC8yOC8yMDIyIDM6MTQ6MzUgUE0maGFzaF92YWx1ZT1sLzIrbjg3eXFWNjZDbU4vQVNBMWh3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NmNkMjhkOWUtNWFiOC00M2ZlLWJlZGUtZTRiNGFjNjEwNTgx
+https://video-auth6.iol.pt/live_cnn/live_cnn/edge_servers/cnn-720p/chunks.m3u8?nimblesessionid=219976055&wmsAuthSign=c2VydmVyX3RpbWU9OC8yOC8yMDIyIDQ6NDA6MzYgUE0maGFzaF92YWx1ZT1GMGgxQ3N3ZzIyVzhSRktPdEhVSWZRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MDVlOGRkODgtM2FlMi00OTA4LTk3ODktZmU2MDNhMzBkNmVi
 
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1 tvg-id="tvihd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
-https://video-auth6.iol.pt/live_tvi/live_tvi/edge_servers/tvi-720_passthrough/chunks.m3u8?nimblesessionid=219958062&wmsAuthSign=c2VydmVyX3RpbWU9OC8yOC8yMDIyIDM6MTQ6MzggUE0maGFzaF92YWx1ZT1SbFpuODBmN3JGdTA3cUt2ODVZZXpnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9OWIwNWI1NmQtNzUyYS00MTY3LTkzMTMtZWE4NWQ1YjBiYWUx
+https://video-auth6.iol.pt/live_tvi/live_tvi/edge_servers/tvi-720_passthrough/chunks.m3u8?nimblesessionid=219976068&wmsAuthSign=c2VydmVyX3RpbWU9OC8yOC8yMDIyIDQ6NDA6MzkgUE0maGFzaF92YWx1ZT01NllNZFFWV0hvZ2p5cE5vS3dTd053PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZGY4MmNlNTEtYjRjMC00MmY2LTgyY2YtMzZjYzc4YWVmMDY1
 
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1 tvg-id="TVIFIC.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI-Ficção.png",TVI Ficção
-https://video-auth6.iol.pt/live_tvi_ficcao/live_tvi_ficcao/edge_servers/tvificcao-720p/chunks.m3u8?nimblesessionid=219958067&wmsAuthSign=c2VydmVyX3RpbWU9OC8yOC8yMDIyIDM6MTQ6NDIgUE0maGFzaF92YWx1ZT1TMHo0RGxQbWhIV1IzQU5iT3NuU0J3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9OTIxMGY3NmYtZTQ5YS00NzE4LWI3OWYtZWZmM2Y2N2RjMWQ2
+https://video-auth6.iol.pt/live_tvi_ficcao/live_tvi_ficcao/edge_servers/tvificcao-720p/chunks.m3u8?nimblesessionid=219976084&wmsAuthSign=c2VydmVyX3RpbWU9OC8yOC8yMDIyIDQ6NDA6NDMgUE0maGFzaF92YWx1ZT1CK2p0dmIrYVRCdFlMN3pYVW5HSzBRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9OTg4Y2I2YjYtYjVkMy00NjVkLTllMjAtODhmYmI2YWUzZDE0
 
 #EXTM3U
 #EXT-X-VERSION:3
@@ -2641,7 +2641,7 @@ error: No playable streams found on this URL: https://tviplayer.iol.pt/direto/TV
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1 tvg-id="TVIInt.pt" tvg-logo="https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",TVI Internacional
-https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/edge_servers/tviinternacional-720p/chunks.m3u8?nimblesessionid=219958091&wmsAuthSign=c2VydmVyX3RpbWU9OC8yOC8yMDIyIDM6MTQ6NDkgUE0maGFzaF92YWx1ZT05RUNwN3JKMlVHUDY5Yk1nN0llL3BRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NWQ3NTY4ODUtY2JkYy00MTRiLWJjMTEtNzNjMTdiMzZhMTQy
+https://video-auth7.iol.pt/live_tvi_internacional/live_tvi_internacional/edge_servers/tviinternacional-720p/chunks.m3u8?nimblesessionid=189705295&wmsAuthSign=c2VydmVyX3RpbWU9OC8yOC8yMDIyIDQ6NDA6NTAgUE0maGFzaF92YWx1ZT03NDZpVFRJK3RRRUJsRmNYMHZWUW13PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YWQ4YzE0MGUtZGQ0Mi00NTU4LTliYTUtNjk1YTU0NjQ3ZWYy
 
 #EXTM3U
 #EXT-X-VERSION:3
@@ -2659,32 +2659,36 @@ error: No playable streams found on this URL: https://www.twitch.tv/ctv_classic
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_weathernewslive-1280x720.jpg",WEATHERNEWSLIVE
-https://video-weaver.sea01.hls.ttvnw.net/v1/playlist/CrUEXIOu5t4MpXifEbcjEgfMy3zAW7GYU2hcb2jj0Xivl23UsYLv7J3K7xMH0NQfNDluswO58Q9QVZhuh_zSlOvwVYgYNAvwi0Fbhz60nqXdo6DTQ1zrmvnxQlvfEZW_aXnUA8jjDa1Bj6s9MPcJ_KIrvYWqRKaobkaKHPEw0K5crbCoQRixR5j4ogiFOBOfhi010yRjChAZ3_Iw2Y1rdmQCyPcaH5QshFcI9rG4Z3ZTkdzFLkP6xIvVxD9AaImTNUe8-pVXH_1-wgWG8KpYTOp-nkpI57Kkx2hpcbRJq752ZV_5fmNPFy6Oy6rSQhK9oCxKuQuJ7xxAIq3HivzhFdHMU9_8danKeiT9Rquei0j_7_F-9QM3DyZvaaDrnX-vSadfx62jz0JnzwQfrJ0KdVo1ywvR5puDmf4jxeecPktU_kGOtEuIrgkk6VakCPHDAL9_S9OFZI1dkcboyzc2OE8kasQ6s9oTt2MOHAIaHsw_ZaZyt3U-EWz9MW12sLqv9JTAflZtDfuj1fRZf4AHDR7rfb87DI1hDxMsUGfCXzJGctmgd49acIislhJvpwQiBMQrIK2HUH3aBsh9PuWihuM-iWcbvhHtOAw3or8tmZ9u4naje6wp4CHpLefPuqv6c4qdT1_VGY01v4t7oKaPiiIKt5SwAD4a8Ig-IorK1LaQeMOGZcg7YNpyIjQ0zPwkstmAViftPTTcY88XN4AJIb0sGnpI3hbPQ2j9hP-75HwzCVe8WJNtwxoMhyXHwy5CLtwM3NMyIAEqCXVzLXdlc3QtMjDEBA.m3u8
+https://video-weaver.sea01.hls.ttvnw.net/v1/playlist/CrQEPMOE8K2o7y9eQ14wH2AbDHihdJjkEkTMLwy1lVGLyULAkhLJnCk0i40qe_HNpQBpFfBx-Mbn8HJexVNkCUs2AaBSofHMV2VzTKYmhIvGCamhRZ9ZGN7tKuGQXVU-34N11ShuuRwYHGCg0kPPW0Iv0-6JC8IpSn0dJ9Gie_mxMkxoxI_KnV_itab_xpuNmCGoZ3M3mdV29SPLOOeT2oimZ-RleT20eMW-4RIF8ZW8076AOvL9MpoYFMH7NU5ExqQHunqYjb55Az6hdyKJ-WnFrr3Un8hbFvFjnlXMSXNK3ug9_hqfamDh4FzB_C7DgFE4qm9eSsQixEp8dt-uto6yvcfjxb5iPXRusrr9Tu6S4Q_AI9jx3P9_AnKlJyD6OOQcDPJyzxrU1o8kF-oxIuuHATVARJ1o51bOaNWsaB3P03sXkhIgqWO8qSyk75h6s6MRLWcy5VSHXBr_RIg59uELTwAwm_-UxGq0v_Hhw4zYh6Cu6FxgA_OUigQFOcSHoNssto_knKgtQ9ngEoRwovgDqM9jwT2K63hfShvcwx5H8J73yzpYma9i2B46TAF15s8-Bkkmb7XC40QjKBxJ-EK5f88AK_IRMRIkGGKFD50zvWTSNFRBChwdAzV8SKSZI-x71A6Tk5RBaj3pVK-0hvLr9TQHkdYuw2rI-hUs4yjS33Eo5i_zKk13cFs-CXOGQq-kMHutia6v4vhCxNkhrZqaxkYCFF_4bieOh2NbQV3EA3thNZ1dGgzEOqaankQen9cLJ3IgASoJdXMtd2VzdC0yMMQE.m3u8
 
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_livenowfox-1280x720.jpg",LIVENOWFOX
-https://video-weaver.sea01.hls.ttvnw.net/v1/playlist/CqEE5w1hIbnjwbWmCTb_rwKKvcW48oi9cKRxwPqmUuYw72n9ANX4c4HpuoK_JRk5Px3IMKhq00DDssTKKI8l0CxJqx0iqDw-jQhvRakeZRXBiaLXm5x1su4-L83fZ6ZlKCrKxSSSMSFJuu46yTIxIpsvVlG3Mw0_YGkMVT0fj39PYNa3RIVShtdeBaWgHM_28mO5d-zhb1F6nlVNXoZmzxtCqteha3ymuf433VYQrAg0MP0VofESW5jkUOj3LIgeGVmFBNyQDu30kDc5ZY-4qdj3eMjNbMx01vuQEdozq5NMCwr5lOXZ7Yc7YFCrIjsngTnWCs8rS40ZWOP4k4P2bovMA3zFOvYBMKD2MFiPPFADZMELXntUboMRKn-6QHaVeBndrjPD7S5u92nyz9buE0b7sON9eUsJgeoacv5zuSWwSonB0FIAD2p9PdPGDqEdvf8YZ2bqPd5Np5cXZwpVACK1Z6l7W5tBPfSfbYwx91FiSGokt5bnIk88bbRT__P6asI_QsnMViuFSP89Tg9iKyoiOH6XtdpTW4dZMlEt6ukrQ6IiKIDFZMgJjZaVGYR4ZtGGQnqObqkYzoa5WxeHcIdKDY7keQAs4mKwTgh6FNyR6ny9u5GOIg2A0LVjRu4dGRPrWwMkiNDZHpe8suBDGqpyuYX4EsFvvBYSxf-7dkpFdsBT4zgkdRY1S7248OItY7YrQwIjB7RVmxkOA68LuMK8Yf8aDNpFLOrR4IFQBa4SgSABKgl1cy1lYXN0LTEw-gI.m3u8
+https://video-weaver.sea01.hls.ttvnw.net/v1/playlist/CqAEe8EojPB-G-knRn0ghA15fIxEycasFgrmLJoRbDqYHdiQRRWMyZuehLsfvbKFo-Xi5eZoxtslKuAkEgHdKCzxNJ-S9hOQpz23jd2kniQNeXbbW9DdzOzKVZ6DJHSothMqkNpzgB141pI1tGBscHDDGRcO-C_BhIRbquZl61ubdjaZND5Dok8ageM7-7e9N5RK8D5nowkLvobwEhPoA5ZachzrRYeu6fgT4QD7U8fP2YjB7VuQQIMjQhHi-wa3u0etAe0CjEmIkSzqvu0w6fagKqr4PvspnxaG56aRPjpI6ipPCI_cY6Ef7zaIDrezI2UFhRJsp_HZz_nSRes-98K7eGpwMHof4ot4t3__z0tX2qbhXohB16kgVH7TvaOYysL49sVtlfC1jOpfj8pWLLj82JW6sjpOFNzP0POH5BdOsnGx8S4AfHBVzfnUCBMqihz7PBgiGERybb5gMwZztE0k0CxfKwgpiTpiC6nVQBHrUEhxsctRn1bQRW3Ew3WBbGd69c4wHTmxlp-Nasr7XiurpIUQAmvfMZ6FF596Tqc-fXPgQgyRX3nLH9R4B9tgdlJYsL3qLpZSk6khc2nuDEvyKAwDCFBE3AhtrtIWEa8yME-x1RmykV1FBl_86wpZytDG3auLZ-p3DvevatAwICqGxEc4FreT6HxwUoiCwRHT8YyxKNxnSSd6LFVUa7KA0YAAUQIAxhGAPoD-4yV_Eo1FbxoMF7E5R7oQEYrGr3vdIAEqCXVzLWVhc3QtMTD6Ag.m3u8
 
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_teleiblea-1280x720.jpg",TELEIBLEA ITALIANA
-https://video-weaver.sea01.hls.ttvnw.net/v1/playlist/CqEE0y3z2r2gk8mbZV7p9W7G8gJBNdsCP2O6vEBuUz9vNGcO26OC8gENEP3KHgMTw3bb8ere8ZHLeoHdfXfdvRWUcToNx-0YHiiMcXKAaflFllsZYpSUWqQ3u5lDiE1WLjmdS4hSpvcihLBmfZkxUZYnPbbCwkFsaCswEIveCBGGG9U29ZAEvD9bKGYyD7JYw6qGGBAZ91HLYJwfHhU5ZcTZKFDJIxi3hydsmKZuRSZjX9JFxUw5WKkdkCdCujV4gKXvWLReqgFhDkNeYH-c5JJ5J-paHLdljIXjntuklXuAfbkx5TElVyNgygYzd3b3q0Kic07l7lgZjC3ekD77-ywuL1vTPl6ia0tZEkkUHkd308qaswn4RTBO-a3YFkZ-luZ8gzWi5UwLXx_rFYGbKMFYIQS-B00gtccm2bapms3ic5rsWyIVrcw4rM4_Kf-4KEjI1sP-OQhhciRSEk-Xlw41aeMAFBgKac5YshWQNMZlcY6J64RLRAI8rBkK-IZ5Y87O1wmaYi2wk8agZVnFrxAL5WjPRhmKklDOWCCQJLFQ1g2z5J8ibElYgtbfRXTVg4QlC_cFzBpfmWQxVBHwvDL767lmbqCwerqCxrwz23PMMXyea7dxv6bWuxZ_KUZ6parI-rRyD5AvGLOhpSgXcf6Yk-Mz6J_Ax-s_fS_mZ0-IT8ITzuCu3ce2_kV68s6CypYUJqd27OXY4OGkhw1f4cUW09EaDHoIg0Qjts1slaG-ZyABKglldS13ZXN0LTIwxQQ.m3u8
+https://video-weaver.sea01.hls.ttvnw.net/v1/playlist/CqEEmXHCavdYzTapSV9Sw9LbAE5XidYXhTYXmlkaDdnSdwY4Mm97yh3yL7dzauLAHhV4j2n3Q0ZLa7TFvF-OeN4x2GIGD6vKiGlN5TQufHPQ2vYao7YGMFvN3VKchHJiFgb34DabAC50f4RdQIvELCJgEcM3igZ1b4TCnRJGvt4edzSfGJykoR1IUq42x3EWT2zly4c9RW-YuQufbQdfQssOcl-D4lLhaLbJwSuvIZKNDS9wOqh4WUZwQxe0NBTzLdN_IcJ56W8ItN8NRcOv2gnlC_e4hp0vaG3MPUaXHXP0ds3uphCmvXPVaambpmxW7zrIJtqOL_dMI1q4OF-Hc6vHydoOXudK8t6T8UayD4dUn2IyfQHkzxvoO321p6uZ4kO-iKWcch29d8XvokyssgvsgkgCNkZXPJCszNdKEic1RnkC_6urB3sxi-cAnMQaoZEJvlaFG2KJeERgzxlfKgKe2_SZKnHjPa-qYnkqKNAACG1AH7rXIsFEuLQo9tJTVdebW1OLKRgZEHekeAbsQPH0LTuHF0Z9qUkPnC1GWPn5dHwLqz2-irOOnpAAt_FTPISnGF5XyunVT_m-kn2EJhRifnqM_ocCnmkZUmxvQldPfSAk-wmjZ3NNBHujEZeGE880gn99U1skbe1vLOax9Z8P2WYoD6HeOqsqo6VNL1GaWdra5IAGA3ycdE_U9dMwFa_W0xWe4PnxhSPOkryoa4wfVWwaDCjK5TDCPJdbI4niIyABKglldS13ZXN0LTIwxQQ.m3u8
 
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_pularitv-1280x720.jpg",PULARITV
-https://video-weaver.sea01.hls.ttvnw.net/v1/playlist/CpsEOx-hx8PscCbAhe8yg-kvGR6uG2UKZ0e6lf1LmXkJAhM8C1C5YNfMsgplTbKwmJLNHw_b0yw2flja0BVn1HuryGe10q0Ial0qZA2rqBSK5Szde5oJwY37hWO9YHfY-seIOyqibbLlrvGjSPsekiGB1aDj-0v69GtZ8yYRWEM1tnzaopKQl_fjQjqouH6d6mw_k97HcIYZosjK8aviYelwvA7BXQH00a_Xy6dKHxWapCAAbtQyMTOQbmpOW4WP506VeMBlXpnT3e8m0dkJzrQzw3BCPu3cARoaF3l2-oB1A6C0cI4wGCxDGiMrdggrmRlPcNef8e3uClZuJmc9LUY87YK41IGa1ilBr_gWDZmAUIG239ZPW6yGnv0j19MIC-4zue_FsxGLA_If2zf6c9NGoczg7XVgatOPtECtLmW3Nj2mwlx5Y6m6M_wK-vnC43p5CnYWpDMb8efOP8y3NmbZ6S33Qm_4X5EQMFVHVwLVtp-0pQfsirAQ5QaFA8-n7V-FF-IM8_Y7MJPUZS0iTBZWBZzQJI6x3NJ5par7lKTvb_rVwb7RUcDfUhUg7n1NK457f6DxPHAJmdHyJV92oo7fnGLdGDVX9syNEEJmhJ1XzQcNXfQoI3jeg8OLBsVM2AM1vZauE68FZC7PiQqisutCZdl9fCvmgnODsn3SzAmNlVrnTFujJmeUcx4tvM6X7S15V59l3pzX8ljYjQwaDNc9FpiM0sSCPDOK0SABKgl1cy13ZXN0LTIwxAQ.m3u8
+https://video-weaver.sea01.hls.ttvnw.net/v1/playlist/CpoE-NsOsjxqJ4ljfvp_wQKPaw4RNPyzRnsteHi3y_fnmyNFTZYScOS8nyAQI0sdoh-MYI62eiAlNA4saJ-Zu-v6nI9V5uCxEUgQC0hpbp7aTQNcrPu-JBNvzmPyj8xNIyC9mC399YjDNHimsDedlORtcK-hlO5TvDw8omtbcqCg-pVkCqnLPMjOtuNCwyfV8EsuqDr2X5G8-OXE2r9jkWXz8NbUDfYKXJkRtvDo1YgYSd5h-mkjjh9KPNvp8whCdO-CdTvq9j6lt0GhlZWCLEfvK1_oWj62uThiesQ4FWF_CuB1toCAceE8qLg945B1MKO9xbCtM8dIylhoPFnzQnKak57g-CdtLFe9f2OCA0n_29LS4fXe5qenHutsv0emLrIpgD8gGm6nA6g5P35_kL__UnfwUg4T47xD_26LCvM7nz1jX2YJ2RTEBp0-XCkTTc2m9U1m128zbNns07lFywuqXw7HVaE-B55xvct4ucv0rCKWxtDLBUCc6_VqeE4RmvT30cf7m9uHWe7_M5BOYCqnAQXKztMiGhLeXzouVyuU2UppzdIj4k2UZskv62RpiFen_d6Da8a7ylGoESqkyIGQuhq3kqShj7MKQYJMZWH2oiVsUX3YgprAVYa2YrRd0noK8Kx9HRRmVkyPQiv4g2zFB876715oDgMIUVU-zQeJBz3mTDYp4cP9Id18mE98YMsNXpId_BV1W0Jf2BoMSZmQ5LR9LH_tte2FIAEqCXVzLXdlc3QtMjDEBA.m3u8
 
 
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1,TV MEIO NORTE
-https://playback2.akamaized.net/streams/3332377_10580127_lsiwddsl458htuabd7y_1/exp=1661786098~acl=%2f*~data=hdntl~hmac=94a9904a50c8737d5613890f5ada736b8bda0caaf7183d275675f5d158b01e4a/media/3332377_10580127_lsiwddsl458htuabd7y_1@696000p.m3u8?dw=80&ts=1661698800
+https://playback2.akamaized.net/streams/3332377_10580127_lsiwddsl458htuabd7y_1/exp=1661791258~acl=%2f*~data=hdntl~hmac=39ebccecc301e0733223e8814865691ca76849ec5229be924a92e0b93be0a0f7/media/3332377_10580127_lsiwddsl458htuabd7y_1@696000p.m3u8?dw=80&ts=1661702400
+EOL  
+
+
+   
 
 
 
