@@ -36,7 +36,7 @@ jobs:
           
       - name: Español baixado
         run: |         
-         wget -O ESPANOL.M3U https://raw.githubusercontent.com/davidmuma/log_dobleM/master/TDTChannels.m3u 
+         wget -r  https://raw.githubusercontent.com/davidmuma/log_dobleM/master/TDTChannels.m3u -o ESPANOL.M3U
          
       - name: Español substituido
         run:  sh espanol.sh
