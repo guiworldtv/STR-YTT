@@ -39,6 +39,9 @@ jobs:
         
       - name: execute py script
         run: python Church.py
+        
+      - name: execute py script 2
+        run: python Languages.py        
       
       
 
