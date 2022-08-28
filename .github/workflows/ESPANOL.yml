@@ -1,4 +1,4 @@
-name: Baixando lista española
+name: Baixando lISTA ESPAÑÕLA
 on:
   schedule:
     - cron: '9 * * * *'
@@ -17,10 +17,9 @@ jobs:
       run: |
         git config --global user.email "action@github.com"
         git config --global user.name "GitHub Action"
-    - name: Baixando Listas Agrupadas
+    - name: Baixando lISTA ESPAÑÕLA
       run: |         
        wget -r https://raw.githubusercontent.com/davidmuma/log_dobleM/master/TDTChannels.m3u -O ESPANOL.M3U
- 
 
        
        
