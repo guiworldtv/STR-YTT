@@ -38,8 +38,8 @@ jobs:
       
 
           
-      - name: execute py script 3
-        run: python ucraniatv.py   
+      - name: execute py script 2
+        run: python Languages.py   
         
       - name: execute py script 4
         run: python YoutubeALL.py
