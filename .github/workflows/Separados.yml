@@ -36,8 +36,6 @@ jobs:
           
 
          
-      - name: Español substituido
-        run:  sh espanol.sh
         
       - name: execute py script
         run: python Church.py
