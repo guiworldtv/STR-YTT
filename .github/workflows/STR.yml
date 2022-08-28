@@ -1,0 +1,226 @@
+name: Get StreamLink Live
+on:
+  schedule:
+    - cron: '0 0/1 * * *'
+
+  pull_request:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: config
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+    - name: Install youtube-dl para thumbnail
+      run: |
+        sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+        sudo chmod a+rx /usr/local/bin/youtube-dl
+    - name: Install streamlink
+      run: |
+        sudo apt install ffmpeg python3-pip git
+        pip install --user --upgrade streamlink
+    - name: Get LISTA4.m3u8
+      run: |
+        touch ./LISTA4.m3u8
+        sudo cat >./LISTA2STR.m3u <<EOL
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="RTP1.png",CBS NEWS
+        $(streamlink --url --default-stream  --stream-url https://www.cbsnews.com/live/ best)
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",MMTV - COSTA RICA
+        $(streamlink --url --default-stream  --stream-url  https://mdstrm.com/live-stream/5a7b1e63a8da282c34d65445 best)
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",TV+ - CHILE
+        $(streamlink --url --default-stream  --stream-url  https://mdstrm.com/live-stream/5c0e8b19e4c87f3f2d3e6a59 best) 
+        
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",TELEMETRO - CHILE
+        $(streamlink --url --default-stream  --stream-url  https://mdstrm.com/live-stream/5d88dd2229b0890723df2165 best)          
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",WEBAPP - CHILE
+        $(streamlink --url --default-stream  --stream-url  https://mdstrm.com/live-stream/6046495ddf98b007fa2fe807 best)          
+               
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",SEÑAL OFICIAL - CHILE
+        $(streamlink --url --default-stream  --stream-url  https://mdstrm.com/live-stream/6239f6d008e7ac488826f237 best)        
+
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",CANAL CAPITAL - COLOMBIA
+        $(streamlink --url --default-stream  --stream-url  https://mdstrm.com/live-stream/57d01d6c28b263eb73b59a5a?sharing=true best)
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="" tvg-logo="$(youtube-dl --get-thumbnail https://www.dailymotion.com/video/x3pqyss)",$(youtube-dl -e https://www.dailymotion.com/video/x3pqyss)
+        $(streamlink --url --default-stream  --stream-url  https://www.dailymotion.com/video/x3pqyss best)
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1
+        $(streamlink --url --default-stream  --stream-url  https://www.rtp.pt/play/direto/rtp1 best)
+
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtp2hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP 2
+        $(streamlink --url --default-stream  --stream-url  https://www.rtp.pt/play/direto/rtp2 best)
+
+
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtp3hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png",RTP 3
+        $(streamlink --url --default-stream  --stream-url  https://www.rtp.pt/play/direto/rtp3 best)
+
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="RTPInternacional.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacional.png",RTP Internacional
+        $(streamlink --url --default-stream  --stream-url  https://www.rtp.pt/play/direto/rtpinternacional best)
+
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtpmem.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Memória.png",RTP Memória
+        $(streamlink --url --default-stream  --stream-url  https://www.rtp.pt/play/direto/rtpmemoria best)
+
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtpmad.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Madeira.png",RTP Madeira
+        $(streamlink --url --default-stream  --stream-url  https://www.rtp.pt/play/direto/rtpmadeira best)
+
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtpacorhd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Açores.png",RTP Açores
+        $(streamlink --url --default-stream  --stream-url  https://www.rtp.pt/play/direto/rtpacores best)
+
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtpaf.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png",RTP África 
+        $(streamlink --url --default-stream  --stream-url  https://www.rtp.pt/play/direto/rtpafrica best)
+
+
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,YOUTUBEAOVIVO
+        $(streamlink --url --default-stream  --stream-url  https://www.youtube.com/c/CNBC best)
+
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="cnnpthd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",CNN Portugal
+        $(streamlink --ffmpeg-ffmpeg /usr/local/bin/ffmpeg --stream-url https://tviplayer.iol.pt/direto/CNN best)
+
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="tvihd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
+        $(streamlink --ffmpeg-ffmpeg /usr/local/bin/ffmpeg --stream-url  https://tviplayer.iol.pt/direto/TVI best)
+
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="TVIFIC.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI-Ficção.png",TVI Ficção
+        $(streamlink --url --default-stream  --stream-url  https://tviplayer.iol.pt/direto/TVI_FICCAO best)
+
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,
+        $(streamlink --url --default-stream  --stream-url  https://tviplayer.iol.pt/direto/TVI_AFRICA best)
+
+
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="TVIInt.pt" tvg-logo="https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",TVI Internacional
+        $(streamlink --url --default-stream  --stream-url  https://tviplayer.iol.pt/direto/TVI_INTERNACIONAL best)
+
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_saminited-1280x720.jpg",MINAMALUCA
+        $(streamlink --url --default-stream  --stream-url  https://www.twitch.tv/saminited best)
+
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_ctv_classic-1280x720.jpg",CTVCLASSIC
+        $(streamlink --url --default-stream  --stream-url  https://www.twitch.tv/ctv_classic best)
+
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_weathernewslive-1280x720.jpg",WEATHERNEWSLIVE
+        $(streamlink --url --default-stream  --stream-url  https://www.twitch.tv/weathernewslive best)
+
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_livenowfox-1280x720.jpg",LIVENOWFOX
+        $(streamlink --url --default-stream  --stream-url  https://www.twitch.tv/livenowfox best)
+
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_teleiblea-1280x720.jpg",TELEIBLEA ITALIANA
+        $(streamlink --url --default-stream  --stream-url  https://www.twitch.tv/teleiblea best)
+
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_pularitv-1280x720.jpg",PULARITV
+        $(streamlink --url --default-stream  --stream-url  https://www.twitch.tv/pularitv best)
+
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,TV MEIO NORTE
+        $(streamlink --url --default-stream  --stream-url  https://livestream.com/accounts/3332377/events/10580127 best)
+        EOL
+
+  
+
+
+           
+    - name: git add
+      run: |
+        git add -A
+        ls -la
+    - name: commit & push
+      run: |
+        git commit -m "links atualizados"
+        git push
