@@ -38,8 +38,6 @@ jobs:
       
       
     
-      - name: Español substituido
-        run:  sh espanol.sh
         
       - name: Main
         run: |
