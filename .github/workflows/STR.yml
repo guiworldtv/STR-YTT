@@ -41,8 +41,8 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-id="" tvg-logo="$(youtube-dl --get-thumbnail https://www.youtube.com/watch?v=UEJLMHjqqD0)",$(youtube-dl -e https://www.youtube.com/watch?v=UEJLMHjqqD0)
-        $(streamlink --url --default-stream  --stream-url  https://www.youtube.com/watch?v=UEJLMHjqqD0 best)
+        #EXTINF:-1 tvg-id="" tvg-logo="$(youtube-dl --get-thumbnail https://vimeo.com/744207540)",$(youtube-dl -e https://vimeo.com/744207540)
+        $(streamlink --url --default-stream  --stream-url  https://vimeo.com/744207540 best)
         
         #EXTM3U
         #EXT-X-VERSION:3
