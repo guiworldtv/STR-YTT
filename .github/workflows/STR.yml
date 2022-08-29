@@ -37,44 +37,7 @@ jobs:
         #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="RTP1.png",CBS NEWS
         $(streamlink --url --default-stream  --stream-url https://www.cbsnews.com/live/ best)
         
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",MMTV - COSTA RICA
-        $(streamlink --url --default-stream  --stream-url  https://mdstrm.com/live-stream/5a7b1e63a8da282c34d65445 best)
-        
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",TV+ - CHILE
-        $(streamlink --url --default-stream  --stream-url  https://mdstrm.com/live-stream/5c0e8b19e4c87f3f2d3e6a59 best) 
-        
-        
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",TELEMETRO - CHILE
-        $(streamlink --url --default-stream  --stream-url  https://mdstrm.com/live-stream/5d88dd2229b0890723df2165 best)          
-        
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",WEBAPP - CHILE
-        $(streamlink --url --default-stream  --stream-url  https://mdstrm.com/live-stream/6046495ddf98b007fa2fe807 best)          
                
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",SEÑAL OFICIAL - CHILE
-        $(streamlink --url --default-stream  --stream-url  https://mdstrm.com/live-stream/6239f6d008e7ac488826f237 best)        
-
-        
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",CANAL CAPITAL - COLOMBIA
-        $(streamlink --url --default-stream  --stream-url  https://mdstrm.com/live-stream/57d01d6c28b263eb73b59a5a?sharing=true best)
-        
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
