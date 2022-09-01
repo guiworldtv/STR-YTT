@@ -32,7 +32,8 @@ jobs:
         pip install --user --upgrade streamlink
     - name: Instalando FFMpeg
       run: |
-         sudo snap install ffmpeg
+         sudo apt update
+         sudo apt install ffmpeg
     
     - name: Get LISTA4.m3u8
       run: |
@@ -50,7 +51,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://vimeo.com/274471634)" tvg-logo="$(yt-dlp --get-thumbnail https://vimeo.com/274471634)",$(yt-dlp --get-title https://vimeo.com/274471634)
-        $(yt-dlp --get-url https://vimeo.com/user169948294)
+        $(yt-dlp --get-url https://vimeo.com/search?q=blink+182+bored+to+death)
         
         #EXTM3U
         #EXT-X-VERSION:3
