@@ -18,10 +18,10 @@ jobs:
       run: |
         git config --global user.email "action@github.com"
         git config --global user.name "GitHub Action"
-    - name: Install youtube-dl para thumbnail
+    - name: Install yt-dlp para thumbnail
       run: |
-        sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
-        sudo chmod a+rx /usr/local/bin/youtube-dl
+        sudo wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -O /usr/local/bin/yt-dlp
+        sudo chmod a+rx /usr/local/bin/yt-dlp
     - name: Install streamlink
       run: |
         sudo apt install ffmpeg python3-pip git
@@ -41,8 +41,8 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-id="" tvg-logo="$(youtube-dl --get-thumbnail https://vimeo.com/745202304)",$(youtube-dl -e https://vimeo.com/745202304)
-        $(streamlink --url --default-stream  --stream-url  https://delivery.cdn.rcs.net.ar/mnp/mtv/output.mpd best)
+        #EXTINF:-1 tvg-id="" tvg-logo="$(yt-dlp --get-thumbnail https://vimeo.com/745202304)",$(yt-dlp --get-filename https://vimeo.com/745202304)
+        $(streamlink --url --default-stream  --stream-url  https://vimeo.com/745202304 best)
         
         #EXTM3U
         #EXT-X-VERSION:3
