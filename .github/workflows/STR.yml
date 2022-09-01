@@ -50,7 +50,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://vimeo.com/274471634)" tvg-logo="$(yt-dlp --get-thumbnail https://vimeo.com/274471634)",$(yt-dlp --get-title https://vimeo.com/274471634)
-        $(yt-dlp --get-url https://vimeo.com/274471634)
+        $(yt-dlp --get-url https://vimeo.com/search/sort:latest?q=Grava%C3%A7%C3%A3o+de+Reuni%C3%A3o)
         
         #EXTM3U
         #EXT-X-VERSION:3
