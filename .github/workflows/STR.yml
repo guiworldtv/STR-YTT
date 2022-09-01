@@ -51,6 +51,12 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://www.youtube.com/watch?v=ST6aJt7btvQ)" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/watch?v=ST6aJt7btvQ)",$(yt-dlp --get-title https://www.youtube.com/watch?v=ST6aJt7btvQ)
+        $(yt-dlp --get-url https://www.youtube.com/watch?v=ST6aJt7btvQ)
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         #EXTINF:-1 tvg-id="$(youtube-dl --get-id https://www.dailymotion.com/video/x5z1cje)" tvg-logo="$(youtube-dl --get-thumbnail https://www.dailymotion.com/video/x5z1cje)",$(youtube-dl -e -C https://www.dailymotion.com/video/x5z1cje)
         $(streamlink --url --default-stream  --stream-url  https://www.dailymotion.com/video/x5z1cje best)
         
