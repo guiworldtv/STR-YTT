@@ -34,15 +34,22 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           
-      
-      
 
-          
-   
+         
         
-      - name: execute py script 4
+      - name: execute py script
         run: python YoutubeALL.py
         
+
+
+        
+      - name: commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "update data" -a
+          
       - name: Get current date
         id: date
         run: echo "::set-output name=date::$(date '+%Y-%m-%d')"
@@ -52,11 +59,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main  
-          
-      - name: commit files
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -A
-          git commit -m "update data" -a 
-
