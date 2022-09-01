@@ -50,14 +50,14 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://vimeo.com/user169948294)" tvg-logo="$(yt-dlp --get-thumbnail https://vimeo.com/user169948294)",$(yt-dlp --get-title https://vimeo.com/user169948294)
-        $(yt-dlp --get-url https://vimeo.com/user169948294)
+        #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://vimeo.com/744795443)" tvg-logo="$(yt-dlp --get-thumbnail https://vimeo.com/744795443)",$(yt-dlp --get-title https://vimeo.com/744795443)
+        $(yt-dlp --get-url https://vimeo.com/744795443)
         
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://www.youtube.com/c/GuilhermeMartinsTV/videos)" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/c/GuilhermeMartinsTV/videos)",$(yt-dlp --get-title https://www.youtube.com/c/GuilhermeMartinsTV/videos)
-        $(yt-dlp --get-url https://www.youtube.com/c/GuilhermeMartinsTV/videos)
+        #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://www.youtube.com/channel/UCC4HL2szYmOfw231CmFN8Fw)" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/channel/UCC4HL2szYmOfw231CmFN8Fw)",$(yt-dlp --get-title https://www.youtube.com/channel/UCC4HL2szYmOfw231CmFN8Fw)
+        $(yt-dlp --get-url https://www.youtube.com/channel/UCC4HL2szYmOfw231CmFN8Fw)
         
         #EXTM3U
         #EXT-X-VERSION:3
