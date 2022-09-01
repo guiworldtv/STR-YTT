@@ -15,6 +15,9 @@
 #EXTM3U
 
 
+#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="https://www.amazonsat.com.br/assets/enterprise/splash_logo.svg",AMAZON SAT
+https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
+
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="http://tvcapital.com.br/home/wp-content/themes/canal54/images/logo-tvcapital.png",TV CAPITAL - OUTRO ESTADO
 https://stmv1.srvif.com/rbc/rbc/playlist.m3u8
 
