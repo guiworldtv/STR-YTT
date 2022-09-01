@@ -32,7 +32,7 @@ jobs:
         pip install --user --upgrade streamlink
     - name: Instalando FFMpeg
       run: |
-         pip install ffmpeg-python
+         git clone https://git.ffmpeg.org/ffmpeg.git ffmpeg
     
     - name: Get LISTA4.m3u8
       run: |
