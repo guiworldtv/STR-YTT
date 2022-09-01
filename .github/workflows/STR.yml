@@ -51,6 +51,18 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://www.youtube.com/c/americaenvivo)" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/c/americaenvivo)",$(yt-dlp --get-title https://www.youtube.com/c/americaenvivo)
+        $(yt-dlp --get-url https://www.youtube.com/c/americaenvivo)
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://www.youtube.com/watch?v=-q6top4L6Fs&list=RD-q6top4L6Fs&start_radio=1)" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/watch?v=-q6top4L6Fs&list=RD-q6top4L6Fs&start_radio=1)",$(yt-dlp --get-title https://www.youtube.com/watch?v=-q6top4L6Fs&list=RD-q6top4L6Fs&start_radio=1)
+        $(yt-dlp --get-url https://www.youtube.com/watch?v=-q6top4L6Fs&list=RD-q6top4L6Fs&start_radio=1)
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://www.youtube.com/watch?v=ST6aJt7btvQ)" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/watch?v=ST6aJt7btvQ)",$(yt-dlp --get-title https://www.youtube.com/watch?v=ST6aJt7btvQ)
         $(yt-dlp --get-url https://www.youtube.com/watch?v=ST6aJt7btvQ)
         
