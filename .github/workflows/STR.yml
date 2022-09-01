@@ -51,8 +51,8 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-id="" tvg-logo="$(youtube-dl --get-thumbnail https://vimeo.com/745202304)",$(youtube-dl -e https://vimeo.com/745202304)
-        $(streamlink --url --default-stream  --stream-url  https://vimeo.com/745202304 best)
+        #EXTINF:-1 tvg-id="$(youtube-dl --get-id https://www.dailymotion.com/video/x5z1cje)" tvg-logo="$(youtube-dl --get-thumbnail https://www.dailymotion.com/video/x5z1cje)",$(youtube-dl -e -C https://www.dailymotion.com/video/x5z1cje)
+        $(streamlink --url --default-stream  --stream-url  https://www.dailymotion.com/video/x5z1cje best)
         
         #EXTM3U
         #EXT-X-VERSION:3
