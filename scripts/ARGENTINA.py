@@ -8,6 +8,9 @@ banner = r'''
 
 #EXTM3U
 
+#EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="https://canalnet.tv/_templates/desktop/includes/img/_logo-alt.png",NET TV - VEJA SE FUNCIONA
+https://unlimited1-buenosaires.dps.live/nettv/nettv.smil/playlist.m3u8
+
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="https://www.portalpopcyber.com/wp-content/uploads/2021/10/mtv-logo-952x630.png",MTV LATINOAMERICA
 https://delivery.cdn.rcs.net.ar/mnp/mtv/output.mpd
 
