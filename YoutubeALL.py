@@ -10,7 +10,7 @@ channel_no = 0
 m3u = None
 def get_live_info(channel_id):
     try:
-        webpage = urlopen(f"https://www.youtube.com/{channel_id}/live").read()
+        webpage = urlopen(f"{channel_id}/live").read()
         soup = BeautifulSoup(webpage, 'html.parser')
         urlMeta = soup.find("meta", property="og:url")
         if urlMeta is None:
@@ -61,7 +61,7 @@ def generate_youtube_tv():
             try:
                 with ydl:
                     result = ydl.extract_info(
-                        f"https://www.youtube.com/{line}/live",
+                        f"{line}/live",
                         download=False  # We just want to extract the info
                     )
 
@@ -75,7 +75,7 @@ def generate_youtube_tv():
 
                 channel_no += 1
                 channel_name = f"{channel_no}-{line.split('/')[-1]}"
-                playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{channel.get('image')}\" group-title=\"ARGENTINA\",{channel.get('title')}\n"
+                playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{channel.get('image')}\" group-title=\"ARGENTINA\",{channel.get('title')} - {channel_name}\n"
                 write_to_playlist(playlistInfo)
                 write_to_playlist(video_url)
                 write_to_playlist("\n")
