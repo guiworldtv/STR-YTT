@@ -22,6 +22,9 @@ https://2a1773fcc0c94a639b422d1cf7ba14b7.mediatailor.us-east-1.amazonaws.com/v1/
 #EXTINF:-1 tvg-id="Telefe" tvg-id="Telefe.ar" tvg-logo="https://telefe-static.akamaized.net/media/18154476/logo-telefe-twitter.png"group-title="ARGENTINA",TELEFE COM VPN
 https://mitelefe.com/Api/Videos/GetSourceUrl/694564/0/HLS
 
+#EXTINF:-1 tvg-id="Telefe.ar" tvg-country="AR" tvg-logo="http://x.playerlatino.live/telefe.png" group-title="(CABLE)", TELEFE COM VPN 2
+https://telefe.com/Api/Videos/GetSourceUrl/694564/0/HLS?.m3u8
+
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="https://canalnet.tv/_templates/desktop/includes/img/_logo-alt.png",NET TV 
 https://unlimited1-buenosaires.dps.live/nettv/nettv.smil/playlist.m3u8
 
@@ -86,10 +89,10 @@ https://raw.githubusercontent.com/fgillusi/IPTV-Argentina/main/TelefeHD-edge9.m3
 #EXTINF:-1 tvg-id="Telefe" tvg-name="Telefe" group-title="Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Telefe_Logo.svg/1280px-Telefe_Logo.svg.png",TELEFE 5
 https://delivery.cdn.rcs.net.ar/mnp/telefe/output.mpd
 
-#EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/-b2keOX5lUv4/YUDkI5UqpzI/AAAAAAAAAOo/I1NXuVoeXKIG-zh2E3nh6QqvhjY_kpq4wCLcBGAsYHQ/h120/Telefe.png" group-title="(CABLE)" , TELEFE 
+#EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/-b2keOX5lUv4/YUDkI5UqpzI/AAAAAAAAAOo/I1NXuVoeXKIG-zh2E3nh6QqvhjY_kpq4wCLcBGAsYHQ/h120/Telefe.png" group-title="Argentina" , TELEFE 
 https://stationtv.cdn.rcs.net.ar/anevia/live/localdisk/Telefe/SA_HLS/Telefe.m3u8
 
-#EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/-b2keOX5lUv4/YUDkI5UqpzI/AAAAAAAAAOo/I1NXuVoeXKIG-zh2E3nh6QqvhjY_kpq4wCLcBGAsYHQ/h120/Telefe.png" group-title="(CABLE)" , TELEFE opc 2 
+#EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/-b2keOX5lUv4/YUDkI5UqpzI/AAAAAAAAAOo/I1NXuVoeXKIG-zh2E3nh6QqvhjY_kpq4wCLcBGAsYHQ/h120/Telefe.png" group-title="Argentina" , TELEFE 3 
 https://stationtv.cdn.rcs.net.ar/mnp/telefe_hls/playlist.m3u8
 
 
@@ -97,8 +100,7 @@ https://stationtv.cdn.rcs.net.ar/mnp/telefe_hls/playlist.m3u8
 #EXTINF:-1 tvg-id="ElNueve.ar" tvg-country="AR" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/f/f7/Canal-nueve-ar2017.png" group-title="(CABLE)", 
 CANAL 9 35.1 https://00475e6934d74fe48a80427567a45918.mediatailor.us-east-1.amazonaws.com/v1/manifest/4c8323052bc3dbd9aa2eba0b638d8495561e8377/JW-Octubre-Channel09/0df6d88d-304a-4d15-9cf8-eab1bc9b5e45/3.m3u8
 
-#EXTINF:-1 tvg-id="Telefe.ar" tvg-country="AR" tvg-logo="http://x.playerlatino.live/telefe.png" group-title="(CABLE)", TELEFE 34.1 
-https://telefe.com/Api/Videos/GetSourceUrl/694564/0/HLS?.m3u8
+
 
 #EXTINF:-1 tvg-id="ElTrece.ar" tvg-country="AR" tvg-logo="https://pbs.twimg.com/profile_images/1344843564535132160/xT96d8Zv_400x400.jpg" group-title="(CABLE)", 
 CANAL 13 33.1 # https://cvi.cdn.rcs.net.ar/mnp/el13_hls/playlist.m3u8
@@ -109,27 +111,7 @@ CANAL 13 33.1 # https://delivery.cdn.rcs.net.ar/mnp/el13_hls/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/-TgZv-RGCYoc/XrYHwcpfivI/AAAAAAAA0gw/AuqgxhioqLc1qhSHFDdH1ZftA0PKvOnzQCK8BGAsYHg/s0/2020-05-08.jpg" group-title="(CABLE)", 
 9LINK CHACO http://201.217.245.41:8081/testmelucas/canal9/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TelefeCordoba.ar" tvg-logo="https://pbs.twimg.com/profile_images/1065066731041931265/1tP54glH_400x400.jpg" group-title="(CABLE)", TELEFE CORDOBA 
-http://www.radiosargentina.com.ar/php/tvm3u.php?id=TEAR0159
 
-#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1065076342222450690/Yc9-8FPg_400x400.jpg" group-title="(CABLE)", TELEFE TUCUMAN 
-http://www.radiosargentina.com.ar/php/tvm3u.php?id=TEAR0316
-
-#EXTINF:-1 tvg-id="TelefeRosario.ar" tvg-logo="https://pbs.twimg.com/profile_images/1065070449598611456/96wwvlty.jpg" group-title="(CABLE)", TELEFE ROSARIO
-http://www.radiosargentina.com.ar/php/tvm3u.php?id=TEAR0295
-
-#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1065936054329507842/qisXOk-J_400x400.jpg" group-title="(CABLE)", TELEFE SALTA 
-http://www.radiosargentina.com.ar/php/tvm3u.php?id=TEAR0246
-
-
-#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1412136623786053633/7l2cqJyJ.jpg" group-title="(CABLE)", TELEFE NEUQUEN 
-http://www.radiosargentina.com.ar/php/tvm3u.php?id=TEAR0235
-
-#EXTINF:-1 tvg-id="TelefeSantaFe.ar" tvg-logo="https://pbs.twimg.com/profile_images/1287857707756728322/DacVsXh-_400x400.jpg" group-title="(CABLE)", TELEFE SANTA FE 
-http://www.radiosargentina.com.ar/php/tvm3u.php?id=TEAR0301
-
-#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1065218196142284801/bzqyl5rf_400x400.jpg" group-title="(CABLE)", TELEFE BAHIA BLANCA 
-http://www.radiosargentina.com.ar/php/tvm3u.php?id=TEAR0091
 
 
 
