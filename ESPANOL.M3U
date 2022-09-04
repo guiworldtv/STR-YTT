@@ -1,4 +1,4 @@
-#EXTM3U TDTChannels 03/09/2022 23:41 https://t.me/EPG_dobleM
+#EXTM3U TDTChannels 04/09/2022 23:41 https://t.me/EPG_dobleM
 #EXTM3U url-tvg="https://www.tdtchannels.com/epg/TV.xml"
 #EXTINF:-1 tvg-id="La1.TV" tvg-logo="https://pbs.twimg.com/profile_images/899385012801470464/akSvNCqE_200x200.jpg" group-title="",Generalistas: La 1
 pipe:///usr/bin/env streamlink --stdout --default-stream best --url https://ztnr.rtve.es/ztnr/1688877.m3u8
