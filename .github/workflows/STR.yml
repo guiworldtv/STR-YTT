@@ -76,6 +76,18 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://www.filmon.com/tv/bbc-1-north-ireland)" tvg-logo="$(yt-dlp --get-thumbnail https://www.filmon.com/tv/bbc-1-north-ireland)
         $(streamlink --url --default-stream  --stream-url  https://www.filmon.com/tv/bbc-1-north-ireland best)
+
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="$(youtube-dl --get-id https://www.filmon.com/tv/cbs-reality)" tvg-logo="$(youtube-dl --get-thumbnail https://www.filmon.com/tv/cbs-reality)",$(youtube-dl -e -C https://www.filmon.com/tv/cbs-reality)
+        $(youtube-dl --get-url https://www.filmon.com/tv/cbs-reality)
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="$(youtube-dl --get-id https://www.filmon.com/tv/catholic-tv)" tvg-logo="$(youtube-dl --get-thumbnail https://www.filmon.com/tv/catholic-tv)",$(youtube-dl -e -C https://www.filmon.com/tv/catholic-tv)
+        $(youtube-dl --get-url https://www.filmon.com/tv/catholic-tv)        
         
         #EXTM3U
         #EXT-X-VERSION:3
