@@ -50,31 +50,31 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_teleiblea-1280x720.jpg",TELEIBLEA ITALIANA
+        #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://www.filmon.com/tv/bbc-one)" tvg-logo="$(yt-dlp --get-thumbnail https://www.filmon.com/tv/bbc-one)
         $(streamlink --url --default-stream  --stream-url  https://www.filmon.com/tv/bbc-one best)
         
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_teleiblea-1280x720.jpg",TELEIBLEA ITALIANA
+        #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://www.filmon.com/tv/bbc-news)" tvg-logo="$(yt-dlp --get-thumbnail https://www.filmon.com/tv/bbc-news)
         $(streamlink --url --default-stream  --stream-url  https://www.filmon.com/tv/bbc-news best)
         
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_teleiblea-1280x720.jpg",TELEIBLEA ITALIANA
+        #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://www.filmon.com/tv/bbc-1-wales)" tvg-logo="$(yt-dlp --get-thumbnail https://www.filmon.com/tv/bbc-1-wales)
         $(streamlink --url --default-stream  --stream-url  https://www.filmon.com/tv/bbc-1-wales best)
         
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_teleiblea-1280x720.jpg",TELEIBLEA ITALIANA
+        #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://www.filmon.com/tv/bbc-1-scotland)" tvg-logo="$(yt-dlp --get-thumbnail https://www.filmon.com/tv/bbc-1-scotland)
         $(streamlink --url --default-stream  --stream-url  https://www.filmon.com/tv/bbc-1-scotland best)
         
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_teleiblea-1280x720.jpg",TELEIBLEA ITALIANA
+        #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://www.filmon.com/tv/bbc-1-north-ireland)" tvg-logo="$(yt-dlp --get-thumbnail https://www.filmon.com/tv/bbc-1-north-ireland)
         $(streamlink --url --default-stream  --stream-url  https://www.filmon.com/tv/bbc-1-north-ireland best)
         
         #EXTM3U
