@@ -50,43 +50,43 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://www.filmon.com/tv/bbc-one)" tvg-logo="$(yt-dlp --get-thumbnail https://www.filmon.com/tv/bbc-one)
+        #EXTINF:-1 tvg-id="rtpaf.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png",
         $(streamlink --url --default-stream  --stream-url  https://www.filmon.com/tv/bbc-one best)
         
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://www.filmon.com/tv/bbc-news)" tvg-logo="$(yt-dlp --get-thumbnail https://www.filmon.com/tv/bbc-news)
+        #EXTINF:-1 tvg-id="rtpaf.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png",
         $(streamlink --url --default-stream  --stream-url  https://www.filmon.com/tv/bbc-news best)
         
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://www.filmon.com/tv/bbc-1-wales)" tvg-logo="$(yt-dlp --get-thumbnail https://www.filmon.com/tv/bbc-1-wales)
+        #EXTINF:-1 tvg-id="rtpaf.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png",
         $(streamlink --url --default-stream  --stream-url  https://www.filmon.com/tv/bbc-1-wales best)
         
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://www.filmon.com/tv/bbc-1-scotland)" tvg-logo="$(yt-dlp --get-thumbnail https://www.filmon.com/tv/bbc-1-scotland)
+        #EXTINF:-1 tvg-id="rtpaf.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png",
         $(streamlink --url --default-stream  --stream-url  https://www.filmon.com/tv/bbc-1-scotland best)
         
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://www.filmon.com/tv/bbc-1-north-ireland)" tvg-logo="$(yt-dlp --get-thumbnail https://www.filmon.com/tv/bbc-1-north-ireland)
+        #EXTINF:-1 tvg-id="rtpaf.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png",
         $(streamlink --url --default-stream  --stream-url  https://www.filmon.com/tv/bbc-1-north-ireland best)
 
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-id="$(youtube-dl --get-id https://www.filmon.com/tv/cbs-reality)" tvg-logo="$(youtube-dl --get-thumbnail https://www.filmon.com/tv/cbs-reality)",$(youtube-dl -e -C https://www.filmon.com/tv/cbs-reality)
+        #EXTINF:-1 tvg-id="rtpaf.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png",
         $(yt-dlp --get-url https://www.filmon.com/tv/cbs-reality)
         
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-id="$(youtube-dl --get-id https://www.filmon.com/tv/catholic-tv)" tvg-logo="$(youtube-dl --get-thumbnail https://www.filmon.com/tv/catholic-tv)",$(youtube-dl -e -C https://www.filmon.com/tv/catholic-tv)
+        #EXTINF:-1 tvg-id="rtpaf.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png",
         $(yt-dlp --get-url https://www.filmon.com/tv/catholic-tv)        
         
         #EXTM3U
