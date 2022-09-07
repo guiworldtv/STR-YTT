@@ -82,14 +82,9 @@ https://delivery.cdn.rcs.net.ar/mnp/tvp/output.mpd
 
 
 
-#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizurzsFXDo8ia4Ro7sbFCswdtVdvDYDDrhUhEFTsgTCGHcu5PJWkLbqaj7LG11wNpYaWQJULsU6ndhv_PU5BwtDKBkQCM_HcQgxXlYm9Sr0SOH0USuESStjDfkxCfarjuhn_IJROLTUr2b8WzIpw21F_MZ3uHFPsA_Ngq38SCe5iplYuiHmf9CVfAH/s551/Eltrece_(Sol).webp"group-title="ARGENTINA",EL TRECE 33.1 TDA HD
-
-https://appletree-mytime-samsungmexico.amagi.tv/playlist720_p.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/800px-Telefe_%28nuevo_logo%29.png"group-title="ARGENTINA",TELEFE 34.1 TDA HD"reproducir con MX PRO"
-https://telefeappmitelefe1.akamaized.net:443/hls/live/2037985/appmitelefe/TOK/hdntl=exp=1660357422~acl=%2f*~data=hdntl~hmac=ba9196da07a3098353530c44ab3c13c852fd44bda912d432d60b88c28252718a/master-mtlf.m3u8
-
 https://live.obslivestream.com/telecolormux/tracks-v1a1/mono.m3u8
 
 
