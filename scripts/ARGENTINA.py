@@ -625,6 +625,7 @@ print('#EXTM3U x-tvg-url="https://raw.githubusercontent.com/K-vanc/Tempest-EPG-G
 print('#EXTM3U x-tvg-url="https://raw.githubusercontent.com/Nicolas0919/Guia-EPG/master/GuiaEPG.xml"')
 print('#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ar/directv.com.ar.epg.xml.gz"')
 print('#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml.gz"')
+print(banner1)
 
 #s = requests.Session()
 with open('../ARGENTINA.txt', errors="ignore") as f:
@@ -641,8 +642,6 @@ with open('../ARGENTINA.txt', errors="ignore") as f:
             print(f'\n#EXTINF:-1 group-title="{grp_title}" tvg-logo="{tvg_logo}" tvg-id="{tvg_id}", {ch_name}')
         else:
             grab(line)
-print(banner)
-print(banner1)
 print(banner2)
 if 'temp.txt' in os.listdir():
     os.system('rm temp.txt')
