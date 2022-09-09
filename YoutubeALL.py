@@ -22,13 +22,13 @@ def get_live_info(channel_id):
         titleMeta = soup.find("meta", property="og:title")
         imageMeta = soup.find("meta", property="og:image")
         descriptionMeta = soup.find("meta", property="og:description")
-        epgid = soup.find("link", itemprop="name")
+        epgidMeta = soup.find("link", itemprop="name")
         return {
             "url": url,
             "title": titleMeta.get("content"),
             "image": imageMeta.get("content"),
             "description": descriptionMeta.get("content")
-            "epgid": epgid.get("content")
+            "name": epgid.get("content")
         }
     
     except Exception as e:
