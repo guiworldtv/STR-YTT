@@ -28,7 +28,7 @@ def get_live_info(channel_id):
             "title": titleMeta.get("content"),
             "image": imageMeta.get("content"),
             "description": descriptionMeta.get("content")
-            "name": epgid.get("content")
+            "name": name.get("content")
         }
     
     except Exception as e:
@@ -78,7 +78,7 @@ def generate_youtube_tv():
 
                 channel_no += 1
                 channel_name = f"{channel_no}-{line.split('/')[-1]}"
-                playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{channel.get('epgid')}" sinal-id=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{channel.get('image')}\" group-title=\"YOUTUBE\",{channel.get('title')} - {channel.get('description')} - {channel_name}\n"
+                playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{channel.get('name')}" sinal-id=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{channel.get('image')}\" group-title=\"YOUTUBE\",{channel.get('title')} - {channel.get('description')} - {channel_name}\n"
                 write_to_playlist(playlistInfo)
                 write_to_playlist(video_url)
                 write_to_playlist("\n")
