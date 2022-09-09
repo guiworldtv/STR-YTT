@@ -12,7 +12,7 @@ def get_live_info(channel_id):
     try:
         webpage = urlopen(f"{channel_id}/live").read()
         soup = BeautifulSoup(webpage, 'html.parser')
-        urlMeta = soup.find("meta", property="og:url")
+        urlMeta = soup.find("meta", property="og:url"),
         urlMeta = soup.find("link", itemprop="name")
         if urlMeta is None:
             return None
@@ -22,13 +22,13 @@ def get_live_info(channel_id):
         titleMeta = soup.find("meta", property="og:title")
         imageMeta = soup.find("meta", property="og:image")
         descriptionMeta = soup.find("meta", property="og:description")
-        epgidMeta = soup.find("link", itemprop="name")
+        epgidMeta = soup.find("meta", name="twitter:title")
         return {
             "url": url,
             "title": titleMeta.get("content"),
             "image": imageMeta.get("content"),
             "description": descriptionMeta.get("content")
-            "name": name.get("content")
+            "twitter:title": name.get("content")
         }
     
     except Exception as e:
