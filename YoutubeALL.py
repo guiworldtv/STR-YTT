@@ -12,8 +12,7 @@ def get_live_info(channel_id):
     try:
         webpage = urlopen(f"{channel_id}/live").read()
         soup = BeautifulSoup(webpage, 'html.parser')
-        urlMeta = soup.find("meta", property="og:url"),
-        urlMeta = soup.find("link", itemprop="name")
+        urlMeta = soup.find("meta", property="og:url")
         if urlMeta is None:
             return None
         url = urlMeta.get("content")
@@ -22,13 +21,11 @@ def get_live_info(channel_id):
         titleMeta = soup.find("meta", property="og:title")
         imageMeta = soup.find("meta", property="og:image")
         descriptionMeta = soup.find("meta", property="og:description")
-        epgidMeta = soup.find("meta", itemprop="name")
         return {
             "url": url,
             "title": titleMeta.get("content"),
             "image": imageMeta.get("content"),
             "description": descriptionMeta.get("content")
-            "name": epgidMeta.get("content")
         }
     
     except Exception as e:
@@ -78,7 +75,7 @@ def generate_youtube_tv():
 
                 channel_no += 1
                 channel_name = f"{channel_no}-{line.split('/')[-1]}"
-                playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{channel.get('name')}" sinal-id=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{channel.get('image')}\" group-title=\"YOUTUBE\",{channel.get('title')} - {channel.get('description')} - {channel_name}\n"
+                playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{channel.get('image')}\" group-title=\"YOUTUBE\",{channel.get('title')} - {channel.get('description')} - {channel_name}\n"
                 write_to_playlist(playlistInfo)
                 write_to_playlist(video_url)
                 write_to_playlist("\n")
