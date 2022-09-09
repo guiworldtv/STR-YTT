@@ -78,7 +78,6 @@ def generate_youtube_tv():
                 playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{channel.get('image')}\" group-title=\"YOUTUBE\",{channel.get('title')} - {channel.get('description')} - {channel_name}\n"
                 write_to_playlist(playlistInfo)
                 write_to_playlist(video_url)
-                write_to_playlist('|')
                 write_to_playlist("\n")
             except Exception as e:
                 print(e)
