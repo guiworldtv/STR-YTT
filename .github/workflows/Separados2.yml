@@ -4,7 +4,7 @@ name: Separados 2
 # Controls when the action will run. 
 on:
   schedule:
-    - cron: "7 * * * *"
+    - cron: '0 0/2 * * *'
     
   pull_request:
     branches:
