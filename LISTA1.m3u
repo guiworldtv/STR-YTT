@@ -18,8 +18,8 @@
 https://vod05.msf.cdn.mediaset.net/farmunica/2020/01/526994_16f87bec868965/dashrcclean/hd_no_mpl.mpd
 
 
-#EXTINF:-1 group-title="Reality Show'S Live" id="TVIR.meo.pt"  tvg-logo="https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/63123e690cf26256cd33da09/",BIG BROTHER PORTUGAL
-https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/BIG%20BROTHER%20PORTUGAL%20LIVE.M3U8
+#EXTINF:-1 group-title="Reality Show'S Live" tvg-id="TVIR.meo.pt"  tvg-logo="https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/63123e690cf26256cd33da09/",BIG BROTHER PORTUGAL
+https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/BIG_BROTHER_PORTUGAL_LIVE.M3U8
 
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/2/24/Amazon_sat_logo_2022.svg/200px-Amazon_sat_logo_2022.svg.png",AMAZON SAT
 https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
