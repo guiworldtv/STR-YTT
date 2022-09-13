@@ -31,8 +31,7 @@ https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
 
 
 
-#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="https://live.video.globo.com/d/preview/globo-go01.mp4",TV ANHANGUERA
-https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/TV%20AnhangueraGO.m3u8
+
 
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="https://live-thumbs.video.globo.com/cbnsp24ha/snapshot/",CBN SP (720p)
 https://medias.sgr.globo.com/hls/vCBNSP/vCBNSP.m3u8
@@ -65,25 +64,25 @@ https://www.grupoliberalmedia.com.br/rdcastanhal/liveradio/chunklist_w317712096.
 #EXTINF:-1  group-title="N/A" tvg-logo="N/A",NDTV FLORIANÓPOLIS E RECORDNEWS
 https://caikron.com.br:19360/floripa/floripa.m3u8
 
-#EXTINF:-1  group-title="Cameras Ao Vivo" tvg-logo="N/A",banner de alguma empresa df ou go
+#EXTINF:-1  group-title="Cameras Ao Vivo" tvg-logo="N/A",banner de alguma empresa rs
 https://dcxssbbjc3.zoeweb.tv/df-003-epia/df-003-epia.stream/playlist.m3u8
 
-#EXTINF:-1  group-title="Cameras Ao Vivo" tvg-logo="N/A",banner de alguma empresa df ou go
+#EXTINF:-1  group-title="Cameras Ao Vivo" tvg-logo="N/A",banner de alguma empresa rs
 https://dcxssbbjc3.zoeweb.tv/rs-hdm-003/rs-hdm-003.stream/playlist.m3u8
 
 #EXTINF:-1  group-title="Cameras Ao Vivo" tvg-logo="",AV. CASTELO BRANCO
 https://5a7d54e35f9d2.streamlock.net/avt7/avt7.stream/chunklist_w127968702.m3u8
 
 #EXTINF:-1  group-title="Cameras Ao Vivo" tvg-logo="https://zoevideos.net/public/uploads/thumbnail/live-1086/Screenshot_9.jpg",GOIÂNIA - Praça Civica
-https://hunq9fz8yk.zoeweb.tv/pracacivicapalacio/pracacivicapalacio.stream/playlist.m3u8
+https://hunq9fz8yk.zoeweb.tv/pracacivicapalacio/pracacivicapalacio.stream/chunklist.m3u8
 #EXTINF:-1  group-title="Cameras Ao Vivo" tvg-logo="https://zoevideos.net/public/uploads/thumbnail/live-1034/jamelcecilio-flamboyant.jpeg",GOIÂNIA AV. Jamel Cecílio
-https://hunq9fz8yk.zoeweb.tv/flamboyant/flamboyant.stream/playlist.m3u8
+https://hunq9fz8yk.zoeweb.tv/flamboyant/flamboyant.stream/chunklist.m3u8
 #EXTINF:-1  group-title="Cameras Ao Vivo" tvg-logo="https://zoevideos.net/public/uploads/thumbnail/live-729/thumb-t63.jpg",Av. T-63 (topo do Aquarius Center)
-https://5a7d54e35f9d2.streamlock.net/aquariuscenter2/aquariuscenter2.stream/playlist.m3u8
+https://5a7d54e35f9d2.streamlock.net/aquariuscenter2/aquariuscenter2.stream/chunklist.m3u8
 #EXTINF:-1  group-title="Cameras Ao Vivo" tvg-logo="https://painel.zoeweb.com.br/public/uploads/thumbnail/live-728/thumb-viaduto.jpg",Av. T-4 c/ Av. T-63 -  Setor Bueno
-https://5a7d54e35f9d2.streamlock.net/aquariuscenter/aquariuscenter.stream/playlist.m3u8
+https://5a7d54e35f9d2.streamlock.net/aquariuscenter/aquariuscenter.stream/chunklist.m3u8
 #EXTINF:-1  group-title="Cameras Ao Vivo" tvg-logo="https://zoevideos.net/public/uploads/thumbnail/live-1085/Screenshot_6.jpg",GOIÂNIA - AV. 85 RUA 30
-https://hunq9fz8yk.zoeweb.tv/av_85_rua/av_85_rua.stream/playlist.m3u8
+https://hunq9fz8yk.zoeweb.tv/av_85_rua/av_85_rua.stream/chunklist.m3u8
 #EXTINF:-1  group-title="Cameras Ao Vivo" tvg-logo="N/A",GOIÂNIA - AV. Rio Verde
 https://hunq9fz8yk.zoeweb.tv/avrioverdeapgyn/avrioverdeapgyn.stream/playlist.m3u8
 #EXTINF:-1  group-title="Cameras Ao Vivo" tvg-logo="N/A",GOIÂNIA - Morro do Mendanha
@@ -117,7 +116,7 @@ https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/VideoOFFAir.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",Salão Velório 1
 https://wrm7jsxguc.zoeweb.tv/zw943/zw943.stream/chunklist.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",Salão Velório 2
-https://wrm7jsxguc.zoeweb.tv/zw944/zw944.stream/chunklist_w1292786929.m3u8
+https://wrm7jsxguc.zoeweb.tv/zw944/zw944.stream/playlist.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",AULA IDIOMAS
 https://raw.githubusercontent.com/guiworldtv/STR-YT/main/Languages.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",CHURCH
@@ -152,16 +151,6 @@ https://newsource-live.warnermediacdn.com/hls/live/2005452/intl03/master.m3u8
 https://newsource-live.warnermediacdn.com/hls/live/2005453/intl04/master.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",HLN
 https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
-#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",REUTERS SERVIÇO 1
-https://churro-cdn.prod.reuters.tv/rest/v2/live/playlist/story/521011/chunk/chunklist_b2454000.m3u8
-#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",REUTERS SERVIÇO 2
-https://churro-cdn.prod.reuters.tv/rest/v2/live/playlist/story/521655/chunk/chunklist_b2454000.m3u8
-#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",REUTERS SERVIÇO 3
-https://www.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_r7yxu556/protocol/https/format/applehttp/flavorIds/1_ej2jsx4t,1_xx2ct6su,1_xs8f4wzv,1_ubzw92zs,1_m3ee2kpu,1_77t52dl1,1_qmq90ywj,1_02y8ep5u,1_s5te67at,1_u9hp1z8m,1_8hzopbka,1_rp2xfhsb,1_plj7xvkw,1_h6sup4f8,1_hsij3vjv,1_srprwnpr,1_3nk5ordw,1_3jqg4ygi,1_9wyuf91d/a.m3u8
-#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",REUTERS SERVIÇO 4
-https://www.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_60g193rn/protocol/https/format/applehttp/flavorIds/1_v56k1440,1_hy3jbeg1,1_fel96jy4,1_djxs4pp4,1_snlufgqa,1_frfqv2k4,1_atkx5zgt,1_0l8phop7,1_qv1a2ips,1_q5tf38ja,1_5jp82o52,1_5driuda4,1_682zj9gm,1_6kkrpf3a,1_colgwi4b,1_pgkqwhiy,1_bbbccwdc,1_hdvtaa06,1_iuibbu0f/a.m3u8
-#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",REUTERS SERVIÇO 5
-https://www.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_im7vemsp/protocol/https/format/applehttp/flavorIds/1_72djiulp,1_g9fm3ppp,1_g99l2jmp,1_a2l567v3,1_knsxp4w7,1_t5x1wsg1,1_t9fjf1fj,1_wy69fcby,1_7v5mvawc,1_97b5mu6c,1_mqen2ida,1_73mlnd3b,1_yubhj4x8,1_bqnvdv2r,1_940a59ba,1_mx2mn45k,1_n8klyc95,1_hbvf7uew,1_bn62otef/a.m3u8
 
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",CNN SERVIÇO
 https://cnngo1.akamaized.net/hls/live/2014595/PROD-cnnlive5/master.m3u8
