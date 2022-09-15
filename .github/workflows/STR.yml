@@ -77,7 +77,6 @@ jobs:
         #EXTINF:-1 tvg-id="rtpaf.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png",CINCO
         $(streamlink --url --default-stream  --stream-url  https://www.filmon.com/tv/bbc-1-north-ireland best)
 
-
         
         #EXTM3U
         #EXT-X-VERSION:3
