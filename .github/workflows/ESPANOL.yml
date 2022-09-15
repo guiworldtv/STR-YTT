@@ -23,7 +23,7 @@ jobs:
        sudo apt install ffmpeg
     - name: Baixando lISTA ESPAÑÕLA
       run: |         
-       wget -p https://raw.githubusercontent.com/davidmuma/log_dobleM/master/TDTChannels.m3u -O espanol.M3U
+       wget -r https://raw.githubusercontent.com/davidmuma/log_dobleM/master/TDTChannels.m3u -O espanol.M3U
 
        
        
