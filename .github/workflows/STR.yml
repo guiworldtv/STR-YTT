@@ -37,8 +37,8 @@ jobs:
     
     - name: Get LISTA4.m3u8
       run: |
-        touch ./LISTA4.m3u8
-        sudo cat >./LISTA2STR.m3u <<EOL
+        touch ./lista2str.m3u
+        sudo cat >./lista2str.m3u <<EOL
         
         #EXTM3U
         #EXT-X-VERSION:3
