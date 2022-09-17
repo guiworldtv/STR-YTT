@@ -316,7 +316,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         #EXTINF:-1,TV MEIO NORTE
-        $(streamlink --url --default-stream  --stream-url  https://livestream.com/accounts/3332377/events/10580127 best)
+        $(streamlink --url --default-stream  --stream-url  https://livestream.com/accounts/3332377/events/10612535 best)
         EOL  
 
     - name: git add
