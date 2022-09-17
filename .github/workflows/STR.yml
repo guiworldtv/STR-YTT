@@ -1,4 +1,4 @@
-name: Get StreamLink Live
+name: Streamlink e PRIMOS
 on:
   schedule:
     - cron: '0 0/1 * * *'
