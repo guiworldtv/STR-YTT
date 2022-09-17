@@ -189,7 +189,12 @@ jobs:
         #EXTINF:-1,TV MEIO NORTE
         $(streamlink --url --default-stream  --stream-url  https://livestream.com/accounts/3332377/events/10580127 best)
         EOL  
-           
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,BIG BROTHER ITÁLIA - ESTRÉIA
+        $(streamlink --url --default-stream  --stream-url https://vod05.msf.cdn.mediaset.net/farmunica/2020/01/526994_16f87bec868965/dashrcclean/hd_no_mpl.mpd best)
+        EOL
     - name: git add
       run: |
         git add -A
