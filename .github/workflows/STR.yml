@@ -37,8 +37,8 @@ jobs:
     
     - name: Get LISTA4.m3u8
       run: |
-        touch ./LISTA4.m3u8
-        sudo cat >./LISTA2STR.m3u <<EOL
+        touch ./lista2str.m3u
+        sudo cat >./lista2str.m3u <<EOL
         
         #EXTM3U
         #EXT-X-VERSION:3
@@ -51,7 +51,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://www.youtube.com/c/Sebrae)" tvg-group="NEWS WORLD" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/c/Sebrae)",$(yt-dlp --get-title https://www.youtube.com/c/Sebrae)
-        $(youtube-dl -g   --embed-thumbnail https://www.youtube.com/c/Sebrae)
+        $(youtube-dl -g   --embed-thumbnail https://www.youtube.com/c/Sebrae/live)
         
         #EXTM3U
         #EXT-X-VERSION:3
@@ -76,6 +76,24 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://www.youtube.com/watch?v=ST6aJt7btvQ)" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/watch?v=ST6aJt7btvQ)",$(yt-dlp --get-title https://www.youtube.com/watch?v=ST6aJt7btvQ)
         $(yt-dlp --get-url mergeall https://www.youtube.com/watch?v=ST6aJt7btvQ )
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="$(youtube-dl --get-id https://www.dailymotion.com/video/x82pp99)" tvg-logo="$(youtube-dl --get-thumbnail https://www.dailymotion.com/video/x82pp99)",$(youtube-dl -e -C https://www.dailymotion.com/video/x82pp99) TV BRASIL
+        $(streamlink --url --default-stream  --stream-url  https://www.dailymotion.com/video/x82pp99 best)
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="$(youtube-dl --get-id https://www.dailymotion.com/video/x8a60g5)" tvg-logo="$(youtube-dl --get-thumbnail https://www.dailymotion.com/video/x8a60g5)",$(youtube-dl -e -C https://www.dailymotion.com/video/x8a60g5) TV BRASIL
+        $(streamlink --url --default-stream  --stream-url  https://www.dailymotion.com/video/x8a60g5 best)
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="$(youtube-dl --get-id https://www.dailymotion.com/video/x8abdvf)" tvg-logo="$(youtube-dl --get-thumbnail https://www.dailymotion.com/video/x8abdvf)",$(youtube-dl -e -C https://www.dailymotion.com/video/x8abdvf) TV BRASIL
+        $(streamlink --url --default-stream  --stream-url  https://www.dailymotion.com/video/x8abdvf best)
         
         #EXTM3U
         #EXT-X-VERSION:3
