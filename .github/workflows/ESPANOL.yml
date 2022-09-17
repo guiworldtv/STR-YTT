@@ -17,14 +17,9 @@ jobs:
       run: |
         git config --global user.email "action@github.com"
         git config --global user.name "GitHub Action"
-    - name: Baixando FFMPEG
-      run: |    
-       sudo apt update
-       sudo apt install ffmpeg
     - name: Baixando lISTA ESPAÑÕLA
       run: |         
        wget -r https://raw.githubusercontent.com/davidmuma/log_dobleM/master/TDTChannels.m3u -O espanol.M3U
-
        
        
     - name: git add
