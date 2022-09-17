@@ -47,11 +47,41 @@ jobs:
         $(streamlink --url --default-stream  --stream-url https://www.cbsnews.com/live/ best)
         
                
-        
+        #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://www.youtube.com/c/Sebrae)" tvg-group="NEWS WORLD" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/c/Sebrae)",$(yt-dlp --get-title https://www.youtube.com/c/Sebrae)
-        $(youtube-dl -g   --embed-thumbnail https://www.youtube.com/c/Sebrae)
+        #EXTINF:-1 tvg-id="rtpaf.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png",UMA
+        $(streamlink --url --default-stream  --stream-url  https://www.filmon.com/tv/bbc-one best)
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtpaf.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png",DUAS
+        $(streamlink --url --default-stream  --stream-url  https://www.filmon.com/tv/bbc-news best)
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtpaf.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png",TRES
+        $(streamlink --url --default-stream  --stream-url  https://www.filmon.com/tv/bbc-1-wales best)
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtpaf.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png",QUATRO
+        $(streamlink --url --default-stream  --stream-url  https://www.filmon.com/tv/bbc-1-scotland best)
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtpaf.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png",CINCO
+        $(streamlink --url --default-stream  --stream-url  https://www.filmon.com/tv/bbc-1-north-ireland best)
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://www.youtube.com/c/cronicatv/live)" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/c/cronicatv/live)",$(yt-dlp --get-title https://www.youtube.com/c/cronicatv/live)
+        $(youtube-dl -g   --embed-thumbnail https://www.youtube.com/c/cronicatv/live)
         
         #EXTM3U
         #EXT-X-VERSION:3
@@ -76,24 +106,6 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://www.youtube.com/watch?v=ST6aJt7btvQ)" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/watch?v=ST6aJt7btvQ)",$(yt-dlp --get-title https://www.youtube.com/watch?v=ST6aJt7btvQ)
         $(yt-dlp --get-url mergeall https://www.youtube.com/watch?v=ST6aJt7btvQ )
-        
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-id="$(youtube-dl --get-id https://www.dailymotion.com/video/x82pp99)" tvg-logo="$(youtube-dl --get-thumbnail https://www.dailymotion.com/video/x82pp99)",$(youtube-dl -e -C https://www.dailymotion.com/video/x82pp99) TV BRASIL
-        $(streamlink --url --default-stream  --stream-url  https://www.dailymotion.com/video/x82pp99 best)
-        
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-id="$(youtube-dl --get-id https://www.dailymotion.com/video/x8a60g5)" tvg-logo="$(youtube-dl --get-thumbnail https://www.dailymotion.com/video/x8a60g5)",$(youtube-dl -e -C https://www.dailymotion.com/video/x8a60g5) TV BRASIL
-        $(streamlink --url --default-stream  --stream-url  https://www.dailymotion.com/video/x8a60g5 best)
-        
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-id="$(youtube-dl --get-id https://www.dailymotion.com/video/x8abdvf)" tvg-logo="$(youtube-dl --get-thumbnail https://www.dailymotion.com/video/x8abdvf)",$(youtube-dl -e -C https://www.dailymotion.com/video/x8abdvf) TV BRASIL
-        $(streamlink --url --default-stream  --stream-url  https://www.dailymotion.com/video/x8abdvf best)
         
         #EXTM3U
         #EXT-X-VERSION:3
@@ -200,14 +212,15 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_pularitv-1280x720.jpg",PULARITV
-        $(streamlink --url --default-stream  --stream-url  https://www.twitch.tv/pularitv best)        
+        $(streamlink --url --default-stream  --stream-url  https://www.twitch.tv/pularitv best)
+        
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         #EXTINF:-1,TV MEIO NORTE
-        $(streamlink --url --default-stream  --stream-url  https://livestream.com/accounts/3332377/events/10612535 best)
+        $(streamlink --url --default-stream  --stream-url  https://livestream.com/accounts/3332377/events/10580127 best)
         EOL  
-
+           
     - name: git add
       run: |
         git add -A
