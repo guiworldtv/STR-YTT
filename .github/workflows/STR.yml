@@ -30,6 +30,9 @@ jobs:
       run: |
         sudo apt install ffmpeg python3-pip git
         pip install --user --upgrade streamlink
+    - name: Atualizando youtube-dl
+      run: |
+        youtube-dl -U    
     - name: Instalando FFMpeg
       run: |
          sudo apt update
