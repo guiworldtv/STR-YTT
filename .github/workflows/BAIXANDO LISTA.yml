@@ -21,7 +21,7 @@ jobs:
     - name: Baixando Listas Agrupadas
       run: |         
        wget -r https://raw.githubusercontent.com/guiworldtv/M3UBR/main/m3upt.m3u -O lista6pt.m3u
-       wget -r https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/LISTA5YTALL.m3u -O lista5ytall.m3u
+       wget -r https://raw.githubusercontent.com/guiworldtv/STR2/main/YoutubeALL.m3u -O lista5ytall.m3u
        
     - name: git add
       run: |
