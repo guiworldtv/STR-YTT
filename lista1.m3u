@@ -16,11 +16,25 @@
 #EXTINF:-1 group-title="Reality Show'S Live" tvg-id="fazendalive"  tvg-logo="https://pp-vod-img.akamaized.net/res/liveGridProgram/75f22ffc-c7ae-4c2b-8a3a-3fc7960ce36e.jpg",A FAZENDA
 https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/AFAZENDA.M3U8
 
+#EXTINF:-1 group-title="Reality Show'S Live" tvg-id="TVIReality.pt"  tvg-logo="https://tvi.iol.pt/bigbrother/img/logo.png",BIG BROTHER PORTUGAL
+https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/BIG_BROTHER_PORTUGAL_LIVE.M3U8
+
 #EXTINF:-1 group-title="Reality Show'S Live" tvg-id=""  tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c5/Zadruga_reality_logo.png/revision/latest?cb=20210318191506",ZADRUGA
 https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/ZADRUGA.m3u8
 
-#EXTINF:-1 group-title="Reality Show'S Live" tvg-id="TVIReality.pt"  tvg-logo="https://tvi.iol.pt/bigbrother/img/logo.png",BIG BROTHER PORTUGAL
-https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/BIG_BROTHER_PORTUGAL_LIVE.M3U8
+#EXTINF:-1 group-title="Reality Show'S Live" tvg-id=""  tvg-logo="https://it.wikipedia.org/wiki/File:Grande_Fratello_VIP.png",GRANDE FRATELLO COM VPN1
+https://live2.msf.cdn.mediaset.net/content/hls_h0_clr_vos/live/channel(b7)/stream04/streamPlaylist.m3u8
+
+#EXTINF:-1 group-title="Reality Show'S Live" tvg-id=""  tvg-logo="https://it.wikipedia.org/wiki/File:Grande_Fratello_VIP.png",GRANDE FRATELLO COM VPN2
+https://live2.msf.cdn.mediaset.net/content/hls_h0_clr_vos/live/channel(b8)/stream04/streamPlaylist.m3u8
+
+
+#EXTINF:-1 group-title="Reality Show'S Live" tvg-id=""  tvg-logo="https://it.wikipedia.org/wiki/File:Grande_Fratello_VIP.png6",GRANDE FRATELLO COM VPN3
+https://live2.msf.cdn.mediaset.net/content/hls_h0_clr_vos/live/channel(b9)/stream04/streamPlaylist.m3u8
+
+
+
+
 
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="https://static2.mediasetplay.mediaset.it/Mediaset_Italia_Production_-_Main/F310293801001901/media/7/7/617f6eb3-27f8-446e-971c-e6600c8f26ed/af442d30-0e77-412b-a2ea-3b4e1dc35cf0.jpg",GRANDE FRATELLO CONFERENCIA 2017
 https://vod05.msf.cdn.mediaset.net/farmunica/2017/09/92507_15e61662ce67d2/dashrcclean/sd_no_mpl.mpd
