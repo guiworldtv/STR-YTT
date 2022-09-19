@@ -142,9 +142,9 @@ https://wrm7jsxguc.zoeweb.tv/zw943/zw943.stream/chunklist.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",Salão Velório 2
 https://wrm7jsxguc.zoeweb.tv/zw944/zw944.stream/playlist.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",AULA IDIOMAS
-https://raw.githubusercontent.com/guiworldtv/STR-YT/main/Languages.m3u8
+https://raw.githubusercontent.com/guiworldtv/STR2/main/Languages.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",CHURCH
-https://raw.githubusercontent.com/guiworldtv/STR-YT/main/Church.m3u8
+https://raw.githubusercontent.com/guiworldtv/STR2/main/Church.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",Teste Vídeo Gravado Youtube
 plugin://plugin.video.youtube/play/?video_id=nHO38JeCjVc
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",Teste Playlist Youtube
