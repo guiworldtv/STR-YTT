@@ -1,4 +1,4 @@
-name: Get StreamLink Live
+name: Baixando Big Brother Italia
 on:
   schedule:
     - cron: '0 0/1 * * *'
