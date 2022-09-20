@@ -1,44 +1,6 @@
 #! /usr/bin/python3
 
-from __future__ import unicode_literals
-import youtube_dl
-import requests
-import shutil
-from urllib.request import urlopen
-from bs4 import BeautifulSoup
-channel_no = 0
-m3u = None
-def get_live_info(channel_id):
-    try:
-        webpage = urlopen(f"{channel_id}").read()
-        soup = BeautifulSoup(webpage, 'html.parser')
-        urlMeta = soup.find("meta", property="og:url")
-        if urlMeta is None:
-            return None
-        url = urlMeta.get("content")
-        if(url is None or url.find("/watch?v=") == -1):
-            return None
-        titleMeta = soup.find("meta", property="og:title")
-        imageMeta = soup.find("meta", property="og:image")
-        descriptionMeta = soup.find("meta", property="og:description")
-        return {
-            "url": url,
-            "title": titleMeta.get("content"),
-            "image": imageMeta.get("content"),
-            "description": descriptionMeta.get("content")
-        }
-    
-    except Exception as e:
-                return None
-
-
-
 banner = r'''
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-'''
-
-banner2 = r'''
 ###########################################################################
 #                                                                         #
 
@@ -168,83 +130,60 @@ https://unlimited1-cl-isp.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8?DVR
 https://unlimited2-cl-isp.dps.live/ucvtveventos/ucvtveventos.smil/playlist.m3u8?DVR
 '''
 
-def generate_youtube_tv():
-    global channel_no
-    ydl_opts = {
-        'format': 'best',
-    }
-    ydl = youtube_dl.YoutubeDL(ydl_opts)
+import requests
+import os
+import sys
 
-    with open('../CHILE.txt') as f:
-        lines = f.readlines()
-        for line in lines:
-            line = line.strip()
-            if line == "":
-                continue
-            channel = get_live_info(line)
-            if channel is None:
-                continue
-            try:
-                with ydl:
-                    result = ydl.extract_info(
-                        f"{line}",
-                        download=False  # We just want to extract the info
-                    )
+windows = False
+if 'win' in sys.platform:
+    windows = True
 
-                    if 'entries' in result:
-                        # Can be a playlist or a list of videos
-                        video = result['entries'][-1]
-                    else:
-                        # Just a video
-                        video = result
-                video_url = video['url']
+def grab(url):
+    response = requests.get(url, timeout=15).text
+    if '.m3u8' not in response:
+        #response = requests.get(url).text
+        if '.m3u8' not in response:
+            if windows:
+                print('https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/VideoOFFAir.m3u8')
+                return
+            os.system(f'wget {url} -O temp.txt')
+            response = ''.join(open('temp.txt').readlines())
+            if '.m3u8' not in response:
+                print('https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/VideoOFFAir.m3u8')
+                return
+    end = response.find('.m3u8') + 5
+    tuner = 100
+    while True:
+        if 'https://' in response[end-tuner : end]:
+            link = response[end-tuner : end]
+            start = link.find('https://')
+            end = link.find('.m3u8') + 5
+            break
+        else:
+            tuner += 5
+    print(f"{link[start : end]}")
 
-                channel_no += 1
-                channel_name = f"{channel_no}-{line.split('/')[-1]}"
-                playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{channel.get('image')}\" group-title=\"ARGENTINA\",{channel.get('title')}\n"                
-                write_to_playlist(video_url)
-                write_to_playlist("\n")
-            except Exception as e:
-                print(e)
-                        
-
-
-
-def write_to_playlist(content):
-    global m3u    
-    m3u.write(content)
-    
-
-def create_playlist():
-    global m3u
-    m3u = open("../CHILE.txt", "w")
-    m3u.write("#EXTM3U")
-    m3u.write("\n")
-
-    
-def close_playlist():
-    global m3u
-    m3u.close()
-def generate_youtube_PlayList():
-    create_playlist()
-        
-    print('#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/cl/mi.tv.epg.xmll"')
-    print('#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/cl/gatotv.com.epg.xml"')
-    m3u.write(banner)
-
-    generate_youtube_tv()
-    
-    m3u.write(banner2)
-    
-
-    
-
-
-    close_playlist()
-
-
-    
-if __name__ == '__main__':
-    generate_youtube_PlayList()   
+print('#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/cl/mi.tv.epg.xmll"')
+print('#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/cl/gatotv.com.epg.xml"')
+print(banner)
+#s = requests.Session()
+with open('../CHILE.txt', errors="ignore") as f:
+    for line in f:
+        line = line.strip()
+        if not line or line.startswith('~~'):
+            continue
+        if not line.startswith('https:'):
+            line = line.split('|')
+            ch_name = line[0].strip()
+            grp_title = line[1].strip().title()
+            tvg_logo = line[2].strip()
+            tvg_id = line[3].strip()
+            print(f'\n#EXTINF:-1 group-title="{grp_title}" tvg-logo="{tvg_logo}" tvg-id="{tvg_id}", {ch_name}')
+        else:
+            grab(line)
+            
+if 'temp.txt' in os.listdir():
+    os.system('rm temp.txt')
+    os.system('rm watch*')
     
     
