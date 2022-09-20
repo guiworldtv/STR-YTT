@@ -1,1 +1,60 @@
-https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(b9)/manifest.mpd
+name: Get StreamLink Live
+on:
+  schedule:
+    - cron: '0 0/1 * * *'
+
+  pull_request:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: config
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+    - name: Instalando yt-dlp 
+      run: |
+        sudo wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -O /usr/local/bin/yt-dlp
+        sudo chmod a+rx /usr/local/bin/yt-dlp
+    - name: Instalando youtube-dl 
+      run: |
+        sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+        sudo chmod a+rx /usr/local/bin/youtube-dl        
+    - name: Instalando streamlink
+      run: |
+        sudo apt install ffmpeg python3-pip git
+        pip install --user --upgrade streamlink
+    - name: Atualizando youtube-dl
+      run: |
+        youtube-dl -U    
+    - name: Instalando FFMpeg
+      run: |
+         sudo apt update
+         sudo apt install ffmpeg
+    
+    - name: Get LISTA4.m3u8
+      run: |
+        touch ./lista2str.m3u
+        sudo cat >./lista2str.m3u <<EOL
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-name="Olympics TV (EN)" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLRCFpu_biul8hGuPLuvU8l63Qmz4JLa0u8Pq_HarC0=s176-c-k-c0x00ffffff-no-rj-mo", GRANDE IRMÃO
+        $(streamlink --hls-live-edge 6 --ringbuffer-size 32M -4 --url --default-stream  --stream-url https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(b9)/manifest.mpd best)
+        
+    - name: git add
+      run: |
+        git add -A
+        ls -la
+    - name: commit & push
+      run: |
+        git commit -m "links atualizados"
+        git push
+        
