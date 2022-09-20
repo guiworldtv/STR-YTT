@@ -1,14 +1,63 @@
 #! /usr/bin/python3
 
+from __future__ import unicode_literals
+import youtube_dl
+import requests
+import shutil
+from urllib.request import urlopen
+from bs4 import BeautifulSoup
+channel_no = 0
+m3u = None
+def get_live_info(channel_id):
+    try:
+        webpage = urlopen(f"{channel_id}").read()
+        soup = BeautifulSoup(webpage, 'html.parser')
+        urlMeta = soup.find("meta", property="og:url")
+        if urlMeta is None:
+            return None
+        url = urlMeta.get("content")
+        if(url is None or url.find("/watch?v=") == -1):
+            return None
+        titleMeta = soup.find("meta", property="og:title")
+        imageMeta = soup.find("meta", property="og:image")
+        descriptionMeta = soup.find("meta", property="og:description")
+        return {
+            "url": url,
+            "title": titleMeta.get("content"),
+            "image": imageMeta.get("content"),
+            "description": descriptionMeta.get("content")
+        }
+
+    except Exception as e:
+                return None
+
+
+
 banner = r'''
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+'''
+
+banner2 = r'''
 ###########################################################################
 #                                                                         #
 
+    
+          
+            
+    
+
+          
+          
+            
+    
+
+          
+    
+    @@ -168,83 +130,60 @@ def get_live_info(channel_id):
+  
 #                                  >> https://github.com/guiworldtv       #
 ###########################################################################
-
-
-
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -29,7 +78,6 @@ http://45.181.121.57:8111/play/062
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1,064 TVN HD
 http://45.181.121.57:8111/play/064
-
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -50,16 +98,11 @@ http://45.181.121.57:8111/play/066
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1,067 Canal 13
 http://45.181.121.57:8111/play/067
-
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1,CHVNOTICIAS_PLUTOTV
 https://siloh-latam-aka.plutotv.net/lilo/production/Chilevision/master.m3u8
-
-
-
-
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -95,95 +138,105 @@ https://cnn-cnninternational-1-gb.samsung.wurl.com/manifest/playlist.m3u8
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1  group-title="CHILE" tvg-logo="N/A",tv saúde - chile
 https://srv3.zcast.com.br/mastermedia/mastermedia/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Camara de Diputados" tvg-logo="https://i2.paste.pics/8ac54ede0184c4fd9e872231a6d673b3.png" group-title="CHILE",Camara de Diputados
 https://tls-cl.cdnz.cl/camara/live/playlist.m3u8
-
 #EXTINF:-1 tvg-name="TV Senado" tvg-logo="https://i2.paste.pics/ee6b562807f06f0139f28cd160a82a8f.png" group-title="CHILE",TV Senado
 https://janus-tv-ply.senado.cl/playlist/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Cultura Online" tvg-logo="https://i2.paste.pics/a64816b3950330d38cae04c477929f3f.png" group-title="CHILE",Cultura Online
 https://v1.tustreaming.cl:19360/culturaonline/culturaonline.m3u8
-
 #EXTINF:-1 tvg-name="TV+" tvg-logo="https://lh3.googleusercontent.com/-OyqOBTEx-1E/XyA3AZwIgTI/AAAAAAAA3jQ/aDMZaLOx3mQuXBqjDKAF0X7dxExKFzawACK8BGAsYHg/s0/2020-07-28.png" group-title="CHILE",TV+
 https://mdstrm.com/live-stream-playlist/5c0e8b19e4c87f3f2d3e6a59.m3u8
-
 #EXTINF:-1 tvg-name="TVN" tvg-logo="https://lh3.googleusercontent.com/-ETprzEeH-JY/XbCxYXbNQUI/AAAAAAAArkw/zQxemFrwNjAbMoyByyr_sesnZ8QKgap-QCK8BGAsYHg/s0/2019-10-23.png" group-title="CHILE",TVN
 https://marine2.miplay.cl/tvn/playlist.m3u8
-
 #EXTINF:-1 tvg-name="TVN - 24h" tvg-logo="https://lh3.googleusercontent.com/-ETprzEeH-JY/XbCxYXbNQUI/AAAAAAAArkw/zQxemFrwNjAbMoyByyr_sesnZ8QKgap-QCK8BGAsYHg/s0/2019-10-23.png" group-title="CHILE",TVN - 24h
 http://mdstrm.com/live-stream-playlist-v/5346f5f2c1e6f5810b5b9df0.m3u8
-
 #EXTINF:-1 tvg-name="TVN - Reuters" tvg-logo="https://lh3.googleusercontent.com/-ETprzEeH-JY/XbCxYXbNQUI/AAAAAAAArkw/zQxemFrwNjAbMoyByyr_sesnZ8QKgap-QCK8BGAsYHg/s0/2019-10-23.png" group-title="CHILE",TVN - Reuters
 https://mdstrm.com/live-stream-playlist/5346f657c1e6f5810b5b9df3.m3u8
-
 #EXTINF:-1 tvg-name="Mega" tvg-logo="https://lh3.googleusercontent.com/-xqKe__ypgDY/XnzFn9NLnbI/AAAAAAAAxMU/2Wj9IOC1LaQxtJGRzcVOTrQWxP9z3RgPwCK8BGAsYHg/s0/2020-03-26.png" group-title="CHILE",Mega
 https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
-
 #EXTINF:-1 tvg-name="CHV Noticias" tvg-logo="https://i2.paste.pics/5bf0db1521a041595f387a893ab6512b.png" group-title="CHILE",Chile Vision Noticias
 https://siloh-latam-aka.plutotv.net/lilo/production/Chilevision/master.m3u8
-
 #EXTINF:-1 tvg-name="" tvg-logo="" group-title="CHILE",Universidade Católica Chilena1
 https://unlimited1-cl-isp.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8?DVR
-
 #EXTINF:-1 tvg-name="" tvg-logo="" group-title="CHILE",Universidade Católica Chilena2
 https://unlimited2-cl-isp.dps.live/ucvtveventos/ucvtveventos.smil/playlist.m3u8?DVR
 '''
 
-import requests
-import os
-import sys
+def generate_youtube_tv():
+    global channel_no
+    ydl_opts = {
+        'format': 'best',
+    }
+    ydl = youtube_dl.YoutubeDL(ydl_opts)
 
-windows = False
-if 'win' in sys.platform:
-    windows = True
+    with open('../CHILE.txt') as f:
+        lines = f.readlines()
+        for line in lines:
+            line = line.strip()
+            if line == "":
+                continue
+            channel = get_live_info(line)
+            if channel is None:
+                continue
+            try:
+                with ydl:
+                    result = ydl.extract_info(
+                        f"{line}",
+                        download=False  # We just want to extract the info
+                    )
 
-def grab(url):
-    response = requests.get(url, timeout=15).text
-    if '.m3u8' not in response:
-        #response = requests.get(url).text
-        if '.m3u8' not in response:
-            if windows:
-                print('https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/VideoOFFAir.m3u8')
-                return
-            os.system(f'wget {url} -O temp.txt')
-            response = ''.join(open('temp.txt').readlines())
-            if '.m3u8' not in response:
-                print('https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/VideoOFFAir.m3u8')
-                return
-    end = response.find('.m3u8') + 5
-    tuner = 100
-    while True:
-        if 'https://' in response[end-tuner : end]:
-            link = response[end-tuner : end]
-            start = link.find('https://')
-            end = link.find('.m3u8') + 5
-            break
-        else:
-            tuner += 5
-    print(f"{link[start : end]}")
+                    if 'entries' in result:
+                        # Can be a playlist or a list of videos
+                        video = result['entries'][-1]
+                    else:
+                        # Just a video
+                        video = result
+                video_url = video['url']
 
-print('#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/cl/mi.tv.epg.xmll"')
-print('#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/cl/gatotv.com.epg.xml"')
-print(banner)
-#s = requests.Session()
-with open('../CHILE.txt', errors="ignore") as f:
-    for line in f:
-        line = line.strip()
-        if not line or line.startswith('~~'):
-            continue
-        if not line.startswith('https:'):
-            line = line.split('|')
-            ch_name = line[0].strip()
-            grp_title = line[1].strip().title()
-            tvg_logo = line[2].strip()
-            tvg_id = line[3].strip()
-            print(f'\n#EXTINF:-1 group-title="{grp_title}" tvg-logo="{tvg_logo}" tvg-id="{tvg_id}", {ch_name}')
-        else:
-            grab(line)
-            
-if 'temp.txt' in os.listdir():
-    os.system('rm temp.txt')
-    os.system('rm watch*')
-    
-    
+                channel_no += 1
+                channel_name = f"{channel_no}-{line.split('/')[-1]}"
+                playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{channel.get('image')}\" group-title=\"ARGENTINA\",{channel.get('title')}\n"                
+                write_to_playlist(video_url)
+                write_to_playlist("\n")
+            except Exception as e:
+                print(e)
+
+
+
+
+def write_to_playlist(content):
+    global m3u    
+    m3u.write(content)
+
+
+def create_playlist():
+    global m3u
+    m3u = open("../CHILE.txt", "w")
+    m3u.write("#EXTM3U")
+    m3u.write("\n")
+
+
+def close_playlist():
+    global m3u
+    m3u.close()
+def generate_youtube_PlayList():
+    create_playlist()
+
+    print('#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/cl/mi.tv.epg.xmll"')
+    print('#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/cl/gatotv.com.epg.xml"')
+    m3u.write(banner)
+
+    generate_youtube_tv()
+
+    m3u.write(banner2)
+
+
+
+
+
+    close_playlist()
+
+
+
+if __name__ == '__main__':
+    generate_youtube_PlayList()   
