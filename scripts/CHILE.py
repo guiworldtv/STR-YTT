@@ -175,7 +175,7 @@ def generate_youtube_tv():
     }
     ydl = youtube_dl.YoutubeDL(ydl_opts)
 
-    with open('ZADRUGA.txt') as f:
+    with open('../CHILE.txt') as f:
         lines = f.readlines()
         for line in lines:
             line = line.strip()
