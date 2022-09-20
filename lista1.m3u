@@ -307,8 +307,14 @@ https://euc-live.fl.freecaster.net/live/eucom/ebsp-audio_fre=96000-video=2600000
 https://euc-live.fl.freecaster.net/live/eucom/ebsp-audio_por=96000-video=2600000.m3u8
 
 
-
-
+#EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="https://audiovisual.ec.europa.eu/images/livepanel_ebsplus.jpg",REUTERS SERVIÇO 1
+https://www.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_iu0xr5tx/protocol/https/format/applehttp/flavorIds/1_7ekldniq,1_lzq5pt64,1_a1ogber0,1_eqxzaf9o,1_kticxcpm,1_a8pcj9cm,1_os2usaw4,1_0orjhskl,1_tu05suyl,1_pthki6oa,1_le8ztfk8,1_vlh0esio,1_uev276so,1_12zxp80r,1_pwgff6xg,1_o9ungz3b,1_vc8twa6l,1_npnek3qs,1_qzfgo82x/a.m3u8
+#EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="https://audiovisual.ec.europa.eu/images/livepanel_ebsplus.jpg",REUTERS SERVIÇO 2
+https://www.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_k5pljl9o/protocol/https/format/applehttp/flavorIds/1_sxv3w331,1_qbmww095,1_b5iubqi7,1_ooponc0l,1_yxsqb7pr,1_rsj8kelt,1_jw3oo4ot,1_rep1t4kl,1_ylqw95g9,1_wlx2xazj,1_ison2pnh,1_1mbpch8r,1_dhejoloq,1_vh15e2rb,1_53xv1odp,1_yst8lr1y,1_0gjaftuu,1_9zmqzub3,1_fuxh5ynu,1_k3pxnarv/a.m3u8
+#EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="https://audiovisual.ec.europa.eu/images/livepanel_ebsplus.jpg",REUTERS SERVIÇO 3
+https://www.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_3y1za1lc/protocol/https/format/applehttp/flavorIds/1_cjnl8l37,1_vjr7jq2b,1_40n6z1lg,1_fv321zfa,1_qxooiezz,1_d2t8fja1,1_1zkcsbil,1_daz7xbe0,1_zxlrwwg2,1_kudncgwj,1_lyjfudqj,1_9eauucos,1_qbw3bcvv,1_lfpmaduk,1_i25atmfr,1_ddodstgx,1_aeml7nt1,1_xx2fv0p0,1_441bie4a/a.m3u8
+#EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="https://audiovisual.ec.europa.eu/images/livepanel_ebsplus.jpg",REUTERS SERVIÇO 4
+https://www.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_lk05uhse/protocol/https/format/applehttp/flavorIds/1_jdp525rn,1_3e9c5z5z,1_p37rqqq1,1_t6n9dfdp,1_5q160qx5,1_769fjrep,1_zemyz7w4,1_bh2agwo9,1_ieic5d3k,1_31s03a5w,1_ewlq6eps,1_i0euv70d,1_8hifbefa,1_cr91ps22,1_azwxzpvm,1_lv4wprkn,1_w9llrjqm,1_fir8ymvf,1_85y3h0lx,1_2rbmmunk/a.m3u8
 
 
 #EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="N/A",FOX WEATHER
