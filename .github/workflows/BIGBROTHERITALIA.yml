@@ -39,7 +39,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         #EXTINF:-1 tvg-name="Olympics TV (EN)" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLRCFpu_biul8hGuPLuvU8l63Qmz4JLa0u8Pq_HarC0=s176-c-k-c0x00ffffff-no-rj-mo", OLIMPIADA
-        $(streamlink --hls-live-edge 6 --ringbuffer-size 32M -4 --url --default-stream  --stream-url https://olympics.com/pt/live/ best)
+        $(streamlink --hls-live-edge 6 --ringbuffer-size 32M -4 --url --default-stream  --stream-url https://tviplayer.iol.pt/direto/CNN best)
         EOL
     - name: git add
       run: |
