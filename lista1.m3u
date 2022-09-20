@@ -43,11 +43,14 @@ https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(b8)/mani
 
 
 #EXTINF:-1 group-title="Reality Show'S Live" tvg-id=""  tvg-logo="https://it.wikipedia.org/wiki/File:Grande_Fratello_VIP.png6",GRANDE FRATELLO COM VPN3
-https://live3.msf.cdn.mediaset.net/content/hls_h0_clr_vos/live/channel(b9)/manifest.mpd
+https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(b9)/manifest.mpd
 
 #EXTINF:-1 group-title="Reality Show'S Live" tvg-id=""  tvg-logo="https://it.wikipedia.org/wiki/File:Grande_Fratello_VIP.png6",GRANDE FRATELLO COM VPN4
-https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(b1)/manifest.mpd
+https://live3.msf.cdn.mediaset.net/content/hls_h0_clr_vos/live/channel(b9)/manifest.mpd
+
 #EXTINF:-1 group-title="Reality Show'S Live" tvg-id=""  tvg-logo="https://it.wikipedia.org/wiki/File:Grande_Fratello_VIP.png6",GRANDE FRATELLO COM VPN5
+https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(b1)/manifest.mpd
+#EXTINF:-1 group-title="Reality Show'S Live" tvg-id=""  tvg-logo="https://it.wikipedia.org/wiki/File:Grande_Fratello_VIP.png6",GRANDE FRATELLO COM VPN6
 https://live3dr.msf.cdn.mediaset.net/content/dash_d1_gwv_vos/live/channel(u6)/manifest.mpd
 
 
