@@ -3,7 +3,7 @@
  #EXT-X-VERSION:3
  #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
  #EXTINF:-1 tvg-name="Olympics TV (EN)" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLRCFpu_biul8hGuPLuvU8l63Qmz4JLa0u8Pq_HarC0=s176-c-k-c0x00ffffff-no-rj-mo", OLIMPIADA
- https://olympicchannel.akamaized.net/hls/live/2002655/OlympicChannel01685ca0/clear/exp=1663863791~acl=*~data=hdntl~hmac=1f8b75844a01a439f6554ff5d5938ea6e76d2acebb6c71fc17a89f1fcfa89e8a/VIDEO_0_6596000.m3u8
+ https://olympicchannel.akamaized.net/hls/live/2002655/OlympicChannel01685ca0/clear/exp=1663867808~acl=*~data=hdntl~hmac=138117fcb5297222a74639cba2afec9c63fcbc44e2b9df77ff4c789cabe2649c/VIDEO_0_6596000.m3u8
  
  #EXTM3U
  #EXT-X-VERSION:3
