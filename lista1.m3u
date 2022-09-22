@@ -253,7 +253,7 @@ https://mdstrm.com/live-stream-playlist-v/5346f657c1e6f5810b5b9df3.m3u8
 https://mdstrm.com/live-stream-playlist-v/53443c472c6e89675103cc4c.m3u8?DVR
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/ZK9sCHxq/Logo-GOB.png" group-title="NEWS WORLD", PRESIDENCIA CHILENA
-https://mdstrm.com/live-stream-playlist-v/6239f6d008e7ac488826f237.m3u8
+https://mdstrm.com/live-stream-playlist-v/6239f6d008e7ac488826f237.m3u8|user-agent=Opera
 
 
 #EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="N/A",CNNCHILE - SERVIÇO 1
@@ -269,18 +269,20 @@ https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3
 
 
 #EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="N/A",NOTÍCIAS TELEMUNDO - SERVIÇO 1
-https://telemundolive.akamaized.net/hls/live/2093200/NEWS104/master_main104.m3u8
+https://telemundolive.akamaized.net/hls/live/2093200/NEWS104/master_main104.m3u8|user-agent=Opera
 #EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="N/A",NOTÍCIAS TELEMUNDO - SERVIÇO 2
-https://telemundolive.akamaized.net/hls/live/2093200/NEWS105/master_main105.m3u8
+https://telemundolive.akamaized.net/hls/live/2093200/NEWS105/master_main105.m3u8|user-agent=Opera
 
 
 
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/Fm4yKDcN/MEDIABANCO.png" group-title="NEWS WORLD", MEDIABANCO SEÑAL 1
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Fm4yKDcN/MEDIABANCO.png"  group-title="NEWS WORLD", MEDIABANCO SEÑAL 1
+https://unlimited2-cl-isp.dps.live/mediabanco2/mediabanco2.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Fm4yKDcN/MEDIABANCO.png" group-title="NEWS WORLD", MEDIABANCO SEÑAL 2
 https://unlimited1-cl-isp.dps.live/mediabanco/mediabanco.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/Fm4yKDcN/MEDIABANCO.png"  group-title="NEWS WORLD", MEDIABANCO SEÑAL 2
-https://unlimited2-cl-isp.dps.live/mediabanco2/mediabanco2.smil/playlist.m3u8
+
 
 
 
