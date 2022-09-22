@@ -158,9 +158,9 @@ https://liverdgaupoa.rbsdirect.com.br/primary/gaucha_rbs.sdp/playlist.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="https://live.video.globo.com/d/preview/globo-go01.mp4",Teste MASTER FORA DO AR
 https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/VideoOFFAir.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",Salão Velório 1
-https://wrm7jsxguc.zoeweb.tv/zw943/zw943.stream/chunklist.m3u8
+https://wrm7jsxguc.zoeweb.tv/zw943/zw943.stream/chunklist.m3u8|user-agent=Opera
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",Salão Velório 2
-https://wrm7jsxguc.zoeweb.tv/zw944/zw944.stream/playlist.m3u8
+https://wrm7jsxguc.zoeweb.tv/zw944/zw944.stream/playlist.m3u8|user-agent=Opera
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",AULA IDIOMAS
 https://raw.githubusercontent.com/guiworldtv/STR2/main/Languages.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",CHURCH
