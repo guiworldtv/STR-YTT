@@ -284,10 +284,10 @@ https://unlimited2-cl-isp.dps.live/mediabanco2/mediabanco2.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/Fm4yKDcN/MEDIABANCO.png" group-title="NEWS WORLD", MEDIABANCO SEÑAL 2
 https://unlimited1-cl-isp.dps.live/mediabanco/mediabanco.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/Fm4yKDcN/MEDIABANCO.png" group-title="NEWS WORLD", UNIVERSIDAD CHILE 2
+#EXTINF:-1 tvg-logo="https://ucvtv.cl/imagenes/logo-ucv-200.png" group-title="NEWS WORLD", UNIVERSIDAD CHILE 2
 https://unlimited1-cl-isp.dps.live/ucvtv2/ucvtv2.smil/ucvtv2/livestream1/chunks.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/Fm4yKDcN/MEDIABANCO.png" group-title="NEWS WORLD", UNIVERSIDAD CHILE 2
+#EXTINF:-1 tvg-logo="https://ucvtv.cl/imagenes/logo-ucv-200.png" group-title="NEWS WORLD", UNIVERSIDAD CHILE 2
 https://unlimited2-cl-isp.dps.live/ucvtveventos/ucvtveventos.smil/ucvtveventos/livestream1/chunks.m3u8
 
 #EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="https://audiovisual.ec.europa.eu/images/livepanel_ebs.jpg",EBS - European Union's TV information service
