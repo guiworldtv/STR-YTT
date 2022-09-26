@@ -74,11 +74,11 @@ https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
 
 
 
-
-#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="https://live-thumbs.video.globo.com/cbnsp24ha/snapshot/",CBN SP (720p)
-https://medias.sgr.globo.com/hls/vCBNSP/vCBNSP.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="https://live-thumbs.video.globo.com/cbnrj24ha/snapshot/",CBN Rio (720p)
 https://medias.sgr.globo.com/hls/vCBNRJ/vCBNRJ.m3u8
+#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="https://live-thumbs.video.globo.com/cbnsp24ha/snapshot/",CBN SP (720p)
+https://live-as-03-26.video.globo.com/nu/f(i=2)/cbnsp24ha/cbnsp24ha-audio_1=96000-video=2262976.m3u8
+
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="https://files.cercomp.ufg.br/weby/up/120/m/ASSINATURA_RADIO_UFG_BRANCA.png",Rádio Universitária UFG
 http://200.137.217.155:8010/radiouniversitaria
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="https://www.cbngoiania.com.br/img/cbngoiania/logo_cbn_rodape.png",CBN GOIANIA
