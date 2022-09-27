@@ -35,8 +35,8 @@ jobs:
         youtube-dl -U    
     - name: Instalando FFMpeg
       run: |
-         sudo apt update
-         sudo apt install ffmpeg
+        sudo apt update
+        sudo apt install ffmpeg
     
        
     - name: Get LISTA4.m3u8
