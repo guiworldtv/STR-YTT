@@ -382,9 +382,9 @@ https://5a1c76baf08c0.streamlock.net/tbc/tbc/chunklist.m3u8
 http://wowza.softhost.com.br:1935/ufg/smil:tvufgweb/chunklist_w884631395_b1544100_sleng.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="CANAIS ABERTOS" tvg-logo="N/A",GAZETA FHD
 http://45.229.52.185:8080/play/GAZETA_FHD/index.m3u8
-#EXTINF:-1  tvg-id="RedeMeioNorte.br" group-title="Variedades" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyxMkERnpmNOn07MVanJLvtOeYRrpgh1bpaQ&usqp=CAU",Rede Meio Norte HD
+#EXTINF:-1  tvg-id="RedeMeioNorte.br" group-title="CANAIS ABERTOS" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyxMkERnpmNOn07MVanJLvtOeYRrpgh1bpaQ&usqp=CAU",Rede Meio Norte HD
 https://video01.logicahost.com.br/tvdopovo1/tvdopovo1/playlist.m3u8
-#EXTINF:-1  tvg-id="RBATV.br" group-title="Variedades" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-l/df0c35517ab2f2e9e6e63c1808730694.webp",Band Belém
+#EXTINF:-1  tvg-id="RBATV.br" group-title="CANAIS ABERTOS" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-l/df0c35517ab2f2e9e6e63c1808730694.webp",Band Belém
 https://streaming.gruporba.com.br/rba.m3u8
 
 
