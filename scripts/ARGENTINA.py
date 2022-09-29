@@ -168,26 +168,6 @@ https://delivery.cdn.rcs.net.ar/mnp/syfy_hls/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://assets3.cbsnewsstatic.com/hub/i/r/2022/02/15/352f4601-c86b-4a90-96ab-cf9cee9ae351/thumbnail/640x274/bdf6b7a51fb96db68b221f8b8a0be974/logo.jpg" group-title="Argentina" , PARAMOUNT 
 https://delivery.cdn.rcs.net.ar/mnp/paramount_hls/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/-x7HV6qdJM5A/YXLiX_vAciI/AAAAAAAAASM/hEi9CcwkDxoFb-fsLIR04CslwcAoyt8MwCLcBGAsYHQ/w480/ver-disney-channel.png" group-title="(INFANTIL)" , DISNEY 
-https://delivery.cdn.rcs.net.ar/mnp/disney_hls/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://multiplaytelecom.com.br/wp-content/uploads/canais/TOC.jpg" group-title="(INFANTIL)" , TOONCAST 
-https://delivery.cdn.rcs.net.ar/mnp/tooncast_hls/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.mitvstatic.com/channels/ar_nickelodeon_m.png" group-title="(INFANTIL)" , NICK 
-https://delivery.cdn.rcs.net.ar/mnp/nick_hls/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5c/Nick_jr_logo.png" group-title="(INFANTIL)" , NICK JR 
-https://delivery.cdn.rcs.net.ar/mnp/nickjr_hls/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/-jbyXCmO1tD4/YXIvRy8qnpI/AAAAAAAAAR4/Mru1u3gvJ1w4Z574forFRxSDMnFZ6ajhgCLcBGAsYHQ/w480/ver-disney-junior.png" group-title="(INFANTIL)" , DISNEY JR 
-https://delivery.cdn.rcs.net.ar/mnp/disneyjr_hls/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/-eqMrg8h2rPw/YXLjZ5ewIWI/AAAAAAAAASU/BIBid1FrgQAZGU4Bz7H7Pc6M6WWfGm5OgCLcBGAsYHQ/w480/ver-boomerang-en-vivo.png" group-title="(INFANTIL)" , BOOMERANG 
-https://delivery.cdn.rcs.net.ar/mnp/boomerang_hls/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1543790983871094787/lqDAhS5-_400x400.jpg" group-title="(INFANTIL)", PAKAPAKA 
-https://5fb24b460df87.streamlock.net/live-cont.ar/pakapaka/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/7d/Elgourmet_2015.svg/revision/latest/scale-to-width-down/200?cb=20191030175859" group-title="(COCINA/ESTILO)" , Gourmet 
 https://delivery.cdn.rcs.net.ar/mnp/gourmet_hls/playlist.m3u8
