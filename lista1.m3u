@@ -77,7 +77,7 @@ https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="https://live-thumbs.video.globo.com/cbnrj24ha/snapshot/",CBN Rio (720p)
 https://medias.sgr.globo.com/hls/vCBNRJ/vCBNRJ.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="https://live-thumbs.video.globo.com/cbnsp24ha/snapshot/",CBN SP (720p)
-https://live-as-03-26.video.globo.com/nu/f(i=2)/cbnsp24ha/cbnsp24ha-audio_1=96000-video=2262976.m3u8
+https://medias.sgr.globo.com/hls/vCBNSP/vCBNSP.m3u8
 
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="https://files.cercomp.ufg.br/weby/up/120/m/ASSINATURA_RADIO_UFG_BRANCA.png",Rádio Universitária UFG
 http://200.137.217.155:8010/radiouniversitaria
@@ -106,7 +106,7 @@ https://www.grupoliberalmedia.com.br/rdcastanhal/liveradio/chunklist_w317712096.
 #EXTINF:-1  group-title="N/A" tvg-logo="N/A",NDTV FLORIANÓPOLIS E RECORDNEWS
 https://caikron.com.br:19360/floripa/floripa.m3u8
 
-#EXTINF:-1  group-title="Cameras Ao Vivo" tvg-logo="N/A",banner de alguma empresa rs
+#EXTINF:-1  group-title="Cameras Ao Vivo" tvg-logo="N/A",banner de alguma empresa brasilia
 https://dcxssbbjc3.zoeweb.tv/df-003-epia/df-003-epia.stream/playlist.m3u8
 
 #EXTINF:-1  group-title="Cameras Ao Vivo" tvg-logo="N/A",banner de alguma empresa rs
@@ -156,11 +156,15 @@ https://liverdgaupoa.rbsdirect.com.br/primary/gaucha_rbs.sdp/playlist.m3u8
 
 
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="https://live.video.globo.com/d/preview/globo-go01.mp4",Teste MASTER FORA DO AR
-https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/VideoOFFAir.m3u8
+https://raw.githubusercontent.com/guiworldtv/STR2/main/VideoOFFAir.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",Salão Velório 1
-https://wrm7jsxguc.zoeweb.tv/zw943/zw943.stream/chunklist.m3u8|user-agent=Opera
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://wrm7jsxguc.zoeweb.tv/zw943/zw943.stream/chunklist.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",Salão Velório 2
-https://wrm7jsxguc.zoeweb.tv/zw944/zw944.stream/playlist.m3u8|user-agent=Opera
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://wrm7jsxguc.zoeweb.tv/zw944/zw944.stream/playlist.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",AULA IDIOMAS
 https://raw.githubusercontent.com/guiworldtv/STR2/main/Languages.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",CHURCH
