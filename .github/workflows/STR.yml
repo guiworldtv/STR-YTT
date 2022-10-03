@@ -27,12 +27,8 @@ jobs:
       run: |
         sudo apt install ffmpeg python3-pip git
         pip install --user --upgrade streamlink
-    - name: Instalando FFMpeg
-      run: |
-        sudo apt update
-        sudo apt install ffmpeg
-    
-       
+
+           
     - name: Get LISTA4.m3u8
       run: |
         touch ./lista2str.m3u
