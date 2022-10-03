@@ -1,4 +1,4 @@
-name: Teste
+name: Baixando Lista
 on:
   schedule:
     - cron: '0 0/1 * * *'
