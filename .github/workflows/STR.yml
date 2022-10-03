@@ -3,25 +3,29 @@ on:
   schedule:
     - cron: '0 0/1 * * *'
 
+
+
 jobs:
-  job1: #更新上游仓库源
+  build:
     runs-on: ubuntu-latest
     steps:
-      # 从仓库获取代码
-      - name: 'Checkout codes'
-        uses: actions/checkout@v2
-
-      - name: '获取m3u列表'
-        run: wget https://iptv-org.github.io/iptv/countries/cn.m3u 2>/dev/null -O ./source/iptv-org-cn.m3u.list
-
-      - name: '提交新的源'
-        uses: EndBug/add-and-commit@v4
-        with:
+    - uses: actions/checkout@v2
+    - name: config
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+        
+    - name: '获取m3u列表'
+      run: wget https://iptv-org.github.io/iptv/countries/cn.m3u 2>/dev/null -O ./source/iptv-org-cn.m3u.list
+        
+    - name: '提交新的源'
+      uses: EndBug/add-and-commit@v4
+      with:
           author_name: sknehc
           author_email: 1470700599@qq.com
           message: "自动获取上游m3u列表"
           add: .
-        env:
+      env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   job2:
     runs-on: ubuntu-latest
