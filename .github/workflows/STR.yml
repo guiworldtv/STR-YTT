@@ -1,11 +1,7 @@
-name: '自动最新播放源'
+name: Get StreamLink Live
 on:
-  push:
-    # push 到main分支时触发
-    branches: [main]
   schedule:
-    # 每天触发一次
-    - cron: '0 3 * * *'
+    - cron: '0 0/1 * * *'
 
 jobs:
   job1: #更新上游仓库源
