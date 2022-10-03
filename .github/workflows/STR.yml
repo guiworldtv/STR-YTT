@@ -215,10 +215,14 @@ jobs:
         $(streamlink --url --default-stream  --stream-url  https://livestream.com/accounts/3332377/events/10580127 best)
         EOL  
 
-      - name: '部署GitHubpage'
-        uses: crazy-max/ghaction-github-pages@v2
-        with:
-          target_branch: deploy
-          build_dir: result
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+           
+    - name: git add
+      run: |
+          git add -A
+          ls -la 
+          
+    - name: commit & push
+      run: |
+          git commit -m "links atualizados"
+          git push
+
