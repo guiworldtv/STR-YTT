@@ -15,45 +15,205 @@ jobs:
         git config --global user.email "action@github.com"
         git config --global user.name "GitHub Action"
         
-    - name: '获取m3u列表'
-      run: wget https://iptv-org.github.io/iptv/countries/cn.m3u 2>/dev/null -O ./source/iptv-org-cn.m3u.list
+  pull_request:
+    branches:
+      - main
+
+  workflow_dispatch:
+    - name: Instalando yt-dlp 
+      run: |
+        sudo wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -O /usr/local/bin/yt-dlp
+        sudo chmod a+rx /usr/local/bin/yt-dlp
+    - name: Instalando youtube-dl 
+      run: |
+        sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+        sudo chmod a+rx /usr/local/bin/youtube-dl        
+    - name: Instalando streamlink
+      run: |
+        sudo apt install ffmpeg python3-pip git
+        pip install --user --upgrade streamlink
+    - name: Instalando FFMpeg
+      run: |
+        sudo apt update
+        sudo apt install ffmpeg
+    
+       
+    - name: Get LISTA4.m3u8
+      run: |
+        touch ./lista2str.m3u
+        sudo cat >./lista2str.m3u <<EOL
         
-    - name: '提交新的源'
-      uses: EndBug/add-and-commit@v4
-      with:
-          author_name: sknehc
-          author_email: 1470700599@qq.com
-          message: "自动获取上游m3u列表"
-          add: .
-      env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  job2:
-    runs-on: ubuntu-latest
-    steps:
-      # 从仓库获取代码
-      - name: 'Checkout codes'
-        uses: actions/checkout@v2
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-name="Olympics TV (EN)" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLRCFpu_biul8hGuPLuvU8l63Qmz4JLa0u8Pq_HarC0=s176-c-k-c0x00ffffff-no-rj-mo", OLYMPIC CHANNEL
+        $(streamlink --hls-live-edge 6 --ringbuffer-size 32M -4 --url --default-stream  --stream-url https://olympics.com/en/live/ best)
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="RTP1.png",CBS NEWS
+        $(streamlink --url --default-stream  --stream-url https://www.cbsnews.com/live/ best)
+        
+               
 
-      - name: '安装 Node.js'
-        uses: actions/setup-node@v1
-        with:
-          # 选择要使用的 node 版本
-          node-version: '14.18.3'
-
-      - name: 安装ffmpeg
-        uses: FedericoCarboni/setup-ffmpeg@v1
-
-      - name: '安装IPTV filter'
-        run: npm install -g iptv-checker
-
-      - name: '过滤'
-        run: echo "#EXTM3U" > tmp.m3u && python filter.py $(pwd)
-
-      - name: 'IPTV检查'
-        run: /opt/hostedtoolcache/node/14.18.3/x64/bin/iptv-checker tmp.m3u -o result
-
-      - name: '移动iptv-checker检查结果'
-        run: mv result/online.m3u result/cn.m3u8
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://vimeo.com/user169948294)" tvg-logo="$(yt-dlp --get-thumbnail https://vimeo.com/user169948294)",$(yt-dlp --get-title https://vimeo.com/user169948294)
+        $(yt-dlp --get-url https://vimeo.com/user169948294)
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://www.youtube.com/c/GuilhermeMartinsTV/videos)" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/c/GuilhermeMartinsTV/videos)",$(yt-dlp --get-title https://www.youtube.com/c/GuilhermeMartinsTV/videos)
+        $(yt-dlp --get-url https://www.youtube.com/c/GuilhermeMartinsTV/videos)
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://www.youtube.com/watch?v=QIWqz8uv8bI&list=PLsHxUeTP_Smd9YF2Lxnubd50Rmk3T4eOk)" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/watch?v=QIWqz8uv8bI&list=PLsHxUeTP_Smd9YF2Lxnubd50Rmk3T4eOk)",$(yt-dlp --get-title https://www.youtube.com/watch?v=QIWqz8uv8bI&list=PLsHxUeTP_Smd9YF2Lxnubd50Rmk3T4eOk)
+        $(yt-dlp --get-url https://www.youtube.com/watch?v=QIWqz8uv8bI&list=PLsHxUeTP_Smd9YF2Lxnubd50Rmk3T4eOk)
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://www.youtube.com/watch?v=ST6aJt7btvQ)" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/watch?v=ST6aJt7btvQ)",$(yt-dlp --get-title https://www.youtube.com/watch?v=ST6aJt7btvQ)
+        $(yt-dlp --get-url  https://www.youtube.com/watch?v=ST6aJt7btvQ)
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="$(youtube-dl --get-id https://www.dailymotion.com/video/x82pp99)" tvg-logo="$(youtube-dl --get-thumbnail https://www.dailymotion.com/video/x82pp99)",$(youtube-dl -e -C https://www.dailymotion.com/video/x82pp99) TV BRASIL
+        $(streamlink --url --default-stream  --stream-url  https://www.dailymotion.com/video/x82pp99 best)
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="$(youtube-dl --get-id https://www.dailymotion.com/video/x8a60g5)" tvg-logo="$(youtube-dl --get-thumbnail https://www.dailymotion.com/video/x8a60g5)",$(youtube-dl -e -C https://www.dailymotion.com/video/x8a60g5) TV BRASIL
+        $(streamlink --url --default-stream  --stream-url  https://www.dailymotion.com/video/x8a60g5 best)
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="$(youtube-dl --get-id https://www.dailymotion.com/video/x8abdvf)" tvg-logo="$(youtube-dl --get-thumbnail https://www.dailymotion.com/video/x8abdvf)",$(youtube-dl -e -C https://www.dailymotion.com/video/x8abdvf) TV BRASIL
+        $(streamlink --url --default-stream  --stream-url  https://www.dailymotion.com/video/x8abdvf best)
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="$(youtube-dl --get-id https://www.dailymotion.com/video/x5z1cje)" tvg-logo="$(youtube-dl --get-thumbnail https://www.dailymotion.com/video/x5z1cje)",$(youtube-dl -e -C https://www.dailymotion.com/video/x5z1cje)
+        $(streamlink --url --default-stream  --stream-url  https://www.dailymotion.com/video/x5z1cje best)
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1
+        $(streamlink --url --default-stream  --stream-url  https://www.rtp.pt/play/direto/rtp1 best)
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtp2hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP 2
+        $(streamlink --url --default-stream  --stream-url  https://www.rtp.pt/play/direto/rtp2 best)
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtp3hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png",RTP 3
+        $(streamlink --url --default-stream  --stream-url  https://www.rtp.pt/play/direto/rtp3 best)
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="RTPInternacional.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacional.png",RTP Internacional
+        $(streamlink --url --default-stream  --stream-url  https://www.rtp.pt/play/direto/rtpinternacional best)
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtpmem.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Memória.png",RTP Memória
+        $(streamlink --url --default-stream  --stream-url  https://www.rtp.pt/play/direto/rtpmemoria best)
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtpmad.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Madeira.png",RTP Madeira
+        $(streamlink --url --default-stream  --stream-url  https://www.rtp.pt/play/direto/rtpmadeira best)
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtpacorhd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Açores.png",RTP Açores
+        $(streamlink --url --default-stream  --stream-url  https://www.rtp.pt/play/direto/rtpacores best)
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtpaf.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png",RTP África 
+        $(streamlink --url --default-stream  --stream-url  https://www.rtp.pt/play/direto/rtpafrica best)
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,YOUTUBEAOVIVO
+        $(streamlink --url --default-stream  --stream-url  https://www.youtube.com/c/CNBC best)
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="cnnpthd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",CNN Portugal
+        $(streamlink --ffmpeg-ffmpeg /usr/local/bin/ffmpeg --stream-url --hls-segment-stream-data --hls-live-edge 5 --hls-segment-threads 10 https://tviplayer.iol.pt/direto/CNN best)
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="tvihd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
+        $(streamlink --hls-segment-stream-data --hls-live-edge 5 --hls-segment-threads 10 --ffmpeg-ffmpeg /usr/local/bin/ffmpeg --hls-live-edge 6 --stream-url  https://tviplayer.iol.pt/direto/TVI best)
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="TVIFIC.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI-Ficção.png",TVI Ficção
+        $(streamlink --url --default-stream  --stream-url  https://tviplayer.iol.pt/direto/TVI_FICCAO best)
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,
+        $(streamlink --url --default-stream  --stream-url  https://tviplayer.iol.pt/direto/TVI_AFRICA best)
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="TVIInt.pt" tvg-logo="https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",TVI Internacional
+        $(streamlink --url --default-stream  --stream-url  https://tviplayer.iol.pt/direto/TVI_INTERNACIONAL best)
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_saminited-1280x720.jpg",MINAMALUCA
+        $(streamlink --url --default-stream  --stream-url  https://www.twitch.tv/saminited best)
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_ctv_classic-1280x720.jpg",CTVCLASSIC
+        $(streamlink --url --default-stream  --stream-url  https://www.twitch.tv/ctv_classic best)
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_weathernewslive-1280x720.jpg",WEATHERNEWSLIVE
+        $(streamlink --url --default-stream  --stream-url  https://www.twitch.tv/weathernewslive best)
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_livenowfox-1280x720.jpg",LIVENOWFOX
+        $(streamlink --url --default-stream  --stream-url  https://www.twitch.tv/livenowfox best)
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_teleiblea-1280x720.jpg",TELEIBLEA ITALIANA
+        $(streamlink --url --default-stream  --stream-url  https://www.twitch.tv/teleiblea best)
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_pularitv-1280x720.jpg",PULARITV
+        $(streamlink --url --default-stream  --stream-url  https://www.twitch.tv/pularitv best)
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,TV MEIO NORTE
+        $(streamlink --url --default-stream  --stream-url  https://livestream.com/accounts/3332377/events/10580127 best)
+        EOL  
 
       - name: '部署GitHubpage'
         uses: crazy-max/ghaction-github-pages@v2
