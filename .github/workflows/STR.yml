@@ -1,9 +1,13 @@
-name: Get StreamLink Live
+name: Streamlink Live
 on:
   schedule:
     - cron: '0 0/1 * * *'
 
+  pull_request:
+    branches:
+      - main
 
+  workflow_dispatch:
 
 jobs:
   build:
@@ -11,15 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: config
-      run: |
-        git config --global user.email "action@github.com"
-        git config --global user.name "GitHub Action"
-        
-  pull_request:
-    branches:
-      - main
-
-  workflow_dispatch:
     - name: Instalando yt-dlp 
       run: |
         sudo wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -O /usr/local/bin/yt-dlp
