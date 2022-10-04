@@ -86,6 +86,9 @@ https://unlimited1-buenosaires.dps.live/nettv/nettv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Encuentro.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Logo_del_canal_Encuentro.svg/150px-Logo_del_canal_Encuentro.svg.png" group-title="Argentina", ENCUENTRO 
 https://delivery.cdn.rcs.net.ar/mnp/encuentro_hls/playlist.m3u8
 
+#EXTINF:-1 tvg-id="Encuentro.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Logo_del_canal_Encuentro.svg/150px-Logo_del_canal_Encuentro.svg.png" group-title="Argentina", ENCUENTRO 2
+https://5fb24b460df87.streamlock.net/live-cont.ar/encuentro/.m3u8
+
 #EXTINF:-1 tvg-id="InformacionPeriodistica.ar" tvg-logo="https://img.ip.digital/sites/default/files/styles/1_1_max_364px/theme/ip_theme/media/ip_logo.png?itok=gzTn1Jjd" group-title="Argentina", IP 
 https://delivery.cdn.rcs.net.ar/mnp/ip_hls/playlist.m3u8
 
