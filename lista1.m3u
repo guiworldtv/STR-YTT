@@ -20,10 +20,7 @@ https://raw.githubusercontent.com/guiworldtv/STR2/main/AFAZENDA.m3u8
 #EXTINF:-1 group-title="Reality Show'S Live" tvg-id="6320ddef274b1b0007b2ee88" tvg-name="Gran Hermano en vivo" tvg-logo="https://images.pluto.tv/channels/6320ddef274b1b0007b2ee88/colorLogoPNG.png", GRAN HERMANO
 https://stitcher.pluto.tv/stitch/hls/channel/6320ddef274b1b0007b2ee88/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=416b7a23-4f59-11ed-b0d2-0242ac110003
 
-#EXTINF:-1 group-title="Reality Show'S Live" tvg-id="6320ddef274b1b0007b2ee88" tvg-name="Gran Hermano en vivo" tvg-logo="https://images.pluto.tv/channels/6320ddef274b1b0007b2ee88/colorLogoPNG.png", GRAN HERMANO 2
-https://stitcher.pluto.tv/stitch/hls/channel/6320ddef274b1b0007b2ee88/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0
-#EXTINF:-1 group-title="Reality Show'S Live" tvg-id="6320ddef274b1b0007b2ee88" tvg-name="Gran Hermano en vivo" tvg-logo="https://images.pluto.tv/channels/6320ddef274b1b0007b2ee88/colorLogoPNG.png", GRAN HERMANO 3
-https://stitcher.pluto.tv/stitch/hls/channel/6320ddef274b1b0007b2ee88/master.m3u8
+
 
 #EXTINF:-1 group-title="Reality Show'S Live" tvg-id="TVIReality.pt"  tvg-logo="https://tvi.iol.pt/bigbrother/img/logo.png",BIG BROTHER PORTUGAL
 https://raw.githubusercontent.com/guiworldtv/STR2/main/BIG_BROTHER_PORTUGAL_LIVE.M3U8
