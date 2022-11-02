@@ -606,3 +606,68 @@ https://install.telfarcontrol.com/speed/broadcast/12/file-4692k.m3u8
 https://live.chdrstatic.com/cbn/primary/index.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="HOME SHOPPING" tvg-logo="https://i.imgur.com/HCzlTR0.png",Juwelo - Germany
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/7441_264_live.m3u8?latency=low
+
+
+
+#EXTINF:-1 radio="true" tvg-logo="https://i.imgur.com/GoxrwoH.png" group-title="Radios Internacionales", Ashiya Radio | Japón
+https://s3.radio.co/sc8d895604/listen
+
+#EXTINF:-1 radio="true" tvg-logo="https://i.imgur.com/75FDrud.png" group-title="Radios Internacionales", Radio Sputnik | Rusia
+https://nfw.ria.ru/flv/audio.aspx?ID=58982499&type=mp3
+
+
+#EXTINF:-1 radio="true" tvg-logo="https://i.imgur.com/Ov6LR8j.png" group-title="Radios Internacionales", Vatican News | Ciudad del Vaticano
+https://rvl.azureedge.net/channel5.mp3
+
+
+#EXTINF:-1 radio="true" tvg-logo="https://i.imgur.com/8WC734J.png" group-title="Radios Internacionales", Capital FM | Reino Unido
+http://vis.media-ice.musicradio.com/CapitalUKMP3
+
+#EXTINF:-1 radio="true" tvg-logo="https://i.imgur.com/7u0D7GU.png" group-title="Radios Internacionales", Clásica y Barroca | Buenos Aires | Argentina
+http://200.110.145.2:8087/stream
+
+#EXTINF:-1 radio="true" tvg-logo="https://i.imgur.com/nztQaQG.png" group-title="Radios Internacionales", Exitosa 95.5 | Perú
+http://167.114.118.120:7444/;
+
+#EXTINF:-1 radio="true" tvg-logo="https://i.imgur.com/fCQeJKX.png" group-title="Radios Internacionales", FM O Dia 100.5 | Brasil
+https://stream.zenolive.com/ctuvvqcw5k8uv
+
+#EXTINF:-1 radio="true" tvg-logo="https://i.imgur.com/5Tf6dsa.png" group-title="Radios Internacionales", Heart | Reino Unido 
+http://vis.media-ice.musicradio.com/HeartUKMP3
+
+
+#EXTINF:-1 radio="true" tvg-logo="https://i.imgur.com/mcDPnz9.jpg" group-title="Radios Internacionales", LBC 97.3 FM | Reino Unido
+http://media-ice.musicradio.com/LBCUKMP3Low
+
+#EXTINF:-1 radio="true" tvg-logo="https://i.imgur.com/imL2P4c.jpg" group-title="Radios Internacionales", LBC London News 1152 AM | Reino Unido
+http://media-ice.musicradio.com/LBC1152MP3Low
+
+
+#EXTINF:-1 radio="true" tvg-logo="https://i.imgur.com/4NvtTYp.png" group-title="Radios Internacionales", Los 40 | Colombia
+https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_COLOMBIAAAC_SC
+
+#EXTINF:-1 radio="true" tvg-logo="https://i.imgur.com/jpFoozY.png" group-title="Radios Internacionales", Lu6 Radio Atlántica AM | Mar del Plata | Argentina
+http://173.255.205.241:9090/;
+
+#EXTINF:-1 radio="true" tvg-logo="https://i.imgur.com/7v4rjaw.png" group-title="Radios Internacionales", Megamix | Kameyama | Japón
+https://cc6.streammaximum.com/proxy/radiomegamix/stream
+
+#EXTINF:-1 radio="true" tvg-logo="https://i.imgur.com/XbptMyc.png" group-title="Radios Internacionales", Nashville FM Country| Holanda
+https://nashvillefm.stream-server.nl:8300/stream
+
+
+#EXTINF:-1 radio="true" tvg-logo="https://i.imgur.com/HbV9HoX.png" group-title="Radios Internacionales", Norte | Bahía Blanca | Argentina
+http://icecast.hostingbahia.com.ar:8002/live?28344
+
+
+#EXTINF:-1 radio="true" tvg-logo="https://i.imgur.com/9rTXN18.png" group-title="Radios Internacionales", Radio Disney | Perú
+https://www.ujjina.net:2020/stream/radiodisneyperu
+
+#EXTINF:-1 radio="true" tvg-logo="https://i.imgur.com/71kcIC0.png" group-title="Radios Internacionales", Radio Francia Internacional en español | Francia
+http://live02.rfi.fr/rfienespagnol-64.mp3
+
+#EXTINF:-1 radio="true" tvg-logo="https://i.imgur.com/LaG8trk.png" group-title="Radios Internacionales", Rock FM | Rumania 
+https://live.rockfm.ro/rockfm.aacp
+
+#EXTINF:-1 radio="true" tvg-logo="https://i.imgur.com/geEQlv9.png" group-title="Radios Internacionales", Yeongju Broadcasting Sistem | Corea del Sur
+http://220.81.2.147:8000/;&type=mp3
