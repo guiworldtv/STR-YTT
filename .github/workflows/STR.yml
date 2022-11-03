@@ -61,7 +61,7 @@ jobs:
          #EXTM3U
          #EXT-X-VERSION:3
          #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-         #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="RTP1.png",CBS NEWS
+         #EXTINF:-1 group-title="NEWS WORLD",CBS NEWS
          $(streamlink --url --default-stream  --stream-url https://www.cbsnews.com/live/ best)
         
                
