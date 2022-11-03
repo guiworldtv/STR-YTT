@@ -10,11 +10,7 @@ banner = r'''
 
 
 
-#EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-#EXTINF:-1 group-title="CHILE" tvg-logo="https://i.imgur.com/qLzjO1U.png",065 Mega SD
-https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
+
 
 
 
@@ -145,6 +141,30 @@ http://unlimited6-cl.dps.live/romanticatv/romanticatv.smil/romanticatv/livestrea
 https://593b04c4c5670.streamlock.net/8038/8038/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Vt424Nn.png" group-title="CHILE", TVN CHILE | FHD | Santiago | Alt.
+https://onx.la/0c2f3.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/PrG6SkZ.png" group-title="CHILE", Chilevisión | SD | Santiago | Alt.
+https://onx.la/fe0aa.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/PrG6SkZ.png" group-title="CHILE", Chilevisión | HD | Santiago | Alt.
+http://chv-m3u.chorroaeboy.repl.co
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ILZeBjW.png" group-title="CHILE", Canal 13 | HD | Santiago | Alt.
+https://marine2.miplay.cl/c13/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ILZeBjW.png" group-title="CHILE", Canal 13 | SD | Santiago | Alt.
+https://onx.la/3aa24.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/BapqWkd.png" group-title="CHILE", Mega | SD | Santiago 
+https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/puJ88Pk.png" group-title="CHILE", La Red | FHD | Santiago
+https://unlimited1-cl-isp.dps.live/lared/lared.smil/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.imgur.com/3eb0Hhn.png" group-title="CHILE", UCV  | HD | Valparaíso
 https://unlimited2-cl-isp.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8
 
@@ -160,14 +180,14 @@ https://marine2.miplay.cl/tateti/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/6UoixA8.png" group-title="CHILE", TV CHILE | HD | Santiago 
 https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/puJ88Pk.png" group-title="CHILE", La Red | FHD | Santiago
-https://unlimited1-cl-isp.dps.live/lared/lared.smil/playlist.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/UnWMRrT.png" group-title="CHILE", Canal 9 | SD | Concepción
 https://unlimited6-cl.dps.live/c9/c9.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/BapqWkd.png" group-title="CHILE", Mega | HD | Santiago 
-https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
+
+
+
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/URqFgGb.png" group-title="CHILE", Telecanal | SD | Talca
 https://marine2.miplay.cl/telecanaltalca/playlist.m3u8
@@ -458,22 +478,7 @@ https://tls-cl.cdnz.cl/umag2/live/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/lTI1gzr.png" group-title="CHILE", Canal TVM | HD | Punta Arenas
 https://oracle.streaminghd.cl/tvmcercadeti/tvmcercadeti/chunklist_w1900488119.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Vt424Nn.png" group-title="CHILE", TVN CHILE | FHD | Santiago | Alt.
-https://onx.la/0c2f3.m3u8
 
-
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/PrG6SkZ.png" group-title="CHILE", Chilevisión | SD | Santiago | Alt.
-https://onx.la/fe0aa.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/PrG6SkZ.png" group-title="CHILE", Chilevisión | HD | Santiago | Alt.
-http://chv-m3u.chorroaeboy.repl.co
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ILZeBjW.png" group-title="CHILE", Canal 13 | HD | Santiago | Alt.
-https://marine2.miplay.cl/c13/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ILZeBjW.png" group-title="CHILE", Canal 13 | SD | Santiago | Alt.
-https://onx.la/3aa24.m3u8
 
 
 '''
