@@ -243,14 +243,11 @@ http://vip.hispanotv.org:80/live/acevedo22/acevedo22/151390.m3u8
 
 
 
-#EXTINF:-1 tvg-chno="102" tvg-logo="https://assets.iproup.com/assets/jpg/2021/04/17689.jpg",Crónica HD
-http://vip.hispanotv.org:80/live/acevedo22/acevedo22/151402.m3u8
 
-#EXTINF:-1 tvg-chno="103" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/C5N_%282017%29.png/606px-C5N_%282017 %29.png",C5N
-http://tvstarlife.com:25461/live/geovany/geovany/283.m3u8
 
-#EXTINF:-1 tvg-chno="104" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/A24_%282019-1%29.png",A24
-http://tvstarlife.com:25461/live/geovany/geovany/313.m3u8
+
+
+
 
 #EXTINF:-1 tvg-chno="108" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Azteca_Uno_logo.webp/245px-Azteca_Uno_logo.webp.png",Azteca 1
 http://tvstarlife.com:25461/live/geovany/geovany/27241.m3u8
@@ -800,11 +797,18 @@ http://200.115.193.177:80/live/26hd-720/chunklist_w1196091674.m3u8
 #EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/-1Ltvq4TxvzE/YT5D2UFQimI/AAAAAAAAALY/irH51w9AkSEys2-buTru_86k_O9u_e-AQCLcBGAsYHQ/w480/C5N.png" group-title="Argentina" , C5N 
 https://delivery.cdn.rcs.net.ar/mnp/c5n_hls/playlist.m3u8
 
+#EXTINF:-1 tvg-chno="103" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/C5N_%282017%29.png/606px-C5N_%282017 %29.png" group-title="Argentina",C5N
+http://tvstarlife.com:25461/live/geovany/geovany/283.m3u8
+
 #EXTINF:-1 tvg-id="CronicaTV.ar" tvg-logo="https://www.utpba.org/wp-content/uploads/2019/07/cronica-logo.jpg" group-title="Argentina" , CRONICA 
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/cronicatv/live
 
 #EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/-Su_IBL7T52g/YT5AkN3JRrI/AAAAAAAAALI/lQnG3U9ltAk-ckyIPKFkXZieGUgHyX75QCLcBGAsYHQ/w480/A24.png" group-title="Argentina" , A 24 
 https://delivery.cdn.rcs.net.ar/mnp/a24_hls/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="104" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/A24_%282019-1%29.png" group-title="Argentina",A24
+http://tvstarlife.com:25461/live/geovany/geovany/313.m3u8
+
 
 #EXTINF:-1 tvg-id="Canal26HD.ar" tvg-logo="https://plushlamour.com.ar/wp-content/uploads/2021/01/canal3-1.png" group-title="Argentina" , C26 
 https://delivery.cdn.rcs.net.ar/mnp/canal26_hls/playlist.m3u8
