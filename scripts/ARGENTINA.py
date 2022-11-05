@@ -237,8 +237,6 @@ http://vip.hispanotv.org:80/live/acevedo22/acevedo22/151381.m3u8
 #EXTINF:-1 tvg-chno="97" tvg-logo="https://lh3.googleusercontent.com/-mCGw9w72UsQ/YUDlY4_9CtI/AAAAAAAAAO4/OXF1sRluaS0m74yTTadIZOukowPpHOB8wCLcBGAsYHQ/h120/Canal_9.png",Canal 9
 http://tvstarlife.com:25461/live/geovany/geovany/318.m3u8
 
-#EXTINF:-1 tvg-chno="98" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0a/Logo_Televisi%C3%B3n_P%C3%BAblica_Argentina.png",TV Pública
-http://tvstarlife.com:25461/live/geovany/geovany/338.m3u8
 
 #EXTINF:-1 tvg-chno="99" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f6/Logotipo_de_America_TV.JPG",América TV
 http://vip.hispanotv.org:80/live/acevedo22/acevedo22/151390.m3u8
@@ -695,6 +693,10 @@ http://181.175.41.170:8000/play/a0gg
 
 
 
+
+
+#EXTINF:-1 tvg-id="TVPublicaHD.ar" tvg-chno="98" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0a/Logo_Televisi%C3%B3n_P%C3%BAblica_Argentina.png" group-title="Argentina",TV PUBLICA
+http://tvstarlife.com:25461/live/geovany/geovany/338.m3u8
 
 
 #EXTINF:-1 tvg-id="TVPublicaHD.ar" tvg-logo="https://lh3.googleusercontent.com/-x6JNcq2aLCg/YtQgLsrRQKI/AAAAAAAAAqo/_sLdYldWdig0bMS-zrJkYdyOnJJ6uvF6wCNcBGAsYHQ/h120/ver-tv-publica-canal-7-argentina-en-vivo.jpg" group-title="Argentina", TV PUBLICA 2 
