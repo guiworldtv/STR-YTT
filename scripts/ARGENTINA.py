@@ -241,11 +241,7 @@ http://tvstarlife.com:25461/live/geovany/geovany/318.m3u8
 #EXTINF:-1 tvg-chno="99" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f6/Logotipo_de_America_TV.JPG",América TV
 http://vip.hispanotv.org:80/live/acevedo22/acevedo22/151390.m3u8
 
-#EXTINF:-1 tvg-chno="100" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TN_todo_noticias_logo.svg/290px-TN_todo_noticias_logo.svg.png",TN Noticias
-http://45.90.105.74:25461/live/budtvsports/wTu27rKVNU/1811.m3u8
 
-#EXTINF:-1 tvg-chno="101" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/588px-Canal_26_logo_%282022 %29.svg.png",Canal 26
-http://200.115.193.177:80/live/26hd-720/chunklist_w1196091674.m3u8
 
 #EXTINF:-1 tvg-chno="102" tvg-logo="https://assets.iproup.com/assets/jpg/2021/04/17689.jpg",Crónica HD
 http://vip.hispanotv.org:80/live/acevedo22/acevedo22/151402.m3u8
@@ -794,6 +790,12 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/IPNot
 
 #EXTINF:-1 tvg-logo="https://www.ipuntotv.com/IMAGES/TN%20logo%20nuevo.png" group-title="Argentina" ,TN 
 https://delivery.cdn.rcs.net.ar/mnp/tn_hls/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TN_todo_noticias_logo.svg/290px-TN_todo_noticias_logo.svg.png" group-title="Argentina",TN Noticias
+http://45.90.105.74:25461/live/budtvsports/wTu27rKVNU/1811.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/588px-Canal_26_logo_%282022 %29.svg.png" group-title="Argentina",Canal 26
+http://200.115.193.177:80/live/26hd-720/chunklist_w1196091674.m3u8
 
 #EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/-1Ltvq4TxvzE/YT5D2UFQimI/AAAAAAAAALY/irH51w9AkSEys2-buTru_86k_O9u_e-AQCLcBGAsYHQ/w480/C5N.png" group-title="Argentina" , C5N 
 https://delivery.cdn.rcs.net.ar/mnp/c5n_hls/playlist.m3u8
