@@ -156,12 +156,12 @@ jobs:
          #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
          #EXTINF:-1 tvg-id="rtpaf.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png",RTP África 
          $(streamlink --url --default-stream  --stream-url  https://www.rtp.pt/play/direto/rtpafrica best)
+         
          #EXTM3U
          #EXT-X-VERSION:3
          #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
          #EXTINF:-1 tvg-id="$(yt-dlp --get-title https://www.youtube.com/c/BreakingNewsPunjab/live)" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/c/BreakingNewsPunjab/live)", YOUTUBEAOVIVO - $(yt-dlp --get-title https://www.youtube.com/c/BreakingNewsPunjab/live)
-         #EXTINF:-1,
-         $(streamlink --url --default-stream  --stream-url  https://www.youtube.com/c/BreakingNewsPunjab best)
+         $(streamlink --url --default-stream  --stream-url  https://www.youtube.com/@nmas best)
          
          #EXTM3U
          #EXT-X-VERSION:3
