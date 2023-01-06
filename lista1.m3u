@@ -14,8 +14,7 @@
 
 
 
-#EXTINF:-1 group-title="Reality Show'S Live" tvg-id="fazendalive"  tvg-logo="https://ottvsimg.ottvs.com.br/res/banner/e1196199-7f6d-4737-b087-4efae9bc8108.jpg",A FAZENDA
-https://raw.githubusercontent.com/guiworldtv/STR2/main/AFAZENDA.m3u8
+
 
 #EXTINF:-1 group-title="Reality Show'S Live" tvg-id="6320ddef274b1b0007b2ee88" tvg-name="Gran Hermano en vivo" tvg-logo="https://images.pluto.tv/channels/6320ddef274b1b0007b2ee88/colorLogoPNG.png", GRAN HERMANO
 https://stitcher.pluto.tv/stitch/hls/channel/6320ddef274b1b0007b2ee88/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=416b7a23-4f59-11ed-b0d2-0242ac110003
@@ -83,11 +82,6 @@ https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
 
 
 
-
-#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="https://live-thumbs.video.globo.com/cbnrj24ha/snapshot/",CBN Rio (720p)
-https://medias.sgr.globo.com/hls/vCBNRJ/vCBNRJ.m3u8
-#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="https://live-thumbs.video.globo.com/cbnsp24ha/snapshot/",CBN SP (720p)
-https://medias.sgr.globo.com/hls/vCBNSP/vCBNSP.m3u8
 
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="https://files.cercomp.ufg.br/weby/up/120/m/ASSINATURA_RADIO_UFG_BRANCA.png",Rádio Universitária UFG
 http://200.137.217.155:8010/radiouniversitaria
