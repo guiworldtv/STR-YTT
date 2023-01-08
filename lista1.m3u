@@ -30,6 +30,39 @@ https://raw.githubusercontent.com/guiworldtv/STR2/main/BIG_BROTHER_PORTUGAL_LIVE
 #EXTINF:-1 group-title="Reality Show'S Live" tvg-id=""  tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c5/Zadruga_reality_logo.png/revision/latest?cb=20210318191506",ZADRUGA
 https://raw.githubusercontent.com/guiworldtv/STR2/main/ZADRUGA.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/8DZL1sg.png" group-title="USA",ABC East
+https://v-ny.mybtv.net/live/554/1280x720.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/KJR6lt0.png" group-title="USA",CBS East
+https://v-ny.mybtv.net/live/545/1280x720.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/E%21_Logo_2012.svg/320px-E%21_Logo_2012.svg.png" group-title="USA",E! East
+https://webudi.openhd.lol/lb/premium315/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Q6AoC5h.png" group-title="USA",Fox East
+https://v-ny.mybtv.net/live/550/1280x720.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OzHkxwZ.png" group-title="USA",NBC East
+https://v-ny.mybtv.net/live/548/1280x720.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/33/PBS_logo.svg/1920px-PBS_logo.svg.png" group-title="USA",PBS East
+https://v-ny.mybtv.net/live/575/1280x720.m3u8
+#EXTINF:-1 tvg-id="TBSEast.us" tvg-logo="https://i.imgur.com/upM99h1.png" group-title="USA",TBS East
+https://webudi.openhd.lol/lb/premium336/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 tvg-id="TNTEast.us" tvg-logo="https://i.imgur.com/umJbqNY.png" group-title="USA",TNT East
+https://webudi.openhd.lol/lb/premium338/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Ydm3Ss2.png" group-title="USA",Telemundo Este
+https://v-ny.mybtv.net/live/659/1280x720.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/The_CW.svg/1920px-The_CW.svg.png" group-title="USA",The CW East
+https://v-ny.mybtv.net/live/562/1280x720.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/PEP2agz.png" group-title="USA",Univisión Este
+https://v-ny.mybtv.net/live/643/1280x720.m3u8
+
+
 #EXTINF:-1 group-title="Reality Show'S Live" tvg-id=""  tvg-logo="https://it.wikipedia.org/wiki/File:Grande_Fratello_VIP.png",GRANDE FRATELLO COM VPN1 SEM ÁUDIO
 https://live2.msf.cdn.mediaset.net/content/hls_h0_clr_vos/live/channel(b6)/stream03/streamPlaylist.m3u8|user-agent=Opera
 
