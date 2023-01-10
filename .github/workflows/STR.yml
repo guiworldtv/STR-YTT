@@ -53,18 +53,7 @@ jobs:
          sudo cat >./lista2str.m3u <<EOL
         
 
-         #EXTM3U
-         #EXT-X-VERSION:3
-         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-         #EXTINF:-1 tvg-name="Olympics TV (EN)" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLRCFpu_biul8hGuPLuvU8l63Qmz4JLa0u8Pq_HarC0=s176-c-k-c0x00ffffff-no-rj-mo", TVI GRAVADA
-         $(streamlink --hls-live-edge 6 --ringbuffer-size 32M -4 --url --default-stream --stream-url https://tviplayer.iol.pt/programa/a-ex-periencia/63a44e450cf27230dc1efb90/video/63bb67a00cf2cf9224f36283 best)
-         
-         #EXTM3U
-         #EXT-X-VERSION:3
-         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-         #EXTINF:-1 tvg-name="Olympics TV (EN)" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLRCFpu_biul8hGuPLuvU8l63Qmz4JLa0u8Pq_HarC0=s176-c-k-c0x00ffffff-no-rj-mo", OLYMPIC CHANNEL
-         $(streamlink --hls-live-edge 6 --ringbuffer-size 32M -4 --url --default-stream --stream-url https://olympics.com/en/live/ best)
-        
+       
          #EXTM3U
          #EXT-X-VERSION:3
          #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
