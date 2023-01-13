@@ -40,7 +40,8 @@ jobs:
       - name: Instalando youtube-dl 
         run: |
          sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
-         sudo chmod a+rx /usr/local/bin/youtube-dl        
+         sudo chmod a+rx /usr/local/bin/youtube-dl    
+         youtube-dl -U
       - name: Instalando streamlink
         run: |
          pip install --user --upgrade streamlink
