@@ -155,8 +155,14 @@ jobs:
          #EXTM3U
          #EXT-X-VERSION:3
          #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-         #EXTINF:-1 tvg-id="$(yt-dlp --get-title https://www.youtube.com/c/BreakingNewsPunjab/live)" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/c/BreakingNewsPunjab/live)", YOUTUBEAOVIVO - $(yt-dlp --get-title https://www.youtube.com/c/BreakingNewsPunjab/live)
-         $(streamlink --url --default-stream  --stream-url  https://www.youtube.com/@nmas best)
+         #EXTINF:-1 tvg-id="$(yt-dlp --get-title https://www.youtube.com/@CNNbrasil/live)" group-title="NEWS WORLD" group-title="CNN's" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/@CNNbrasil/live)", YOUTUBEAOVIVO - $(yt-dlp --get-title https://www.youtube.com/@CNNbrasil/live)
+         $(streamlink --url --default-stream  --record cnnbrasil.ts  https://www.youtube.com/@CNNbrasil/live best)
+         
+         #EXTM3U
+         #EXT-X-VERSION:3
+         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+         #EXTINF:-1 tvg-id="$(yt-dlp --get-title https://www.youtube.com/@cnnturk/live)" group-title="NEWS WORLD" group-title="CNN's" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/@cnnturk/live)", YOUTUBEAOVIVO - $(yt-dlp --get-title https://www.youtube.com/@cnnturk/live)
+         $(streamlink --url --default-stream  --stream-url  https://www.youtube.com/@cnnturk/live best)
          
          #EXTM3U
          #EXT-X-VERSION:3
