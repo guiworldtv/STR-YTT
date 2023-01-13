@@ -156,7 +156,7 @@ jobs:
          #EXT-X-VERSION:3
          #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
          #EXTINF:-1 tvg-id="$(yt-dlp --get-title https://www.youtube.com/@CNNbrasil/live)" group-title="NEWS WORLD" group-title="CNN's" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/@CNNbrasil/live)", YOUTUBEAOVIVO - $(yt-dlp --get-title https://www.youtube.com/@CNNbrasil/live)
-         $(streamlink --url --default-stream  --stream-url  https://www.youtube.com/@CNNbrasil/live best)
+         $(streamlink --hls-duration 00:00:30 --output "~/recordings/{author}/{category}/{id}-{time:%Y%m%d%H%M%S}.ts"  https://www.youtube.com/@CNNbrasil/live best)
          
          #EXTM3U
          #EXT-X-VERSION:3
