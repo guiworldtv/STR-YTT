@@ -156,7 +156,7 @@ jobs:
          #EXT-X-VERSION:3
          #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
          #EXTINF:-1 tvg-id="$(yt-dlp --get-title https://www.youtube.com/@CNNbrasil/live)" group-title="NEWS WORLD" group-title="CNN's" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/@CNNbrasil/live)", YOUTUBEAOVIVO - $(yt-dlp --get-title https://www.youtube.com/@CNNbrasil/live)
-         $(streamlink --url --default-stream  --output cnnbrasil.ts  https://www.youtube.com/@CNNbrasil/live best)
+         $(streamlink --url --default-stream  --stream-url  https://www.youtube.com/@CNNbrasil/live best)
          
          #EXTM3U
          #EXT-X-VERSION:3
@@ -168,7 +168,7 @@ jobs:
          #EXT-X-VERSION:3
          #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
          #EXTINF:-1 tvg-id="cnnpthd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",CNN Portugal
-         $(streamlink --ffmpeg-ffmpeg /usr/local/bin/ffmpeg --stream-url --hls-segment-stream-data --hls-live-edge 5 --hls-segment-threads 10 https://tviplayer.iol.pt/direto/CNN best)
+         $(streamlink --url --default-stream  --stream-url https://tviplayer.iol.pt/direto/CNN best)
          #EXTM3U
          #EXT-X-VERSION:3
          #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
