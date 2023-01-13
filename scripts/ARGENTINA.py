@@ -220,9 +220,6 @@ https://delivery.cdn.rcs.net.ar/mnp/syfy_hls/playlist.m3u8
 https://delivery.cdn.rcs.net.ar/mnp/paramount_hls/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/7d/Elgourmet_2015.svg/revision/latest/scale-to-width-down/200?cb=20191030175859" group-title="(COCINA/ESTILO)" , Gourmet 
-https://delivery.cdn.rcs.net.ar/mnp/gourmet_hls/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/-F2BnsazA7os/Ys31hnU_n3I/AAAAAAAAApQ/0MXv4sr5nusxWpjqfA0hm_aZj8GBqD1gACNcBGAsYHQ/w480/ver-mas-chic-en-vivo.jpg" group-title="(COCINA/ESTILO)" , MAS CHIC 
 https://delivery.cdn.rcs.net.ar/mnp/maschic_hls/playlist.m3u8
 
@@ -253,7 +250,7 @@ https://delivery.cdn.rcs.net.ar/mnp/tvp/output.mpd
 
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/800px-Telefe_%28nuevo_logo%29.png"group-title="Argentina",TELEFE 34.1 TDA HD"reproducir con MX PRO"
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/800px-Telefe_%28nuevo_logo%29.png"group-title="Argentina",TELECOLORMUX
 https://live.obslivestream.com/telecolormux/tracks-v1a1/mono.m3u8
 
 
