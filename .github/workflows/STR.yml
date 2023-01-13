@@ -43,7 +43,6 @@ jobs:
          sudo chmod a+rx /usr/local/bin/youtube-dl        
       - name: Instalando streamlink
         run: |
-         sudo apt install ffmpeg python3-pip git
          pip install --user --upgrade streamlink
 
            
