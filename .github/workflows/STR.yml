@@ -57,6 +57,12 @@ jobs:
          #EXTM3U
          #EXT-X-VERSION:3
          #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+         #EXTINF:-1 group-title="NEWS WORLD" tvg-logo="https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/v1636660681/rockcms/2021-11/NNN-social-default-72d67e.jpg",NBC NEWS NOW
+         $(streamlink --url --default-stream  --stream-url https://www.nbcnews.com/now?icid=now_hp_header best)
+         
+         #EXTM3U
+         #EXT-X-VERSION:3
+         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
          #EXTINF:-1 group-title="NEWS WORLD",CBS NEWS
          $(streamlink --url --default-stream  --stream-url https://www.cbsnews.com/live/ best)
         
