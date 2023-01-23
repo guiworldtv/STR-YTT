@@ -75,11 +75,6 @@ jobs:
          #EXTINF:-1 tvg-id="$(yt-dlp --get-id https://vimeo.com/user169948294)" tvg-logo="$(yt-dlp --get-thumbnail https://vimeo.com/user169948294)",$(yt-dlp --get-title https://vimeo.com/user169948294)
          $(yt-dlp --get-url https://vimeo.com/user169948294)
         
-         #EXTM3U
-         #EXT-X-VERSION:3
-         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-         #EXTINF:-1 tvg-id="$(yt-dlp --get-title https://tviplayer.iol.pt/videos/populares)" tvg-logo="$(yt-dlp --get-thumbnail https://tviplayer.iol.pt/videos/populares)",$(yt-dlp --get-title https://tviplayer.iol.pt/videos/populares)
-         $(yt-dlp --get-url https://tviplayer.iol.pt/videos/populares)
          
          
          #EXTM3U
