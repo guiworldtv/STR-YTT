@@ -414,6 +414,27 @@ https://telemundolive.akamaized.net/hls/live/2093200/NEWS105/master_main105.m3u8
 
 
 
+#EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",Telemundo Filadelfia / [Philadelphia] 
+https://nbculocallive.akamaized.net/hls/live/2035366/philadelphia/stream5/master.m3u8
+
+#EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",Telemundo McAllen TX
+https://nbculocallive.akamaized.net/hls/live/2037094/mcallen/stream1/master.m3u8
+
+#EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",Telemundo Miami FL
+https://nbculocallive.akamaized.net/hls/live/2037498/miami/stream6/master.m3u8
+
+#EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",Telemundo New York
+https://nbculocallive.akamaized.net/hls/live/2037083/newyork/stream7/master.m3u8
+
+#EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",Telemundo Orlando FL
+https://nbculocallive.akamaized.net/hls/live/2037602/orlando/stream1/master.m3u8
+
+
+
+
+
+
+
 #EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",Telemundo Área De La Bahía
 https://nbculocallive.akamaized.net/hls/live/2037097/bayarea/stream3/master.m3u8
 
@@ -438,8 +459,7 @@ https://nbculocallive.akamaized.net/hls/live/2037601/fresno/stream1/master.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",Telemundo Houston TX
 https://nbculocallive.akamaized.net/hls/live/2037088/houston/stream1/master.m3u8
 
-#EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",Telemundo Filadelfia / [Philadelphia] 
-https://nbculocallive.akamaized.net/hls/live/2035366/philadelphia/stream5/master.m3u8
+
 
 #EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",Telemundo Las Vegas NV
 https://nbculocallive.akamaized.net/hls/live/2037093/lasvegas/stream1/master.m3u8
@@ -447,20 +467,12 @@ https://nbculocallive.akamaized.net/hls/live/2037093/lasvegas/stream1/master.m3u
 #EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",Telemundo Los Angeles CA
 https://nbculocallive.akamaized.net/hls/live/2037084/losangeles/stream6/master.m3u8
 
-#EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",Telemundo McAllen TX
-https://nbculocallive.akamaized.net/hls/live/2037094/mcallen/stream1/master.m3u8
 
-#EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",Telemundo Miami FL
-https://nbculocallive.akamaized.net/hls/live/2037498/miami/stream6/master.m3u8
-
-#EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",Telemundo New York
-https://nbculocallive.akamaized.net/hls/live/2037083/newyork/stream7/master.m3u8
 
 #EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",Telemundo Nuevo México
 https://nbculocallive.akamaized.net/hls/live/2037500/elpaso/stream2/master.m3u8
 
-#EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",Telemundo Orlando FL
-https://nbculocallive.akamaized.net/hls/live/2037602/orlando/stream1/master.m3u8
+
 
 #EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",Telemundo Phoenix AZ
 https://nbculocallive.akamaized.net/hls/live/2037089/phoenix/stream1/master.m3u8
