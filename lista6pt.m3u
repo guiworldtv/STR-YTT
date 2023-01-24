@@ -65,7 +65,7 @@ https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/ch
 
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Qk7eaM4.png" group-title="FRENCH ENTERTAINMENT",M6 International
-https://shls-m6-int-prod-dub.shahid.net/out/v1/a315ab77ee7343a7a17dbe7e32eee3ba/index.m3u8?aws.manifestfilter=video_height:144-576;video_codec:H264
+https://shls-m6-int-prod-dub.shahid.net/out/v1/a315ab77ee7343a7a17dbe7e32eee3ba/index.m3u8
 
 #EXTINF:0 tvg-id="CNNInternationalAsiaPacific.hk" tvg-logo="https://i.imgur.com/SWDFKE2.png" group-title="WORLD NEWS",CNN International Asia Pacific
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -182,15 +182,12 @@ https://livefr.cgtn.com/1000f/prog_index.m3u8
 https://liveru.cgtn.com/1000r/prog_index.m3u8
 
 #EXTINF:0 tvg-id="FoxNewsChannel.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/800px-Fox_News_Channel_logo.svg.png" group-title="AMERICAN NEWS",Fox News Channel
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_type=com.https://austchannel-live.akamaized.net/hls/live/2002729/austchannel-news/master1280x720v3.m3u8widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MjhkOWZkZjYtOGViOC0zNTkzLWFhOWEtNGFhMzJkMDk3NGE2
 https://live-cdn.mncnow.id/live/eds/FoxNews/sa_dash_vmx/FoxNews.mpd
 
 #EXTINF:-1 tvg-id="MSNBC.us" tvg-logo="https://i.imgur.com/cMM9MAg.png" group-title="AMERICAN NEWS",MSNBC
 https://webudi.openhd.lol/lb/premium327/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/IVvxmTv.png" group-title="AMERICAN NEWS",CBS News
-http://cbsnewshd-lh.akamaihd.net:80/i/CBSNHD_7@199302/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/R7d90sJ.png" group-title="AMERICAN NEWS",ABC News Live
 https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
@@ -209,9 +206,6 @@ https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/IZFEJsu.png" group-title="NEWS WORLD",Global News
 https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Pf8hnQK.png" group-title="CANADIAN NEWS",Ici RDI
-https://rcavlive.akamaized.net/hls/live/704025/xcanrdi/master_2500.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8jIPUgH.png" group-title="PARLIAMENTARY",CPAC
 https://d7z3qjdsxbwoq.cloudfront.net/groupa/live/f9809cea-1e07-47cd-a94d-2ddd3e1351db/live.isml/.m3u8
@@ -234,14 +228,8 @@ https://austchannel-live.akamaized.net/hls/live/2002729/austchannel-news/master.
 #EXTINF:-1 tvg-logo="https://i.imgur.com/nEHL1S1.png" group-title="PARLIAMENTARY",Parliament TV
 https://ptvlive.kordia.net.nz/out/v1/daf20b9a9ec5449dadd734e50ce52b74/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/orZX92w.png" group-title="WORLD NEWS",Press TV
-https://live1.presstv.ir/live/presstv.m3u8
-
 #EXTINF:-1 tvg-logo="https://i.imgur.com/kY1w7zh.png" group-title="SPANISH NEWS",Hispan TV
 https://live1.presstv.ir/live/hispan.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/j5Zdyy9.png" group-title="WORLD NEWS",A News
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/ANewsGlobal/live
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/49/TeleSUR.jpg" group-title="WORLD NEWS",teleSUR English
 https://cdnenmain.telesur.ultrabase.net/mblivev3/hd/playlist.m3u8
@@ -258,14 +246,8 @@ https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Atn4Ppt.png" group-title="INDIAN NEWS",India Ahead
 https://d3a9l0u5hgmgjl.cloudfront.net/01.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/83CZGrB.png" group-title="INDIAN NEWS",NewsX
-https://itvoign.multitvsolution.com/hls/newsx_itv_720_900k.m3u8
-
 #EXTINF:-1 tvg-id="RepublicTV.in" tvg-logo="https://i.imgur.com/SOAzyhe.png" group-title="INDIAN NEWS",Republic TV
 https://republicworld.amagi.tv/hls/amagi_hls_data_samsungin-republictv-samsungindia/CDN/playlist.m3u8
-
-#EXTINF:-1 tvg-id="DDIndia.in" tvg-logo="https://i.imgur.com/aME56Hq.png" group-title="INDIAN NEWS",DD India
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/DDIndia/live
 
 #EXTINF:-1 tvg-id="TimesNowWorld.in" tvg-logo="https://i.imgur.com/KkKbf1c.png" group-title="INDIAN NEWS",Times Now World
 https://tv.googledrivelinks.com:443/autoq.php?cTimes_Now_HD
@@ -279,23 +261,11 @@ https://live2.alalam.ir/live/Alalam/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/MA4V35n.png" group-title="NON-ENGLISH NEWS",NTV News 24
 https://n24-cdn-live.ntv.co.jp/ch01/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/b1VGZ0O.png" group-title="UKRAINIAN NEWS",UA
-http://ua-tv-hls2.cosmonova.net.ua/hls/ua-tv_ua_mid/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/24_Group_Ukraine_04.png/800px-24_Group_Ukraine_04.png" group-title="UKRAINIAN NEWS",24 Канал
 http://streamvideol1.luxnet.ua/news24/news24.stream/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Rada_TV_%282021%29.svg/1920px-Rada_TV_%282021%29.svg.png" group-title="UKRAINIAN NEWS",Рада
-https://rada-rtmp.adamant.net/hls/rada.m3u8
-
-#EXTINF:-1 tvg-id="BFMTV.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b6/Logo_BFM_TV_%282019%29.png" group-title="FRENCH NEWS",BFM TV
-http://callofliberty.fr/stream/BFMTV/master.m3u8
-
 #EXTINF:-1 tvg-id="CNews.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Canal_News_logo.svg/1920px-Canal_News_logo.svg.png" group-title="FRENCH NEWS",C News
 http://hls-m010.live-lv3.canalplus-cdn.net/live/disk/cnews-clair-hd/ios-v3-hd-clair/cnews-clair-hd-audio_20000=96000-video=3400000.m3u8
-
-#EXTINF:-1 tvg-id="Franceinfo.fr" tvg-logo="https://i.imgur.com/40Zq0TK.png" group-title="FRENCH NEWS",Franceinfo
-https://monchyxd.herokuapp.com/iptv-query?streaming-ip=https://www.dailymotion.com/francetvinfo&quality=720p
 
 #EXTINF:-1 tvg-id="LCI.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/La_Cha%C3%AEne_Info_%28logo%29.svg/1920px-La_Cha%C3%AEne_Info_%28logo%29.svg.png" group-title="FRENCH NEWS",LCI
 http://callofliberty.fr/stream/LCI/master.m3u8
@@ -309,30 +279,14 @@ http://callofliberty.fr/stream/LCP/master.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/4/4b/Logo_Public_S%C3%A9nat_%282019%29.svg/langfr-1920px-Logo_Public_S%C3%A9nat_%282019%29.svg.png" group-title="PARLIAMENTARY",Public Sénat
 http://callofliberty.fr/stream/PublicSenat/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/wWHiR9B.png" group-title="FRENCH NEWS",LN24
-https://hls-origin01-ln24.cdn01.rambla.be/adliveorigin-ln24/_definst_/ApYjOq.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="ntv.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/N-tv_logo-september2017.svg/1280px-N-tv_logo-september2017.svg.png" group-title="GERMAN NEWS",n-tv
 https://s6.hopslan.com/ntvv/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-id="tagesschau24.de" tvg-logo="https://i.imgur.com/eqE5cJ6.png" group-title="GERMAN NEWS",tagesschau 24
-https://tagesschau-lh.akamaihd.net/i/tagesschau_1@119231/master.m3u8
 
-#EXTINF:-1 tvg-id="RaiNews24.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Rai_News_24_logo_%282022%29.svg/1920px-Rai_News_24_logo_%282022%29.svg.png" group-title="ITALIAN NEWS",Rai News 24
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://rainews1-live.akamaized.net/hls/live/598326/rainews1/rainews1/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Canal24Horas.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Logo_TVE-24h.svg/1024px-Logo_TVE-24h.svg.png" group-title="SPANISH NEWS",Canal 24 Horas
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://rtvelivestreamv6.akamaized.net/segments/24h/24h_main_720.m3u8
 
 #EXTINF:-1 tvg-id="24TV.tr" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/a/a6/24_TV_logosu.png" group-title="TURKISH NEWS",24 TV
 https://turkmedya-live.ercdn.net/tv24/tv24_720p.m3u8
-
-#EXTINF:-1 tvg-id="AHaber.tr" tvg-logo="https://i.imgur.com/k7oie6a.png" group-title="TURKISH NEWS",A Haber
-https://59c7ea6bec1c6.streamlock.net/filbox/ahaber.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-id="HaberGlobal.tr" tvg-logo="https://i.imgur.com/20kWdRa.png" group-title="TURKISH NEWS",Haber Global
 https://tv.ensonhaber.com/tv/tr/haberglobal/index.m3u8
@@ -358,7 +312,7 @@ https://d2idp3hzkhjpih.cloudfront.net/out/v1/4b85d9c2bf97413eb0c9fd875599b837/in
 #EXTINF:-1 tvg-id="RTMK04" tvg-logo="https://i.imgur.com/68Qfyma.png" tvg-url="https://raw.githubusercontent.com/samleong123/rtm-live/main/rtmklik.xml" group-title="MALAY NEWS",Berita RTM
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
 #EXTVLCOPT:http-referrer=https://rtmklik.rtm.gov.my/
-https://d25tgymtnqzu8s.cloudfront.net/smil:berita/chunklist_b4596000_slENG.m3u8
+https://d25tgymtnqzu8s.cloudfront.net/smil:berita/chunklist_b4596000_slENG.m3u8?id=5
 
 #EXTINF:-1 tvg-id="BernamaTV.my" tvg-logo="https://i.imgur.com/ZIsWGuK.png" group-title="MALAY NEWS",Bernama TV
 https://raw.githubusercontent.com/AqFad2811/BernamaHDYT/main/youtube.m3u8
@@ -425,9 +379,6 @@ https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
 #EXTINF:-1 tvg-id="YTN.kr" tvg-logo="https://i.imgur.com/kI7pHMn.jpg" group-title="KOREAN NEWS",YTN
 http://ye23.win/iptv/korea2021.php?id=ytn
 
-#EXTINF:-1 tvg-id="YonhapNewsTV.kr" tvg-logo="https://i.imgur.com/SvbO21Y.png" group-title="KOREAN NEWS",연합뉴스TV
-https://ducg38fv680xm.cloudfront.net/yeonhap_3M.m3u8
-
 #EXTINF:-1 tvg-logo="https://i.imgur.com/QeV1sma.png" group-title="NON-ENGLISH NEWS",TV 2 Nyhetskanalen
 https://ws15-hls-live.akamaized.net/out/u/1153546.m3u8
 
@@ -436,11 +387,6 @@ http://hbbtvlive.v3.tvp.pl/hbbtvlive/livestream.php?app_id=tvpinfo
 
 #EXTINF:-1 tvg-id="TVRepublika.pl" tvg-logo="https://i.imgur.com/yAlJZEW.png" group-title="POLISH NEWS",TV Republika
 https://ec08.luz1.cache.orange.pl/jupiter/o2-cl7/live/tvrepublika/live.m3u8
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Tvn24_Logo.svg/800px-Tvn24_Logo.svg.png" group-title="POLISH NEWS",TVN 24
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
-#EXTVLCOPT:http-referrer=https://eplayer.click/
-https://best2.globalweb.ru.com/cdn/premium444/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/uQVqEIH.png" group-title="PARLIAMENTARY",TVP Parlament 1
 http://hbbtvlive3.v3.tvp.pl/hbbtvlive/livestream.php?app_id=kanal1
@@ -644,9 +590,6 @@ https://streamcdnb10-859c1818ed614cc5b0047439470927b0.msvdn.net/live/S76890577/t
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Y3vQaf5.png" group-title="BUSINESS NEWS",Yahoo! Finance
 https://yahoo-samsung.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Fox_Business.svg/1920px-Fox_Business.svg.png" group-title="BUSINESS NEWS",Fox Business
-http://1tv1.net:8080/live/01007888688/28464975/148458.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/UrRif3p.png" group-title="BUSINESS NEWS",A Para
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCzrGg6iyRDuUSnO0cQ5oLcA/live
