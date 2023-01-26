@@ -345,17 +345,14 @@ https://59537faa0729a.streamlock.net/cincotv/cincotv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://neotvdigital.com.ar/imagenes/logo1.png" group-title="Argentina", NEO TV DIGITAL  14.1
 https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMm0MM0BtkhB9xHWsECtnky05aGfA8KKnDSg&usqp=CAU" group-title="Argentina", CANAL 29 QUILMES 18.1
-http://inliveserver.com:1935/8386/8386/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://serenotv.com/wp-content/uploads/2020/08/canal-telecreativa.jpg" group-title="Argentina", TELECREATIVA LANUS
-https://panel.dattalive.com/8012/8012/playlist.m3u8
+
+
 
 #EXTINF:-1 tvg-logo="https://image.winudf.com/v2/image1/Y29tLmExMjNmcmVlYXBwcy5mcmVlLmFwcDVkNWVjMWY4ODliOThfaWNvbl8xNTY3NjE5OTcxXzAxNw/icon.png?w=170&fakeurl=1" group-title="Argentina", CANAL 4 TELEAIRE SAN MARTIN
 https://stmvideo2.livecastv.com/canal4/canal4/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/-SlqJrd0GiYk/XjtCBz2FbhI/AAAAAAAAvog/HkkKzNWrEOYiE08Rdlw-mxsDtzpJ_zD8wCK8BGAsYHg/s0/2020-02-05.png" group-title="Argentina", CANAL 6 MORENO
-https://5975e06a1f292.streamlock.net:4443/canal6moreno/canal6moreno/playlist.m3u8
+
 
 #EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VIC2PROV.png" group-title="Argentina", PROVINCIAL TV
 http://www.trimi.com.ar/provincial/streaming/mystreamProvincialHSMed.m3u8
@@ -365,8 +362,7 @@ http://g2.vxral-slo.transport.edge-access.net/nx-beta/nx.hor.livetx.01/5eaa64277
 
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TYC_SPORTS.jpg/800px-TYC_SPORTS.jpg" group-title="Argentina", TyC SPORT 
-https://d3055hobuue3je.cloudfront.net/out/v1/b841c366cbe540e6a106c3ba83e5c8d6/index.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/-2gN4wEv_qPI/XjtKDwMuIQI/AAAAAAAAvrY/VTtJwZALBykDRnM8ia0Xbqi0FbREvdrZACK8BGAsYHg/s0/2020-02-05.png" group-title="Argentina", GARAGE TV
@@ -392,8 +388,6 @@ http://www.trimi.com.ar/santa_maria/streaming/mystreamSantaMariaHSMed.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="http://www.tectv.gob.ar/resources/img/logo.png" group-title="Argentina", TEC TV  22.5
-https://g3.mc-hor.transport.edge-access.net/a09/ngrp:gcba_video3-100042_all/gcba_video3-100042_720p.m3u8
 
 
 
@@ -458,8 +452,7 @@ https://5e7cdf2370883.streamlock.net/tdconline/tdconline/playlist.m3u8
 https://panel.dattalive.com/8250/8250/playlist.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
 https://s8.stweb.tv/chacra/live/playlist.m3u8
-#EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
-https://59537faa0729a.streamlock.net/cincotv/cincotv/playlist.m3u8
+
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
 https://5fb24b460df87.streamlock.net/live-cont.ar/cinear/playlist.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
@@ -468,8 +461,7 @@ http://coninfo.net:1935/chacodxdtv/live/playlist.m3u8
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
-#EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
-https://v4.tustreaming.cl/enlacebpbtv/index.m3u8
+
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
 https://euronews-euronews-spanish-2-mx.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
@@ -488,16 +480,14 @@ https://stream.live.novotempo.com/tv/smil:tvnuevotiempo.smil/playlist.m3u8
 https://wowza.telpin.com.ar:1935/live-powerTV/power.stream/playlist.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
-#EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
-https://strm.yandex.ru/kal/rt_hd/rt_hd0.m3u8
+
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
 http://www.trimi.com.ar/santa_maria/streaming/mystream.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
 https://panel.seo.tv.bo:3337/live/franzbalboa2live.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
 https://tastemade-es8intl-roku.amagi.tv/playlist.m3u8
-#EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
-https://videostream.shockmedia.com.ar:1936/telejunin/telejunin/playlist.m3u8
+
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
 http://live-edge01.telecentro.net.ar/live/smil:tlx.smil/master.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
@@ -630,8 +620,7 @@ https://iptv.ixfo.com.ar:30443/live/c6digital/playlist.m3u8?PlaylistM3UCL
 https://stream.arcast.live/canal7jujuy/ngrp:canal7jujuy_all/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1  tvg-id="236" group-title="Argentina" tvg-logo="https://www.m3u.cl/logo/236_Canal_9_Litoral.png",Canal 9 Litoral | AR
 https://stream.arcast.live/ahora/ahora/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1  tvg-id="309" group-title="Argentina" tvg-logo="https://www.m3u.cl/logo/309_Canal_9_Televida.png",Canal 9 Televida | AR
-https://5b3050bb1b2d8.streamlock.net/viviloendirecto2/canal9/playlist.m3u8?PlaylistM3UCL
+
 #EXTINF:-1  tvg-id="273" group-title="Argentina" tvg-logo="https://www.m3u.cl/logo/273_Canal_907_FM_Comunicar.png",Canal 907 FM Comunicar | AR
 https://panel.dattalive.com/canal907/canal907/chunklist_w1205944599.m3u8?PlaylistM3UCL
 #EXTINF:-1  tvg-id="274" group-title="Argentina" tvg-logo="https://www.m3u.cl/logo/274_Canal_Cinco_Tigre.png",Canal Cinco Tigre | AR
