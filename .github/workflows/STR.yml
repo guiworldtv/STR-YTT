@@ -51,13 +51,6 @@ jobs:
         run: |
          touch ./lista2str.m3u
          sudo cat >./lista2str.m3u <<EOL
-         # Conteúdo do arquivo
-         EOF
-         if [ $? -ne 0 ]; then
-            echo "Erro ao criar o arquivo lista2str.m3u."
-         fi
-
-
 
         
 
