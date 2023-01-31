@@ -49,13 +49,8 @@ jobs:
            
       - name: Get LISTA4.m3u8
         run: |
-          touch ./lista2str.m3u
-          sudo cat >./lista2str.m3u <<EOF
-          # Conteúdo do arquivo
-            EOF
-          if [ $? -ne 0 ]; then
-            echo "Erro ao criar o arquivo lista2str.m3u."
-          fi
+         touch ./lista2str.m3u
+         sudo cat >./lista2str.m3u <<EOL
 
 
 
