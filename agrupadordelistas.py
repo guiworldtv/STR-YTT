@@ -1,24 +1,36 @@
 import glob
 import os
 
-path = os.path.dirname(os.path.realpath(__file__))
-os.chdir(path)
+# Obter o caminho do arquivo atual
+file_path = os.path.dirname(os.path.realpath(__file__))
+os.chdir(file_path)
 
-if os.path.exists("LISTASAGRUPADAS.m3u8"):
-    os.remove("LISTASAGRUPADAS.m3u8")
+# Verificar se o arquivo LISTASAGRUPADAS.m3u8 já existe
+file_to_merge = "LISTASAGRUPADAS.m3u8"
+if os.path.exists(file_to_merge):
+    try:
+        os.remove(file_to_merge)
+    except OSError as e:
+        print("Erro ao excluir o arquivo: ", e)
 else:
-    print("The file does not exist")
+    print("O arquivo {} não existe".format(file_to_merge))
 
-read_files = glob.glob("*.m3u")
+# Obter todos os arquivos .m3u na pasta
+source_files = glob.glob("*.m3u")
 
-print(read_files)
+# Imprimir a lista de arquivos encontrados
+print("Arquivos encontrados:", source_files)
 
-with open("LISTASAGRUPADAS.m3u8", "wb") as outfile:
-    for f in read_files:
-        i = 0
-        line = "\n"
-        i += 1
-        outfile.write(line.encode('utf-8'))
-        
-        with open(f, "rb") as infile:
-            outfile.write(infile.read())
+# Abrir o arquivo de saída para escrita
+with open(file_to_merge, "wb") as merged_file:
+    for file in source_files:
+        try:
+            # Adicionar uma linha em branco entre cada arquivo
+            merged_file.write(b"\n")
+            
+            # Abrir o arquivo de entrada para leitura
+            with open(file, "rb") as source_file:
+                # Copiar o conteúdo do arquivo de entrada para o arquivo de saída
+                merged_file.write(source_file.read())
+        except IOError as e:
+            print("Erro ao processar o arquivo: ", file, e)
