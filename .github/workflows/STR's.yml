@@ -5,7 +5,7 @@ name: STREAMLINK LIVE
 # Controls when the action will run. 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/15 * * * *"
  
   push:
     branches:
