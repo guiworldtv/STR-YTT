@@ -10,7 +10,7 @@ headers = {
 
 m3u8_file = open("lista2str2.m3u", "w")
 
-time.sleep(15)
+time.sleep(20)
 
 for i in range(1, 15):
     url = f"https://tviplayer.iol.pt/videos/ultimos/{i}/canal:"
