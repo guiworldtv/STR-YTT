@@ -18,8 +18,7 @@ for i in range(1, 3):
     video_titles = [item.text for item in soup.find_all("span", class_="item-title")]
     video_links = [f"https://tviplayer.iol.pt{item['href']}" for item in soup.find_all("a", class_="item")]
     Data = [item.text for item in soup.find_all("span", class_="item-date")]
-    item = soup.find("a", class_="item", href=link)
-    image_url = item["style"].split("url(")[1].split(")")[0]
+
 
 for title, link in zip(video_titles, video_links):
     now = datetime.datetime.now()
@@ -29,7 +28,7 @@ for title, link in zip(video_titles, video_links):
     if item:
         image_url = item["style"].split("url(")[1].split(")")[0]
     else:
-        image_url = "https://play-lh.googleusercontent.com/SgKEHhaOjL-oqtS7vyD_aZk03rp-76G7XKDJkkPgsNQvJnHVvHOgKown410H7BKpqeQ"
+        image_url = "https://cdn.iol.pt/img/logostvi/branco/tviplayer.png"
     if video_url:
         m3u8_file.write(f"#EXTINF:-1 tvg-group=\"TVI PLAYER\" tvg-logo=\"{image_url}\",{title}\n{video_url}\n")
 
