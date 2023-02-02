@@ -32,7 +32,7 @@ if item:
 else:
     image_url = "https://play-lh.googleusercontent.com/SgKEHhaOjL-oqtS7vyD_aZk03rp-76G7XKDJkkPgsNQvJnHVvHOgKown410H7BKpqeQ"
     image_url = item["style"].split("url(")[1].split(")")[0]
-    m3u8_file.write(f"#EXTINF:-1 tvg-group=\"TVI PLAYER\" tvg-logo=\"https://play-lh.googleusercontent.com/SgKEHhaOjL-oqtS7vyD_aZk03rp-76G7XKDJkkPgsNQvJnHVvHOgKown410H7BKpqeQ\",{title}\n{video_url}\n")
+    m3u8_file.write(f"#EXTINF:-1 tvg-group=\"TVI PLAYER\",{title}\n{video_url}\n")
 
 
 
