@@ -9,22 +9,22 @@ headers = {
 
 m3u8_file = open("lista3str3.m3u", "w")
 
-url = "https://www.rtve.es/play/la-1/"
+url = "https://www.youtube.com/results?search_query=aula&sp=CAISBBABGAI%253D"
 
 response = requests.get(url, headers=headers)
 soup = BeautifulSoup(response.content, "html.parser")
 
-video_links = [item.get('href') for item in soup.find_all("a", class_="goto_media") if item.get('href')]
+video_titles = [item.text for item in soup.find_all("yt-formatted-string", class_="style-scope ytd-video-renderer")]
+video_images = [item["src"] for item in soup.find_all("img", class_="yt-core-image")]
+video_links = [f"https://www.youtube.com{item['href']}" for item in soup.find_all("a", class_="yt-simple-endpoint")]
 
-video_titles = [item['title'] for item in soup.find_all("a", class_="goto_media")]
 
-
-for title, link in zip(video_titles, video_links):
+for title, image, link in zip(video_titles, video_images, video_links):
     now = datetime.datetime.now()
     timestamp = now.strftime("%m%d%H%M%S")
     video_url = streamlink.streams(link)["best"].url if streamlink.streams(link) else None
-    video_link = soup.find("a", class_="goto_media")['href']
-    item = soup.find("a", class_="goto_media", href=link)
+    video_link = soup.find("a", class_="goto_media")['yt-simple-endpoint']
+    item = soup.find("href", class_="a", href=link)
     try:
         image_url = item["style"].split("url(")[1].split(")")[0]
     except Exception as e:
