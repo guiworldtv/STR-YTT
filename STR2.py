@@ -23,6 +23,6 @@ for i in range(1, 3):
         now = datetime.datetime.now()
         timestamp = now.strftime("%m%d%H%M%S")
         video_url = streamlink.streams(link)["best"].url
-        m3u8_file.write(f"{title}{Data}{timestamp}\n{video_url}\n")
+        m3u8_file.write(f"{title}{Date}{timestamp}\n{video_url}\n")
 
 m3u8_file.close()
