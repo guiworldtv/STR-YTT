@@ -13,7 +13,7 @@ m3u8_file = open("lista2str2.m3u", "w")
 
 
 for i in range(0, 8):
-    url = f"https://tviplayer.iol.pt/videos/ultimos/{i}/canal:"
+    url = f"https://tviplayer.iol.pt/videos/ultimos/{i}/canal:cnn"
 
     response = requests.get(url, headers=headers)
     soup = BeautifulSoup(response.content, "html.parser")
