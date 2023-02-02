@@ -18,6 +18,7 @@ for i in range(1, 3):
     video_titles = [item.text for item in soup.find_all("span", class_="item-title")]
     video_links = [f"https://tviplayer.iol.pt{item['href']}" for item in soup.find_all("a", class_="item")]
     Data = [item.text for item in soup.find_all("span", class_="item-date")]
+    item = soup.find("a", class_="item", href=link)
 
 for title, link in zip(video_titles, video_links):
     now = datetime.datetime.now()
