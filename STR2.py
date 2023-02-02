@@ -29,7 +29,8 @@ for i in range(1, 3):
         item = soup.find("a", class_="item", href=link)
         image_url = item["style"].split("url(")[1].split(")")[0]
     
-        m3u8_file.write(f"#EXTINF:-1 tvg-group="TVI PLAYER" tvg-logo="{image_url}",{title}\n{video_url}\n")
+        m3u8_file.write(f"#EXTINF:-1 tvg-group=\"TVI PLAYER\" tvg-logo=\"{image_url}\",{title}\n{video_url}\n")
+
 
 
 
