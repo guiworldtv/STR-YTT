@@ -24,6 +24,11 @@ for title, link in zip(video_titles, video_links):
     timestamp = now.strftime("%m%d%H%M%S")
     video_url = streamlink.streams(link)["best"].url
     item = soup.find("a", class_="item", href=link)
+    item = soup.find("a", class_="item", href=link)
+if item:
+    image_url = item["style"].split("url(")[1].split(")")[0]
+else:
+    image_url = ""
     image_url = item["style"].split("url(")[1].split(")")[0]
     m3u8_file.write(f"#EXTINF:-1 tvg-group=\"TVI PLAYER\" tvg-logo=\"{image_url}\",{title}\n{video_url}\n")
 
