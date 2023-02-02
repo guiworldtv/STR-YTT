@@ -19,15 +19,14 @@ for i in range(1, 3):
     video_links = [f"https://tviplayer.iol.pt{item['href']}" for item in soup.find_all("a", class_="item")]
     Data = [item.text for item in soup.find_all("span", class_="item-date")]
     
-    for title, link in zip(video_titles, video_links):
-        now = datetime.datetime.now()
-        timestamp = now.strftime("%m%d%H%M%S")
-        video_url = streamlink.streams(link)["best"].url
-    
-        item = soup.find("a", class_="item", href=link)
-        image_url = item["style"].split("url(")[1].split(")")[0]
-    
-        m3u8_file.write(f"#EXTINF:-1 tvg-group=\"TVI PLAYER\" tvg-logo=\"{image_url}\",{title}\n{video_url}\n")
+for title, link in zip(video_titles, video_links):
+    now = datetime.datetime.now()
+    timestamp = now.strftime("%m%d%H%M%S")
+    video_url = streamlink.streams(link)["best"].url
+    item = soup.find("a", class_="item", href=link)
+    image_url = item["style"].split("url(")[1].split(")")[0]
+    m3u8_file.write(f"#EXTINF:-1 tvg-group=\"TVI PLAYER\" tvg-logo=\"{image_url}\",{title}\n{video_url}\n")
+
 
 
 m3u8_file.close()
