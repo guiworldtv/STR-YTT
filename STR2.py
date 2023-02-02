@@ -10,7 +10,7 @@ headers = {
 
 m3u8_file = open("lista2str2.m3u", "w")
 
-time.sleep(15)
+
 
 for i in range(0, 8):
     url = f"https://tviplayer.iol.pt/videos/ultimos/{i}/canal:"
@@ -39,6 +39,6 @@ for title, link in zip(video_titles, video_links):
         m3u8_file.write(f"#EXTINF:-1 group-title=\"TVI PLAYER\" tvg-logo=\"{image_url}\",{title}\n{video_url}\n")
         m3u8_file.write("\n")
 
-
+time.sleep(15)
 
 m3u8_file.close()
