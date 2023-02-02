@@ -1,4 +1,5 @@
 import requests
+import time
 from bs4 import BeautifulSoup
 import datetime
 import streamlink
@@ -9,7 +10,9 @@ headers = {
 
 m3u8_file = open("lista2str2.m3u", "w")
 
-for i in range(0, 8):
+time.sleep(15)
+
+for i in range(1, 15):
     url = f"https://tviplayer.iol.pt/videos/ultimos/{i}/canal:"
 
     response = requests.get(url, headers=headers)
@@ -18,8 +21,6 @@ for i in range(0, 8):
     video_titles = [item.text for item in soup.find_all("span", class_="item-title")]
     video_links = [f"https://tviplayer.iol.pt{item['href']}" for item in soup.find_all("a", class_="item")]
     Data = [item.text for item in soup.find_all("span", class_="item-date")]
-
-
 
 
 for title, link in zip(video_titles, video_links):
@@ -35,7 +36,5 @@ for title, link in zip(video_titles, video_links):
     if video_url:
         m3u8_file.write(f"#EXTINF:-1 group-title=\"TVI PLAYER\" tvg-logo=\"{image_url}\",{title}\n{video_url}\n")
         m3u8_file.write("\n")
-
-
 
 m3u8_file.close()
