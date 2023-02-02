@@ -1,7 +1,5 @@
 import glob
 import os
-import glob
-import os
 
 # Obter o caminho do arquivo atual
 file_path = os.path.dirname(os.path.realpath(__file__))
@@ -28,7 +26,4 @@ with open(file_to_merge, "wb") as merged_file:
             # Adicionar uma linha em branco entre cada arquivo
             merged_file.write(b"\n")
             # Copiar o conteúdo do arquivo de entrada para o arquivo de saída
-            merged_file.write(source_file.read())      
-
-        except IOError as e:
-            print("Erro ao processar o arquivo: ", file, e)
+            merged_file.write(source_file.read())
