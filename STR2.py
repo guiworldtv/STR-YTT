@@ -20,6 +20,10 @@ for i in range(1, 3):
     Data = [item.text for item in soup.find_all("span", class_="item-date")]
     
 for title, link in zip(video_titles, video_links):
+    # ...
+    item = soup.find("a", class_="item", href=link)
+    image_url = item["style"].split("url(")[1].split(")")[0]
+    # ...
     now = datetime.datetime.now()
     timestamp = now.strftime("%m%d%H%M%S")
     video_url = streamlink.streams(link)["best"].url
