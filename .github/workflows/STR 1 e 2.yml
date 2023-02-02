@@ -1,22 +1,11 @@
-This is a basic workflow to help you get started with Actions
-# Este é uma versão melhorada do fluxo de trabalho com um agendamento cron de a cada 10 minutos
+# This is a basic workflow to help you get started with Actions
 
+name: STREAMLINK LIVE
 
-
-name: StreamLink Live
-
-
-
-# Controla quando o fluxo de trabalho será executado
-
+# Controls when the action will run. 
 on:
-
-  workflow_dispatch:
-
-#    - cron: "10 6 * * *"
+  schedule:
     - cron: "*/10 * * * *"
-
-
  
   push:
     branches:
