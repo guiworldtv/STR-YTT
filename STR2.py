@@ -25,7 +25,8 @@ for i in range(1, 3):
         now = datetime.datetime.now()
         timestamp = now.strftime("%m%d%H%M%S")
         video_url = streamlink.streams(link)["best"].url
-        m3u8_file.write(f"#EXTINF:-1 group-title = "{image_url}", {title}\n{video_url}\n")
+        m3u8_file.write(f"#EXTINF:-1 group-title = \"{image_url}\", {title}\n{video_url}\n")
+
 
 
 
