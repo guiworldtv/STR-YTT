@@ -18,6 +18,8 @@ for i in range(1, 3):
     video_titles = [item.text for item in soup.find_all("span", class_="item-title")]
     video_links = [f"https://tviplayer.iol.pt{item['href']}" for item in soup.find_all("a", class_="item")]
     Data = [item.text for item in soup.find_all("span", class_="item-date")]
+    image_url = item["style"].split("url(")[1].split(")")[0]
+
 
 
 for title, link in zip(video_titles, video_links):
