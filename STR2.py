@@ -32,4 +32,5 @@ for title, link in zip(video_titles, video_links):
     if video_url:
         m3u8_file.write(f"#EXTINF:-1 tvg-group=\"TVI PLAYER\" tvg-logo=\"{image_url}\",{title}\n{video_url}\n")
 
+
 m3u8_file.close()
