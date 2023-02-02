@@ -44,9 +44,17 @@ jobs:
          youtube-dl -U
       - name: Instalando streamlink
         run: |
-         pip install --user --upgrade streamlink
+         pip install --user --upgrade streamlink   
+         
+      - name: Instalando streamlink
+        run: |
+         pip install youtube-dl 
+         pip install requests 
+         pip install beautifulsoup4 
+         pip install fastapi 
+         pip install uvicorn 
+         pip install schedule
 
-           
       - name: execute py script
         run: python STR2.py
               
