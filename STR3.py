@@ -14,7 +14,8 @@ url = "https://www.rtve.es/play/la-1/"
 response = requests.get(url, headers=headers)
 soup = BeautifulSoup(response.content, "html.parser")
 
-video_links = [item['href'] for item in soup.find_all("a", class_="goto_media")]
+video_links = [item.get('href') for item in soup.find_all("a", class_="goto_media") if item.get('href')]
+
 video_titles = [item['title'] for item in soup.find_all("a", class_="goto_media")]
 
 
