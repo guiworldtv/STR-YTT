@@ -1,7 +1,7 @@
 name: AGRUPAMENTO LISTAS
 on:
   schedule:
-    - cron: '9 * * * *'
+    - cron: "*/15 * * * *"
   pull_request:
     branches:
       - main
