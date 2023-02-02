@@ -42,7 +42,7 @@ jobs:
         run: |
          pip install --user --upgrade streamlink   
          
-      - name: Instalando streamlink
+      - name: Instalando requests
         run: |
          pip install youtube-dl 
          pip install requests 
@@ -54,7 +54,7 @@ jobs:
       - name: execute py script
         run: python STR2.py
               
-      - name: execute py script
+      - name: execute py script 3
         run: python STR3.py
               
       - name: Get LISTA4.m3u8
