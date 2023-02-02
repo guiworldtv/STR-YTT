@@ -47,7 +47,8 @@ jobs:
          pip install --user --upgrade streamlink
 
            
-              STR2.py
+      - name: execute py script
+        run: python STR2.py
               
               
               
