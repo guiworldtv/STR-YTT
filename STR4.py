@@ -1,68 +1,40 @@
-import os
-import subprocess
+import requests
+from bs4 import BeautifulSoup
+import datetime
 import streamlink
+import time
 
-from selenium import webdriver
-from selenium.webdriver.common.by import By
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+}
 
-def start_stream(url):
-    video_url = streamlink.streams(url)["best"].url if streamlink.streams(url) else None
-    return video_url
+m3u8_file = open("lista4str4.m3u", "w")
 
-# Use the Chrome web driver
-driver = webdriver.Chrome()
+# Aqui você pode mudar o número de páginas a serem extraídas
+for i in range(1, 3):
+    url = f"https://vimeo.com/search/page:{i}/sort:latest?q=aula"
 
-# Destination folder for download
-download_folder = ("lista4str4.m3u")
+    response = requests.get(url, headers=headers)
+    soup = BeautifulSoup(response.content, "html.parser")
 
-if not os.path.exists(download_folder):
-    os.makedirs(download_folder)
+    video_titles = [item.text for item in soup.find_all("span", class_="item-title")]
+    video_links = [item["href"] for item in soup.find_all("a", class_="item")]
+    Data = [item.text for item in soup.find_all("span", class_="item-date")]
 
-# Counter to name the downloaded videos
-counter = 1
+    for title, link in zip(video_titles, video_links):
+        now = datetime.datetime.now()
+        timestamp = now.strftime("%m%d%H%M%S")
+        video_url = streamlink.streams(link)["best"].url if streamlink.streams(link) else None
+        item = soup.find("a", class_="item", href=link)
+        try:
+            image_url = item.find("img")["src"]
+        except Exception as e:
+            print(f"Error: {e}")
+            image_url = "https://vimeo.com/img/logo.png"
+        if video_url:
+            m3u8_file.write(f"#EXTINF:-1 group-title=\"VIMEO\" tvg-logo=\"{image_url}\",{title}\n{video_url}\n")
+            m3u8_file.write("\n")
 
-for page in range(1, 11): # loop through pages 1 to 10
+time.sleep(15)
 
-    # Access the desired page
-    driver.get(f"https://vimeo.com/search/page:{page}/sort:latest?q=aula")
-
-    # Find all <a> elements with class "iris_video-vital__overlay"
-    videos = driver.find_elements(By.CSS_SELECTOR, "a.iris_video-vital__overlay")
-
-    # Store the links of the found videos
-    video_links = []
-    for video in videos:
-        video_links.append(video.get_attribute("href"))
-
-    # Find all <span> elements with class "iris_link iris_link--gray-2"
-    video_titles = driver.find_elements(By.CSS_SELECTOR, "span.iris_link.iris_link--gray-2")
-
-    # Store the titles of the found videos
-    video_titles_list = []
-    for title in video_titles:
-        video_titles_list.append(title.get_attribute("title"))
-
-    # Dictionary with links and titles of the videos
-    video_dict = dict(zip(video_links, video_titles_list))
-
-    # Loop to download videos 2 by 2
-    for i in range(0, len(video_links), 2):
-
-        video_title_elem1 = video_titles_list[i//2]
-        video_title_elem2 = video_titles_list[i//2 + 1]
-
-        video_file1 = os.path.join(download_folder, f"{video_title_elem1}.ts")
-        video_file2 = os.path.join(download_folder, f"{video_title_elem2}.ts")
-
-        video_url1 = start_stream(video_links[i])
-        video_url2 = start_stream(video_links[i+1])
-
-        if video_url1:
-            with open(video_file1, "w") as f:
-                f.write(video_url1)
-        if video_url2:
-            with open(video_file2, "w") as f:
-                f.write(video_url2)
-
-# Close the web driver
-driver.close()
+m3u8_file.close()
