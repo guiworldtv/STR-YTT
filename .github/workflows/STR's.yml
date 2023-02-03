@@ -53,9 +53,9 @@ jobs:
          pip install selenium
          
 
-        
-      - name: execute py script 4
-        run: python STR4.py
+      - name: execute py script
+        run: python STR2.py        
+
               
       - name: Get LISTA4.m3u8
         run: |
