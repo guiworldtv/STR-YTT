@@ -13,7 +13,7 @@ def start_stream(url):
 driver = webdriver.Chrome()
 
 # Destination folder for download
-download_folder = ("/path/to/download/folder")
+download_folder = ("lista4str4.m3u")
 
 if not os.path.exists(download_folder):
     os.makedirs(download_folder)
