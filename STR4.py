@@ -1,6 +1,3 @@
-!pip install selenium
-
-
 import os
 import subprocess
 import streamlink
