@@ -1,26 +1,24 @@
 import os
 import subprocess
-import time
+import streamlink
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-def start_stream(url, video_title):
-    with open("video_list.m3u", "a") as f:
-        f.write(f"#EXTINF:-1,{video_title}\n")
-        f.write(f"{url}\n")
+def start_stream(url):
+    video_url = streamlink.streams(url)["best"].url if streamlink.streams(url) else None
+    return video_url
 
 # Use the Chrome web driver
 driver = webdriver.Chrome()
 
-# Destination folder for video list
+# Destination folder for download
+download_folder = ("/path/to/download/folder")
 
-video_list_file = "video_list.m3u"
+if not os.path.exists(download_folder):
+    os.makedirs(download_folder)
 
-if os.path.exists(video_list_file):
-    os.remove(video_list_file)
-
-# Counter to name the videos in the list
+# Counter to name the downloaded videos
 counter = 1
 
 for page in range(1, 11): # loop through pages 1 to 10
@@ -47,13 +45,24 @@ for page in range(1, 11): # loop through pages 1 to 10
     # Dictionary with links and titles of the videos
     video_dict = dict(zip(video_links, video_titles_list))
 
-    # Loop to write videos in the list 2 by 2
+    # Loop to download videos 2 by 2
     for i in range(0, len(video_links), 2):
 
         video_title_elem1 = video_titles_list[i//2]
         video_title_elem2 = video_titles_list[i//2 + 1]
 
-        start_stream(video_links[i], video_title_elem1)
-        start_stream(video_links[i+1], video_title_elem2)
+        video_file1 = os.path.join(download_folder, f"{video_title_elem1}.ts")
+        video_file2 = os.path.join(download_folder, f"{video_title_elem2}.ts")
 
-driver.quit()
+        video_url1 = start_stream(video_links[i])
+        video_url2 = start_stream(video_links[i+1])
+
+        if video_url1:
+            with open(video_file1, "w") as f:
+                f.write(video_url1)
+        if video_url2:
+            with open(video_file2, "w") as f:
+                f.write(video_url2)
+
+# Close the web driver
+driver.close()
