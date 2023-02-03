@@ -58,7 +58,7 @@ jobs:
       - name: execute py script 3
         run: python STR3.py
         
-      - name: execute py script 3
+      - name: execute py script 4
         run: python STR4.py
               
       - name: Get LISTA4.m3u8
