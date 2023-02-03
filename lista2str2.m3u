@@ -1,54 +1,378 @@
-#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Jornal da CNN - 25 de janeiro de 2023
-https://streaming-vod1.iol.pt/vod/_definst_/9/c/0/5/smil:63d1b4020cf2665294d29c05-L/chunklist_w2129824156_b2000000.m3u8?nimblesessionid=634866253&wmsAuthSign=c2VydmVyX3RpbWU9Mi8yLzIwMjMgMTE6NTc6NDIgUE0maGFzaF92YWx1ZT1aQUF4QjJrUU1MQm1LbTNMV0w5TTNnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NzY5NjA1Y2MtNGM1My00MDg2LTlmZWUtMDYwZDI2YWIxMzAx
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Jornal da CNN - 2 de fevereiro de 2023
+https://streaming-vod1.iol.pt/vod/_definst_/2/f/1/8/smil:63dc410d0cf2c84d7fc62f18-L/chunklist_w1918521542_b2000000.m3u8?nimblesessionid=634870170&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTA6OSBBTSZoYXNoX3ZhbHVlPUIyUHoyS09ISnNzOE4wbFR1YWZFSlE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1lNjNmN2RkOC1lOWY1LTRlZTktOWZkMS0xODdkYmRiNzgzYTM%3D
 
-#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Fim de Tarde - 25 de janeiro de 2023
-https://streaming-vod1.iol.pt/vod/_definst_/1/8/9/b/smil:63d1a0540cf28f3e15c9189b-L/chunklist_w717135377_b2000000.m3u8?nimblesessionid=634866311&wmsAuthSign=c2VydmVyX3RpbWU9Mi8yLzIwMjMgMTE6NTc6NDggUE0maGFzaF92YWx1ZT1KMUN2OWlFUkZnNC9VRk01Q09zTTJ3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ODg3NmY0NWItYTMyYi00YTM1LTg5NmMtYzRiMWZjNzliYTBi
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN em jogo - Enzo recusou ficar no Benfica
+https://streaming-vod2.iol.pt/vod/_definst_/2/b/3/e/smil:63dc2c1a0cf2c84d7fc62b3e-L/chunklist_w869819823_b2000000.m3u8?nimblesessionid=318539638&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTA6MTQgQU0maGFzaF92YWx1ZT1WbUlGb1R1ZllocVZsaUdaV2xmcThnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YzdhMDkwODEtNTgxMC00ZTRjLWJjNjgtNDM2ZTU5MTE1MzE3
 
-#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Agora CNN - Parte II - 25 de janeiro de 2023
-https://streaming-vod1.iol.pt/vod/_definst_/0/1/6/8/smil:63d174700cf2cf9224f60168-L/chunklist_w188130973_b2000000.m3u8?nimblesessionid=634866351&wmsAuthSign=c2VydmVyX3RpbWU9Mi8yLzIwMjMgMTE6NTc6NTQgUE0maGFzaF92YWx1ZT1YTyt5OXBDZkx6eDVWK0taa1k5SHB3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NGZhYjBlYTktODMyMy00OTk1LTk0ZGYtMDk5YjBkZGFiN2Ri
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Fim de Tarde - 2 de fevereiro de 2023
+https://streaming-vod2.iol.pt/vod/_definst_/d/0/3/7/smil:63dc1af80cf2665294d3d037-L/chunklist_w350384046_b2000000.m3u8?nimblesessionid=318539666&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTA6MTkgQU0maGFzaF92YWx1ZT1ibWtSd01XcDBaaU1zRGQ3K2NpbWNnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MzFiMGQ0ZjctM2I4ZC00OWRmLTk3MzgtODU1NmM0YzM2MGE5
 
-#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Mais Transferências - Reunião decisiva pode ditar saída de Porro
-https://streaming-vod1.iol.pt/vod/_definst_/8/e/8/8/smil:63d16f120cf2665294d28e88-L/chunklist_w256654351_b2000000.m3u8?nimblesessionid=634866420&wmsAuthSign=c2VydmVyX3RpbWU9Mi8yLzIwMjMgMTE6NTg6MyBQTSZoYXNoX3ZhbHVlPXNXRnkxYTNSZDVhcmVEd0tvdlJWdkE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD04YmMwMjBmYS04Y2Q2LTQwNzAtYWRlMy04YThlNTgyNDA5NTc%3D
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Meio Dia - 2 de fevereiro de 2023
+https://streaming-vod3.iol.pt/vod/_definst_/4/6/4/e/smil:63dbdac30cf28f3e15ca464e-L/chunklist_w913898633_b2000000.m3u8?nimblesessionid=618274057&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTA6MjYgQU0maGFzaF92YWx1ZT10SUZVNWVheHBFTURjNGFGc1lIMFBBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZjllM2UyZjUtMWRkNS00ZDNjLWE0NDItZTE3ZTMzMjI5NjVj
 
-#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Agora CNN - Parte I - 25 de janeiro de 2023
-https://streaming-vod1.iol.pt/vod/_definst_/8/c/b/7/smil:63d163060cf2665294d28cb7-L/chunklist_w878920257_b2000000.m3u8?nimblesessionid=634866467&wmsAuthSign=c2VydmVyX3RpbWU9Mi8yLzIwMjMgMTE6NTg6OSBQTSZoYXNoX3ZhbHVlPWpiRERkVzdoZTZ5MmhHaWpkZy9iM2c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0wZWY5NDBkOC0xNmNiLTQ5MmYtYWViMi1lMDI0MzJlN2IxYWY%3D
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Hoje - 2 de fevereiro de 2023
+https://streaming-vod3.iol.pt/vod/_definst_/3/1/4/a/smil:63dbb1f60cf2cf9224f7314a-L/chunklist_w444869331_b2000000.m3u8?nimblesessionid=618274077&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTA6MzAgQU0maGFzaF92YWx1ZT1kY0d4akRaVUlPZUUyY0hhV29EaUx3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YWRjNzA1ODYtZmQxYS00ZjFmLWJhYjUtYjMwMjViODBjZTk4
 
-#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Meio Dia - 25 de janeiro de 2023
-https://streaming-vod1.iol.pt/vod/_definst_/f/a/f/b/smil:63d150410cf2cf9224f5fafb-L/chunklist_w1299471492_b2000000.m3u8?nimblesessionid=634866528&wmsAuthSign=c2VydmVyX3RpbWU9Mi8yLzIwMjMgMTE6NTg6MTQgUE0maGFzaF92YWx1ZT1xNlpJUCtoL2I2UjVzN1dXS0ZKSTBnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YzZjYTNhZWMtMjczYS00ZjlmLTljZmMtM2RmZTcyNzQyZTBk
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Novo Dia - 2 de fevereiro de 2023
+https://streaming-vod3.iol.pt/vod/_definst_/1/3/d/d/smil:63db976c0cf2c84d7fc613dd-L/chunklist_w504548888_b2000000.m3u8?nimblesessionid=618274107&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTA6MzQgQU0maGFzaF92YWx1ZT0xVzZIeUJsU25yeGhKUDRsdFlNYkdRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NWE4ZTRlMWItZTQ1NC00MTFiLWE3YjktNWQ5NDM2OGVkMjNk
 
-#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Hoje - 25 de janeiro de 2023
-https://streaming-vod3.iol.pt/vod/_definst_/f/3/2/d/smil:63d122910cf2cf9224f5f32d-L/chunklist_w468101328_b2000000.m3u8?nimblesessionid=618270686&wmsAuthSign=c2VydmVyX3RpbWU9Mi8yLzIwMjMgMTE6NTg6MjEgUE0maGFzaF92YWx1ZT1obXVNMmxOUHdnbnJNMTNYaTNmQ0F3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ODYwMTk2NzktZmY1Mi00MDI4LTg4MTktOGEzMGUwM2UxMGFk
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Notícias CNN 2H58
+https://streaming-vod3.iol.pt/vod/_definst_/2/7/0/d/smil:63db3e290cf2cf9224f7270d-L/chunklist_w1748056861_b2000000.m3u8?nimblesessionid=618274145&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTA6MzkgQU0maGFzaF92YWx1ZT1TYjFndkJmdS8yQXRZREtLREExZ1RnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZDNiMzI3ZjUtYTc4OS00NWI2LWI1ZGEtMTNjNDhiMzA2NmU0
 
-#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Novo Dia - 25 de janeiro de 2023
-https://streaming-vod2.iol.pt/vod/_definst_/d/9/2/2/smil:63d11aef0cf2c84d7fc4d922-L/chunklist_w732470766_b2000000.m3u8?nimblesessionid=318535912&wmsAuthSign=c2VydmVyX3RpbWU9Mi8yLzIwMjMgMTE6NTg6MjcgUE0maGFzaF92YWx1ZT12T1BqOFliU0VqNHVCQnF2ZXMwSkx3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NzMyMmI5MmQtMWI3Zi00NTA5LWE3NDEtNWVmMGRlYTYxMzZm
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Notícias CNN 1H58
+https://streaming-vod3.iol.pt/vod/_definst_/2/6/a/7/smil:63db28790cf2cf9224f726a7-L/chunklist_w1002043273_b2000000.m3u8?nimblesessionid=618274173&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTA6NDQgQU0maGFzaF92YWx1ZT1FRERBb0dZNDNWMUkvUEU1TlBSVjVBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ODEyZDkzMTQtMmQ3YS00NzRlLTg0MDYtN2NhMzliZTlmYmIx
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Meia Noite - 1 de fevereiro de 2023
+https://streaming-vod1.iol.pt/vod/_definst_/2/6/9/0/smil:63db23910cf2cf9224f72690-L/chunklist_w408087400_b2000000.m3u8?nimblesessionid=634870340&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTA6NDggQU0maGFzaF92YWx1ZT1VVVhZVmRjZEJoOFptWXA0d0REMm5RPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ODZiMWRmMDctM2EwNS00MTJjLTlmZTQtZGYxYzJjOTNiNDYx
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Prime Time - 1 de fevereiro de 2023
+https://streaming-vod1.iol.pt/vod/_definst_/b/4/d/e/smil:63db0cb00cf2665294d3b4de-L/chunklist_w1855050222_b2000000.m3u8?nimblesessionid=634870368&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTA6NTMgQU0maGFzaF92YWx1ZT1Sbnlhd2Q1MWgyL2FxK3BZL0c1NnVBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YTAzOGM5Y2ItZTFiYS00OTA2LTk1ZDYtNDQwMjAwMDExZTk3
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Jornal da CNN - 1 de fevereiro de 2023
+https://streaming-vod2.iol.pt/vod/_definst_/3/2/1/d/smil:63daee080cf28f3e15ca321d-L/chunklist_w1587287147_b2000000.m3u8?nimblesessionid=318539813&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTA6NTcgQU0maGFzaF92YWx1ZT1JRDVkRXBOUmsramQ5Tms5NEMrTkVBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NjljOTVkMzItZWM4YS00NDk3LWI2NDktMDUyZTdhZGExODZi
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN em jogo - André Almeida rescinde contrato com o Benfica
+https://streaming-vod2.iol.pt/vod/_definst_/b/2/5/f/smil:63daf43a0cf2665294d3b25f-L/chunklist_w1286400759_b2500000.m3u8?nimblesessionid=318539834&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTE6MSBBTSZoYXNoX3ZhbHVlPTU0RTh1UTZscVZQTzhSNWhZSHlUdWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1lOTdhZTM5ZS1jNGY0LTRlM2MtYWVjMy0zNDI2ZDBlOWM1ZDI%3D
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Agora CNN - Parte II - 1 de fevereiro de 2023
+https://streaming-vod2.iol.pt/vod/_definst_/f/c/e/5/smil:63daae6a0cf2c84d7fc5fce5-L/chunklist_w785402212_b2000000.m3u8?nimblesessionid=318539873&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTE6NyBBTSZoYXNoX3ZhbHVlPTlkUk9zUVRvYlpDL0dyWVdHbzUyUkE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1iYWY4MjJjOC0yN2JjLTQ0MGMtYjZjYy0yMGEyOGJiOGU2OTc%3D
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Mais Transferências - Enzo vendido ao Chelsea por 121 milhões de €
+https://streaming-vod2.iol.pt/vod/_definst_/f/b/b/3/smil:63daa6f30cf2c84d7fc5fbb3-L/chunklist_w166066670_b2000000.m3u8?nimblesessionid=318539893&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTE6MTEgQU0maGFzaF92YWx1ZT1aMjhEVTlrTTQ0MXB6OW9kZnNJOVdBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YTM0NWMxNTctMDk3Zi00MmFkLWE2MmEtOTk4MDIyMGM0M2M2
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Agora CNN - Parte I - 1 de fevereiro de 2023
+https://streaming-vod2.iol.pt/vod/_definst_/2/3/8/6/smil:63daa0660cf28f3e15ca2386-L/chunklist_w1222240162_b2000000.m3u8?nimblesessionid=318539919&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTE6MTUgQU0maGFzaF92YWx1ZT1KOVc0d1JZdWJ2Y1NZTTBKbEg3M1FRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NTFjOWY0ZTgtZWJhNy00MjJlLWI4YzktZWY5MWE2MWY2ZGEz
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Meio Dia - 1 de fevereiro de 2023
+https://streaming-vod2.iol.pt/vod/_definst_/a/0/d/c/smil:63da974d0cf2665294d3a0dc-L/chunklist_w593346534_b2000000.m3u8?nimblesessionid=318539934&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTE6MTkgQU0maGFzaF92YWx1ZT1BMHBTMzdIMUVjL0EvcTB6UW8xdzBnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZDI3MDBiNDQtMTA0Mi00MTY4LWIzYjQtY2JkMTI4YjAzYThk
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Hoje - 1 de fevereiro de 2023
+https://streaming-vod1.iol.pt/vod/_definst_/1/1/5/4/smil:63da902d0cf2cf9224f71154-L/chunklist_w1757162539_b2500000.m3u8?nimblesessionid=634870483&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTE6MjMgQU0maGFzaF92YWx1ZT0xTTB5ajlqbVNKUVdhUTdhTVdvWERRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZDU1ZTY1NDgtMjBlZC00Mjk5LWJjYjctMGUyZTMwMDc4ODcx
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Novo Dia - 1 de fevereiro de 2023
+https://streaming-vod1.iol.pt/vod/_definst_/9/6/b/0/smil:63da56580cf2665294d396b0-L/chunklist_w1764323940_b2000000.m3u8?nimblesessionid=634870515&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTE6MjcgQU0maGFzaF92YWx1ZT1ZL0JEVE93Sk8yRmNWMUdnUi82R2N3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MGUxMmRmNDYtN2E2ZC00MWU2LTg2YWEtMTJlOGI2MWQ1MmRm
 
 #EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Notícias CNN 3H
-https://streaming-vod2.iol.pt/vod/_definst_/f/7/7/0/smil:63d0b2f10cf28f3e15c8f770-L/chunklist_w1396268715_b2000000.m3u8?nimblesessionid=318535949&wmsAuthSign=c2VydmVyX3RpbWU9Mi8yLzIwMjMgMTE6NTg6MzQgUE0maGFzaF92YWx1ZT12Y2JEMnROMkVyMDNhaTBaRHR6dGZRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MjkyMjQzMjktNTM2YS00Y2Y3LWFkOGQtNTdhOGVkNmM2NTBh
+https://streaming-vod1.iol.pt/vod/_definst_/e/6/3/c/smil:63d9ed4c0cf2c84d7fc5e63c-L/chunklist_w1091526119_b2000000.m3u8?nimblesessionid=634870555&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTE6MzMgQU0maGFzaF92YWx1ZT1CcEt2d0UwampQZGdUWUUzR0xTRnRRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NTM4MGFkZWQtZTQ1MC00YTI2LTliM2EtMjAzODczOGEwYTk4
 
 #EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Notícias CNN 2H
-https://streaming-vod2.iol.pt/vod/_definst_/7/7/f/6/smil:63d09c6c0cf2665294d277f6-L/chunklist_w679166044_b2000000.m3u8?nimblesessionid=318536015&wmsAuthSign=c2VydmVyX3RpbWU9Mi8yLzIwMjMgMTE6NTg6NDAgUE0maGFzaF92YWx1ZT14Z3dFaUZvWVNTK0JVdjRLeW9pLzlnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MGFhZTQzZDEtNmQ0MC00MWIxLWE5MTQtY2MxZjFhMmQ1NGRm
+https://streaming-vod3.iol.pt/vod/_definst_/8/d/6/5/smil:63d9d7ef0cf2665294d38d65-L/chunklist_w791122782_b2000000.m3u8?nimblesessionid=618274342&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTE6MzcgQU0maGFzaF92YWx1ZT1hUEZYcm53c0xSQlFaeGFZNGR3MU93PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9OTYxMzVjZWQtOTBhMy00NzFiLWI3ZDQtODBlYTAyNDllNzMz
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Meia Noite - 31 de janeiro de 2023
+https://streaming-vod3.iol.pt/vod/_definst_/e/5/a/8/smil:63d9cebd0cf2c84d7fc5e5a8-L/chunklist_w198545434_b2000000.m3u8?nimblesessionid=618274361&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTE6NDEgQU0maGFzaF92YWx1ZT1HRVVuN245OHhFOWNoSXpreWVEMUtnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZmM5ZDAxY2QtZTI3OC00OThkLTliNmEtYjUzOWMyNTA2OGQy
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Prime Time - 31 de janeiro de 2023
+https://streaming-vod3.iol.pt/vod/_definst_/0/d/9/9/smil:63d9bb120cf28f3e15ca0d99-L/chunklist_w1600024870_b2000000.m3u8?nimblesessionid=618274390&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTE6NDYgQU0maGFzaF92YWx1ZT0zcityNFdQR2lYVnNKa0UzcnZ5dEhBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MjA5YzljMGQtOTE0Yi00Yzc4LWEwZjItMTY3NjdjM2IzZmJi
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Jornal da CNN - 31 de janeiro de 2023
+https://streaming-vod1.iol.pt/vod/_definst_/e/1/e/6/smil:63d99e8d0cf2c84d7fc5e1e6-L/chunklist_w1597083591_b2000000.m3u8?nimblesessionid=634870655&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTE6NTEgQU0maGFzaF92YWx1ZT1DZy9lNk1vSGVISFRkOWROaFpvMnFBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MzUzYmI0MGYtYzFjYS00ZTQwLTk2NDUtNzhiMDY0YmE2ZmJm
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN em jogo - Enzo Fernández falha jogo com o Arouca
+https://streaming-vod3.iol.pt/vod/_definst_/f/5/d/2/smil:63d988d30cf2cf9224f6f5d2-L/chunklist_w959317473_b2000000.m3u8?nimblesessionid=618274441&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTE6NTYgQU0maGFzaF92YWx1ZT0xMjJHTzBmUmZ2WTl4NnlmWkpVWHVnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9Yzc1ZDVmMzMtNDk0Ny00MTBmLTk0YzUtM2RkYTdjYTE2ZGZh
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Fim de Tarde - 31 de janeiro de 2023
+https://streaming-vod1.iol.pt/vod/_definst_/7/f/d/8/smil:63d975bd0cf2665294d37fd8-L/chunklist_w1589268732_b2000000.m3u8?nimblesessionid=634870699&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTI6MCBBTSZoYXNoX3ZhbHVlPWg2ejFvZ1E1eDg3SFFkWDJteWsyaXc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1lNTY2MDRiMy03OTUxLTRkMDktOGM4Yi1hNTM2MzMwMjJhYjI%3D
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Agora CNN - Parte II - 31 de janeiro de 2023
+https://streaming-vod1.iol.pt/vod/_definst_/e/b/9/f/smil:63d95e700cf2cf9224f6eb9f-L/chunklist_w976405892_b2000000.m3u8?nimblesessionid=634870724&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTI6NCBBTSZoYXNoX3ZhbHVlPTN2ZVpWOWtuZXAyT3R1UXBZY2xvelE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD00NjM0OWMyNC1jOGZlLTQyMDctOGJjNi00ZTM2YTc0NDc4OTQ%3D
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Mais Transferências - Enzo Fernández não viajou com a equipa para estágio
+https://streaming-vod2.iol.pt/vod/_definst_/e/a/9/1/smil:63d958ba0cf2cf9224f6ea91-L/chunklist_w1426357959_b2000000.m3u8?nimblesessionid=318540171&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTI6OCBBTSZoYXNoX3ZhbHVlPXlPK21SN3pzbUtkQldsdFhwQTFML3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1kOGU1MDkxMi02YmJjLTRkNGEtYjk2ZC0zOTFiZmE2Zjc1YmQ%3D
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Agora CNN - Parte I - 31 de janeiro de 2023
+https://streaming-vod2.iol.pt/vod/_definst_/7/8/c/e/smil:63d952720cf2665294d378ce-L/chunklist_w591579202_b2000000.m3u8?nimblesessionid=318540196&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTI6MTIgQU0maGFzaF92YWx1ZT1uTE44am1oVERKREhIK05DYjhtMjJRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NjZiZWVkOWUtMTYwMS00Mjg5LTkwMWUtZDI3N2U4MGM4ZDBl
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Meio Dia - 31 de janeiro de 2023
+https://streaming-vod1.iol.pt/vod/_definst_/e/6/f/0/smil:63d9436f0cf2cf9224f6e6f0-L/chunklist_w323678648_b2000000.m3u8?nimblesessionid=634870789&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTI6MTcgQU0maGFzaF92YWx1ZT13RXg4aGpKRkxtZm1MTWN5Q1pvYzdBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9Zjg1NzNiNzUtYTdiMC00ZWU5LWI3OTYtMGJmOTdhMWZkY2Ix
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Hoje - 31 de janeiro de 2023
+https://streaming-vod1.iol.pt/vod/_definst_/6/b/b/9/smil:63d904740cf2665294d36bb9-L/chunklist_w1175546051_b2000000.m3u8?nimblesessionid=634870813&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTI6MjEgQU0maGFzaF92YWx1ZT0rM3RTdlZzaDZDVXJuc203WTZFZGFRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YWUxYWVlYjEtMGVmOC00ZjQ5LWJjNjctMDg3MmE1OGRhYzU4
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Novo Dia - 31 de janeiro de 2023
+https://streaming-vod1.iol.pt/vod/_definst_/6/b/4/c/smil:63d902f70cf2665294d36b4c-L/chunklist_w1546412900_b2000000.m3u8?nimblesessionid=634870840&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTI6MjUgQU0maGFzaF92YWx1ZT1nVnFUTGhqZGh6dGM4R0RzblhhVHV3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MWMzMWRhMjItOGVhYS00ZWRjLTk3NDctNDIyYzA0NzY3YmFk
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Notícias CNN 5H
+https://streaming-vod1.iol.pt/vod/_definst_/b/d/d/2/smil:63d8df6a0cf2c84d7fc5bdd2-L/chunklist_w1008811671_b2500000.m3u8?nimblesessionid=634870872&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTI6MzAgQU0maGFzaF92YWx1ZT0venFPUTV3ZXFsUmg5Y1k4T3pZK0xRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YTk1MDdlYTItZjYzYi00NTRkLTlhNTUtMWVhMGQ0MzI3ODk2
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Notícias CNN 3H
+https://streaming-vod1.iol.pt/vod/_definst_/e/2/1/d/smil:63d89bd90cf28f3e15c9e21d-L/chunklist_w1036182259_b2000000.m3u8?nimblesessionid=634870905&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTI6MzQgQU0maGFzaF92YWx1ZT02cTNpYW90RVJqcTJrRklrNmJ1QTNnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YjQ3N2JjMGQtNTEwMS00YTdjLWFkNTAtNjQ3OTYzMjY0ZDFk
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Notícias CNN 2H
+https://streaming-vod2.iol.pt/vod/_definst_/e/1/b/e/smil:63d8861b0cf28f3e15c9e1be-L/chunklist_w1327361304_b2000000.m3u8?nimblesessionid=318540323&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTI6MzggQU0maGFzaF92YWx1ZT01RTEzTndHV1Q5eUxxOUNZWTRwTWtRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NDRlMDE1ZDUtMzg3OS00MjQ0LWFjN2YtMzc4Yjk2NGZhMjVj
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Meia Noite - 30 de janeiro de 2023
+https://streaming-vod2.iol.pt/vod/_definst_/b/9/5/8/smil:63d87dd50cf2c84d7fc5b958-L/chunklist_w944603668_b2000000.m3u8?nimblesessionid=318540343&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTI6NDIgQU0maGFzaF92YWx1ZT1HdlQybUtjbDJOeFQ1eERxL0RhOVR3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NjhiOGFmZWUtY2RiZS00MzFjLWI5ZDItYmQwZjc2NWM0M2Mz
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Rui Santos em campo - 31 de janeiro de 2023
+https://streaming-vod3.iol.pt/vod/_definst_/b/8/9/f/smil:63d868790cf2c84d7fc5b89f-L/chunklist_w68813033_b2000000.m3u8?nimblesessionid=618274646&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTI6NDcgQU0maGFzaF92YWx1ZT02NFBTYktXMmtQZDJzbnN0VGcxVFpBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MWMxNjk2OTItNjg3MS00Y2E2LTkwZDctNWEyMzk3ZjQxZDIz
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Prime Time - 30 de janeiro de 2023
+https://streaming-vod3.iol.pt/vod/_definst_/5/f/8/9/smil:63d8591d0cf2665294d35f89-L/chunklist_w771581926_b2000000.m3u8?nimblesessionid=618274668&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTI6NTIgQU0maGFzaF92YWx1ZT1hY2N3UWsxMjh0Wjd5SGNaQXdlUlB3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MmUyODEyMDQtOGM4ZC00MjkzLTk5ZWUtMTE0NjU1MTgyNTNl
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Exclusivo: episódio na íntegra
+https://streaming-vod3.iol.pt/vod/_definst_/b/f/b/c/smil:63d8ed150cf2c84d7fc5bfbc-L/chunklist_w1941306955_b2500000.m3u8?nimblesessionid=618274696&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTI6NTYgQU0maGFzaF92YWx1ZT02RUZnMkVLaFNYUUJUVTMzSjhQOFlRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9M2I0NWNjZDEtNDYwYi00NDZiLWJhY2UtOTE5MjU1MDYwY2Ex
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Jornal da CNN - 30 de janeiro de 2023
+https://streaming-vod3.iol.pt/vod/_definst_/5/c/e/6/smil:63d847560cf2665294d35ce6-L/chunklist_w125861856_b2000000.m3u8?nimblesessionid=618274727&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTM6MSBBTSZoYXNoX3ZhbHVlPXQ0Wkd0RHRGaFNST0hCTW81STZ0d0E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1jNzkzNDdmNC00YWRhLTQzZjYtODM0Zi0zZTI2OTNmNTJkNDY%3D
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN em jogo - Enzo Fernández falhou treino de hoje
+https://streaming-vod3.iol.pt/vod/_definst_/d/9/e/1/smil:63d836480cf28f3e15c9d9e1-L/chunklist_w1607508391_b2000000.m3u8?nimblesessionid=618274748&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTM6NSBBTSZoYXNoX3ZhbHVlPUZBbHBJSnRKOVdPV1RtUWpQRW1Vanc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD01NjVhMGRhYy01OWE2LTRhZGEtYmIzYS1lNzNhNjRhODE5ODY%3D
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Fim de Tarde - 30 de janeiro de 2023
+https://streaming-vod3.iol.pt/vod/_definst_/d/5/f/b/smil:63d826c50cf28f3e15c9d5fb-L/chunklist_w1751328127_b2000000.m3u8?nimblesessionid=618274775&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTM6MTAgQU0maGFzaF92YWx1ZT0vL3dtWUZ3Sis0VU5EY2thU1hKdXd3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YzExZTFiMmYtOWE4MC00OGE5LWIyNjgtOTEyMzJlNjEyNWMy
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Agora CNN - Parte II - 30 de janeiro de 2023
+https://streaming-vod3.iol.pt/vod/_definst_/5/0/b/d/smil:63d813140cf2665294d350bd-L/chunklist_w1757589010_b2000000.m3u8?nimblesessionid=618274806&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTM6MTUgQU0maGFzaF92YWx1ZT1FRk9LZzFDdmhGQzVRdlAwcE9lMmxRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZTE3M2RhMTgtNTIyZS00N2NjLTlkZmQtNTliNGYzMDRmNTQ0
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Mais Transferências - João Cancelo no Bayern Munique por empréstimo
+https://streaming-vod3.iol.pt/vod/_definst_/a/5/5/6/smil:63d807820cf2c84d7fc5a556-L/chunklist_w742550507_b2000000.m3u8?nimblesessionid=618274835&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTM6MTkgQU0maGFzaF92YWx1ZT10L1FjMVdyUGUyS2svaklqcDlYNkxnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZmMzZTg3NDMtYmEwYS00ODgzLTkzMjYtZDE2ZjY4NjcwNDZj
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Agora CNN - Parte I - 30 de janeiro de 2023
+https://streaming-vod3.iol.pt/vod/_definst_/4/c/4/5/smil:63d7ffe20cf2665294d34c45-L/chunklist_w1524356323_b2000000.m3u8?nimblesessionid=618274869&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTM6MjQgQU0maGFzaF92YWx1ZT1zWWQvMHlCQlJyNHVIUzJLcWpEU2JRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NTdkZWJhODEtZTA0OS00Y2RiLTg1MWItYWM2MTNjZmM0ZTMw
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Meio Dia - 30 de janeiro de 2023
+https://streaming-vod3.iol.pt/vod/_definst_/b/a/a/a/smil:63d7ef380cf2cf9224f6baaa-L/chunklist_w531476796_b2000000.m3u8?nimblesessionid=618274898&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTM6MjggQU0maGFzaF92YWx1ZT10M25Rd3Z3RWZiMU80KzBmdGc4YW5BPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NGQzM2ZlZmUtNTJhNC00MzBjLWFhMmQtM2MxNDE3NzI3Nzkw
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Hoje - 30 de janeiro de 2023
+https://streaming-vod3.iol.pt/vod/_definst_/a/b/7/e/smil:63d7b30e0cf2cf9224f6ab7e-L/chunklist_w206684262_b2000000.m3u8?nimblesessionid=618274935&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTM6MzIgQU0maGFzaF92YWx1ZT1DeDRjSHNNclNaeEsyUlUvcVprcWl3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NjBlZTljMGEtOTBlOS00MmI4LThmMzItOTAwMWUzZjJlMzJh
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Novo Dia - 30 de janeiro de 2023
+https://streaming-vod2.iol.pt/vod/_definst_/8/f/e/3/smil:63d7a3150cf2c84d7fc58fe3-L/chunklist_w1585826909_b2000000.m3u8?nimblesessionid=318540560&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTM6MzcgQU0maGFzaF92YWx1ZT1Nb28wOSs4Y25ZMG9GaXlxYmQwMzh3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NWQyY2M2MzItOWY0Ny00YzA0LTliNTMtNWU1OThjMGUyYTBj
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Notícias CNN 5H30
+https://streaming-vod2.iol.pt/vod/_definst_/8/c/9/0/smil:63d7840f0cf2c84d7fc58c90-L/chunklist_w857930466_b2000000.m3u8?nimblesessionid=318540589&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTM6NDEgQU0maGFzaF92YWx1ZT1LWlU4elhYT1c3d1JkbDlVV1FhQUpnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YTBiODUxYjgtNTJmYy00ZmM4LWFmYTctMTc3Njg5NWJkNDE1
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Notícias CNN 3H
+https://streaming-vod2.iol.pt/vod/_definst_/3/5/2/e/smil:63d790560cf2665294d3352e-L/chunklist_w1104871899_b2500000.m3u8?nimblesessionid=318540613&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTM6NDYgQU0maGFzaF92YWx1ZT1vZkQzdm54WFVQWklIaWd2bHNzdllRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MGIyODMwZGItMGNkOC00OGExLTkwNzctZjk4MzEyNzk1YzA3
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Notícias CNN 2H
+https://streaming-vod1.iol.pt/vod/_definst_/a/2/9/0/smil:63d733ba0cf2cf9224f6a290-L/chunklist_w1694225291_b2000000.m3u8?nimblesessionid=634871217&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTM6NTAgQU0maGFzaF92YWx1ZT1iOXN0a3k5OWpCcUVyOEZiQ1hPczd3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZTE1NWEwMTMtNTNiNS00MzcxLWJlNTgtOTY1ZGMwYjY3NTc4
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Meia Noite - 29 de janeiro de 2023
+https://streaming-vod1.iol.pt/vod/_definst_/8/9/a/2/smil:63d72bb70cf2c84d7fc589a2-L/chunklist_w1870741127_b2000000.m3u8?nimblesessionid=634871233&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTM6NTQgQU0maGFzaF92YWx1ZT1MMnBScVVmVXhSaW52cHNwNGUzMzlBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YjQ1MTM3ODItZDUxNy00NTIxLWEwMWYtYjQ0OWY1MTEzZGUz
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",O Princípio da Incerteza - 29 de janeiro de 2023
+https://streaming-vod1.iol.pt/vod/_definst_/a/1/d/b/smil:63d716750cf2cf9224f6a1db-L/chunklist_w275587647_b2000000.m3u8?nimblesessionid=634871267&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTM6NTkgQU0maGFzaF92YWx1ZT13dEkyQXB6eXBJM0VJd1V5OUZ4WEx3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZGJhNzg1NDItZGMxZS00NDQ5LTk1YzctMWMwZmJhZjYwYTY0
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Notícias CNN 23H
+https://streaming-vod1.iol.pt/vod/_definst_/8/8/0/2/smil:63d708d80cf2c84d7fc58802-L/chunklist_w1979891973_b2000000.m3u8?nimblesessionid=634871305&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTQ6NCBBTSZoYXNoX3ZhbHVlPWJCV2RLM2RzL2MvM2hmcVpvNjRyTEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0xZmE1MjBkZS0xYzdlLTQ1ODctYTQ1Yi02M2NiZTdlMThmNGE%3D
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Domingo 18H
+https://streaming-vod1.iol.pt/vod/_definst_/3/6/f/a/smil:63d79da70cf2665294d336fa-L/chunklist_w1363733014_b2500000.m3u8?nimblesessionid=634871338&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTQ6OSBBTSZoYXNoX3ZhbHVlPWlHT1NYQXdPdnBLSzFTWUt1ZkR6WlE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1jZjVjZWJkZi0zYTI0LTQwOTgtODE1Ny01MWI1ZDU0NTJkYjY%3D
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Domingo 16H56
+https://streaming-vod2.iol.pt/vod/_definst_/2/0/4/3/smil:63d6b53c0cf2665294d32043-L/chunklist_w1934411140_b2000000.m3u8?nimblesessionid=318540739&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTQ6MTQgQU0maGFzaF92YWx1ZT1JNnBnWDNvNXI4RFFzdVpKR0lCTk5BPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MDkzZDhmZjItZjdhZi00ZjE1LThhMjEtZGNlYWUzNGIzOGFm
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",GPS Fareed Zakaria - 29 de janeiro de 2022
+https://streaming-vod2.iol.pt/vod/_definst_/9/1/e/1/smil:63d6b4850cf2cf9224f691e1-L/chunklist_w541313422_b2500000.m3u8?nimblesessionid=318540764&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTQ6MTkgQU0maGFzaF92YWx1ZT1ZaDkvSTFuSTBkS3FVL2dLWUdHTDJ3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NjNjNzYzNWEtNTZlNS00YTZhLTlkNWMtY2Q0N2YyZmQ1NmYy
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Domingo 15H56
+https://streaming-vod2.iol.pt/vod/_definst_/7/7/0/2/smil:63d6a6e90cf2c84d7fc57702-L/chunklist_w2120982169_b2000000.m3u8?nimblesessionid=318540786&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTQ6MjMgQU0maGFzaF92YWx1ZT0yZm5BVk5rY09KcTFSYk9TSDdtbVhBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MWU1MDk2ODItNGNhMC00Y2Y1LTg1M2EtZTBiN2M4ZmRjODJi
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Domingo 14H56
+https://streaming-vod2.iol.pt/vod/_definst_/1/d/9/e/smil:63d69d5d0cf2665294d31d9e-L/chunklist_w529918968_b2000000.m3u8?nimblesessionid=318540820&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTQ6MjkgQU0maGFzaF92YWx1ZT1MeklMY1BiM0ZFcmhHaGI5S01oRVJ3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZGI3ZWQ1NGEtOGJiMC00ZTkxLWIwMjAtNWIzNzM5NDBjMjA4
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Domingo 13H45
+https://streaming-vod2.iol.pt/vod/_definst_/1/b/9/3/smil:63d68ba40cf2665294d31b93-L/chunklist_w473306867_b2000000.m3u8?nimblesessionid=318540839&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTQ6MzMgQU0maGFzaF92YWx1ZT1KT2F0UVc2N09CdXVHN1pCOGJLQnZ3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NDcxNzIzM2MtODAzYS00M2Q3LTk3MGUtYjEzMjJmZDQxZmI0
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Domingo 10H56
+https://streaming-vod3.iol.pt/vod/_definst_/8/a/a/d/smil:63d675d20cf2cf9224f68aad-L/chunklist_w1608452763_b2000000.m3u8?nimblesessionid=618275199&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTQ6MzggQU0maGFzaF92YWx1ZT1qQjJaUmlCSWh2emFhWHBYWmVIZ0l3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NWFiNmMxNTgtMmY0NS00OTU2LTllMDQtNGFhNmFhMjQxNGZk
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Domingo 9H56
+https://streaming-vod3.iol.pt/vod/_definst_/8/7/6/4/smil:63d65aac0cf2cf9224f68764-L/chunklist_w722590688_b2000000.m3u8?nimblesessionid=618275217&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTQ6NDIgQU0maGFzaF92YWx1ZT1ycG1JbGV4aWMxV3NmK29WWDZaMUFRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9M2VkZTIwNzAtY2FlZS00ODZlLTk3MjgtNTM2M2ZhNTk0ZTY5
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Domingo 5H58
+https://streaming-vod3.iol.pt/vod/_definst_/8/5/f/2/smil:63d6505a0cf2cf9224f685f2-L/chunklist_w1526619781_b2000000.m3u8?nimblesessionid=618275241&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTQ6NDYgQU0maGFzaF92YWx1ZT1ramhqb1VDdG0rQUJGNFJ6aUpETE5nPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NTlhZjdiYjktMGIwNC00YzVlLThkMTAtM2RjMmFjMWU4NjQ4
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Notícias CNN 5H30
+https://streaming-vod3.iol.pt/vod/_definst_/8/3/5/6/smil:63d6331b0cf2cf9224f68356-L/chunklist_w383966099_b2000000.m3u8?nimblesessionid=618275275&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTQ6NTEgQU0maGFzaF92YWx1ZT1MRjNkUXBSa2JmdVZXTUowdStVZ3ZRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZjBjZTU1NGUtOGY2Ni00NGU3LWFmOWEtYTRmMjk4ZGVjNTdk
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Notícias CNN 2h58
+https://streaming-vod3.iol.pt/vod/_definst_/6/8/b/a/smil:63d5f95d0cf2c84d7fc568ba-L/chunklist_w256582067_b2000000.m3u8?nimblesessionid=618275317&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTQ6NTYgQU0maGFzaF92YWx1ZT1qZnZiaGR6dVlpLzNUSFo3c3ZwN0JBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9M2YzMjQ3Y2UtOTkxNS00ZWEzLWFmYTgtOTRhMzdmZjNjNmZk
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Notícias CNN 1H58
+https://streaming-vod3.iol.pt/vod/_definst_/6/8/4/5/smil:63d5ded80cf2c84d7fc56845-L/chunklist_w1186376860_b2000000.m3u8?nimblesessionid=618275361&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTU6MiBBTSZoYXNoX3ZhbHVlPStIVGVqUVdVbE5lTTBPOE1RdS9DOWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD01MzZhMjBiMS1mNjU3LTQ4YzUtYjBkZC1jNmUwYzVlZTk5NjM%3D
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Meia Noite - 28 de janeiro de 2023
+https://streaming-vod3.iol.pt/vod/_definst_/6/8/1/8/smil:63d5d98e0cf2c84d7fc56818-L/chunklist_w1828589202_b2000000.m3u8?nimblesessionid=618275379&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTU6NyBBTSZoYXNoX3ZhbHVlPUI3QmpWcEVzMHlZR3hwWmh2bTRIK1E9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD03NmQxMWQxMi01NWUyLTQ1MDUtYTQ3Ni02MWRiMjRhZjI2Y2U%3D
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Contra Poder - Quantos eleitores cabem no palco da direita?
+https://streaming-vod2.iol.pt/vod/_definst_/0/f/6/c/smil:63d5c8420cf2665294d30f6c-L/chunklist_w1621975611_b2000000.m3u8?nimblesessionid=318540990&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTU6MTIgQU0maGFzaF92YWx1ZT13bkxCcHZoZVl4TU0vbjJVKzZGYi9nPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MWZiZTFkMGMtZDI0MC00ZDc1LWJlZWYtZGQ0ZDAzOWUzZDg0
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Notícias CNN 22H58
+https://streaming-vod2.iol.pt/vod/_definst_/8/d/f/0/smil:63d5b6d70cf28f3e15c98df0-L/chunklist_w364339155_b2000000.m3u8?nimblesessionid=318541012&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTU6MTYgQU0maGFzaF92YWx1ZT04YU1EOUpQRWo4ZXlDVit6Z2dNWkNRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZTk0ODliNGMtZDlhNy00ODY5LWFjMDctYWVhOWI5MTRjMzJh
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Sábado 17H56
+https://streaming-vod2.iol.pt/vod/_definst_/7/d/8/2/smil:63d5ac740cf2cf9224f67d82-L/chunklist_w1849880651_b2500000.m3u8?nimblesessionid=318541036&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTU6MjEgQU0maGFzaF92YWx1ZT1NSG9EcTlyeU8raTBKbUpqNlFlaDlBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NDY3MTNhYmEtZTRjYi00ZmYwLWI2ZjAtZjZlZWM5OWE4ZDc2
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Sábado 16H56
+https://streaming-vod2.iol.pt/vod/_definst_/5/c/1/b/smil:63d57ea10cf2c84d7fc55c1b-L/chunklist_w1870320376_b2500000.m3u8?nimblesessionid=318541061&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTU6MjUgQU0maGFzaF92YWx1ZT1hWFRZaHMzdS9LVjU1VWRMYkYwMTRnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MDc4OWZkNWMtYWMyOC00NzNjLWIwNmUtM2Y1ZGMxMWI4MmEz
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Sábado 15H56
+https://streaming-vod2.iol.pt/vod/_definst_/8/2/f/8/smil:63d57a220cf28f3e15c982f8-L/chunklist_w1358024374_b2500000.m3u8?nimblesessionid=318541104&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTU6MzIgQU0maGFzaF92YWx1ZT1JanVONjdmYllIWWZ5dGhkVmFaVDhBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NDIwZGQ5MmQtNWEzMi00YzE5LTg3ZTQtM2U3NjM1ODgyNjcz
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Sábado 13H56
+https://streaming-vod2.iol.pt/vod/_definst_/6/e/6/1/smil:63d555900cf2cf9224f66e61-L/chunklist_w917194787_b2000000.m3u8?nimblesessionid=318541134&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTU6MzYgQU0maGFzaF92YWx1ZT1SYUNJdlo5RGM2VzVaTmxWSXRDM3BnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9OWFmNzFkMWYtYTMwOS00YzFhLWJmYmMtYjllMzA4NjcwNDdi
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Sábado 10H56
+https://streaming-vod2.iol.pt/vod/_definst_/5/2/4/d/smil:63d5361f0cf2c84d7fc5524d-L/chunklist_w1407586517_b2000000.m3u8?nimblesessionid=318541184&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTU6NDEgQU0maGFzaF92YWx1ZT1NREYrbVN0R0hrNkxvQm5pSFgvcVZRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NzVhYmIyNWYtMzI0ZS00ODg2LTkwMGItMDg2NzhlZDc4NDc1
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",GTI Plus - Dakar Classic
+https://streaming-vod2.iol.pt/vod/_definst_/4/f/0/e/smil:63d51c4e0cf2c84d7fc54f0e-L/chunklist_w1534230913_b2000000.m3u8?nimblesessionid=318541221&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTU6NDggQU0maGFzaF92YWx1ZT0zWHA0OFZkYStCZFloRHh6Y0dQeWh3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MTM1OTdmMzItMWI1ZC00ZTlhLWFkYzQtYTFmNGJhNWZmNGYy
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",NiT - 28 de janeiro de 2023
+https://streaming-vod1.iol.pt/vod/_definst_/7/3/b/8/smil:63d501330cf28f3e15c973b8-L/chunklist_w469175018_b2000000.m3u8?nimblesessionid=634871777&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTU6NTMgQU0maGFzaF92YWx1ZT1sN0dsWUsrK09ySExZOHIwem0wMFZnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NGEzNGNkZmUtMjZlYS00NThiLThkZTktOWMyM2Q0NDk4ZDcw
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Sábado 9H58
+https://streaming-vod1.iol.pt/vod/_definst_/f/3/e/e/smil:63d4ffa00cf2665294d2f3ee-L/chunklist_w31058341_b2000000.m3u8?nimblesessionid=634871801&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTU6NTcgQU0maGFzaF92YWx1ZT1GWDA5RzNrNGVLZHlReDFjd2VCR0RRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NDNhZDNjYjgtNjE1Zi00MzMzLTliN2UtODk0Y2RhYmU4ODU5
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Sábado 5H58
+https://streaming-vod1.iol.pt/vod/_definst_/f/3/2/4/smil:63d4f8670cf2665294d2f324-L/chunklist_w1657227565_b2000000.m3u8?nimblesessionid=634871827&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTY6MSBBTSZoYXNoX3ZhbHVlPTRTWmx2QnpNRnB3b25TK0hXWlRNWlE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD01NzZmNGQ1MC1jZDRkLTQ0ZjgtOGNhMi02MjRmZTQzZjM5ZDU%3D
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Notícias CNN 5H30
+https://streaming-vod1.iol.pt/vod/_definst_/6/f/f/c/smil:63d4d5950cf28f3e15c96ffc-L/chunklist_w1207045146_b2000000.m3u8?nimblesessionid=634871858&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTY6NSBBTSZoYXNoX3ZhbHVlPTR0N2RiRm02RlhabHlIQ3VBRHZ4RkE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0zOTNjODQwYy1kMmM2LTRhOWMtYmEyOC02NWI4OTVhMGUxMzY%3D
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Notícias CNN 1H58
+https://streaming-vod1.iol.pt/vod/_definst_/5/f/c/a/smil:63d4906b0cf2cf9224f65fca-L/chunklist_w886931288_b2000000.m3u8?nimblesessionid=634871886&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTY6MTEgQU0maGFzaF92YWx1ZT1XampIMzlxbEhiUVE4K3k1VFFRZXdnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MmU5YzdhYzItMDk3MC00NDU4LWEwY2QtYzMwYzdhMmYyMGNk
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Meia Noite - 27 de janeiro de 2023
+https://streaming-vod1.iol.pt/vod/_definst_/6/e/1/5/smil:63d48d910cf28f3e15c96e15-L/chunklist_w1789423044_b2000000.m3u8?nimblesessionid=634871919&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTY6MTYgQU0maGFzaF92YWx1ZT1BMkduNkxGV0ErTCtrNHNBRklLQUhRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MzQ1MzNhY2EtMmFhMy00ZTdiLWExYjMtZjkzODY4Mzk2OGEw
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Prime Time - 27 de janeiro de 2023
+https://streaming-vod1.iol.pt/vod/_definst_/6/d/2/e/smil:63d4751f0cf28f3e15c96d2e-L/chunklist_w1444569770_b2000000.m3u8?nimblesessionid=634871946&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTY6MjIgQU0maGFzaF92YWx1ZT0wVzdQeGtiREFVcG5VNFVobjQrbWRRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9Y2JhYmFkMTAtNDgwOS00NTQ2LWJkNDYtZjVkZDQ3ZGRkODQ5
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Perplexidades: episódio íntegra
+https://streaming-vod3.iol.pt/vod/_definst_/9/8/f/d/smil:63d7c05b0cf2c84d7fc598fd-L/chunklist_w773816733_b2500000.m3u8?nimblesessionid=618275671&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTY6MjYgQU0maGFzaF92YWx1ZT0wS253UWd5aFZ3bHJkcW82aHNFWHVBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MWE3YTUyYTMtMzE1ZS00M2E0LTljYWQtM2Y3Y2Y1ZDBmNzIz
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Jornal da CNN - 27 de janeiro de 2023
+https://streaming-vod3.iol.pt/vod/_definst_/e/a/a/5/smil:63d458850cf2665294d2eaa5-L/chunklist_w1001177872_b2000000.m3u8?nimblesessionid=618275702&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTY6MzAgQU0maGFzaF92YWx1ZT1ZblZMQ1FELy9qNkVMZCsxNmZGMjBnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MGNlYjRlNjYtNmNkYi00OGFkLTk0ODUtOTI3OGU2MDlhZTFi
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN em jogo - Benfica tenta regresso de Nelson Semedo para o verão
+https://streaming-vod3.iol.pt/vod/_definst_/5/8/a/2/smil:63d443120cf2cf9224f658a2-L/chunklist_w1386020899_b2000000.m3u8?nimblesessionid=618275756&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTY6MzggQU0maGFzaF92YWx1ZT1SY2hCZ0ozSXZNTnRjSXlLWkwwNTFRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MmFmM2RiM2MtM2Y4My00NTJkLTkxZjEtYzNmMDU4YTYzOGI1
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Fim de Tarde - 27 de janeiro de 2023
+https://streaming-vod3.iol.pt/vod/_definst_/e/3/9/9/smil:63d431550cf2665294d2e399-L/chunklist_w1467599306_b2000000.m3u8?nimblesessionid=618275777&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTY6NDMgQU0maGFzaF92YWx1ZT1iR1dZdExsOEtEOEVNbHpKNWVoTDZnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MzllY2ZlY2QtYzgwZS00OWJiLTgxNTktNWZjYjM0ODFjMDhj
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Agora CNN - Parte II - 27 de janeiro de 2023
+https://streaming-vod1.iol.pt/vod/_definst_/d/e/3/9/smil:63d416dd0cf2665294d2de39-L/chunklist_w1235723383_b2000000.m3u8?nimblesessionid=634872048&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTY6NDkgQU0maGFzaF92YWx1ZT1GUlFsV2h1VzJDbUF6SllRdDl4TGNnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NGU4MzdhYTEtYzZkYi00MjgyLThmMzgtZjUxNmY4MWY2ZTEw
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Mais Transferências - Grimaldo sem renovação à vista
+https://streaming-vod1.iol.pt/vod/_definst_/d/d/8/a/smil:63d412ed0cf2665294d2dd8a-L/chunklist_w800412875_b2000000.m3u8?nimblesessionid=634872063&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTY6NTMgQU0maGFzaF92YWx1ZT15b25tbFk2c1BqdXlqemRGZHRETzF3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MzhkOTdkODEtMjY1OS00YjY1LWEyM2UtYWE4Zjg1MThiOTMy
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Agora CNN - Parte I - 27 de janeiro de 2023
+https://streaming-vod1.iol.pt/vod/_definst_/3/3/e/b/smil:63d408a80cf2c84d7fc533eb-L/chunklist_w1321903945_b2000000.m3u8?nimblesessionid=634872094&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTY6NTggQU0maGFzaF92YWx1ZT1heExJSVgvRkxUSUl2NHFScWpETjRBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NjI3MDE0OTgtYWE2Zi00MDI5LTg2YTUtOWUwZGJhM2E4Njhm
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Meio Dia - 27 de janeiro de 2023
+https://streaming-vod1.iol.pt/vod/_definst_/3/0/b/f/smil:63d3f3470cf2c84d7fc530bf-L/chunklist_w32887952_b2000000.m3u8?nimblesessionid=634872121&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTc6MyBBTSZoYXNoX3ZhbHVlPWxGdHVPa1BtcE1tcTdoK1NZZzlBVEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD02M2NmNWRlMS03NTZiLTRjNzMtOTczNi02MzBhMmRjZWExMDY%3D
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Hoje - 27 de janeiro de 2023
+https://streaming-vod1.iol.pt/vod/_definst_/d/0/f/a/smil:63d3c2130cf2665294d2d0fa-L/chunklist_w521278754_b2000000.m3u8?nimblesessionid=634872161&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTc6NyBBTSZoYXNoX3ZhbHVlPXpqdnNnK1ZSUldBSDVHUGRQVlRaV2c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1mYTc4YjRjZi01YmFjLTQ4MzctYjdjZS01N2QxM2QyMzY1ZmI%3D
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Novo Dia - 27 de janeiro de 2023
+https://streaming-vod1.iol.pt/vod/_definst_/d/0/2/d/smil:63d3bcd90cf2665294d2d02d-L/chunklist_w584340016_b2000000.m3u8?nimblesessionid=634872204&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTc6MTMgQU0maGFzaF92YWx1ZT1yWjhkNlBTSDJFNU1lY0dyMkhPS2tRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YWY1MjY2ZWQtMGM4OS00NTQ3LThkNDQtZWMwZGVkMzYxMDM5
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Notícias CNN 5H30
+https://streaming-vod2.iol.pt/vod/_definst_/2/2/3/3/smil:63d37de10cf2c84d7fc52233-L/chunklist_w1626132619_b2000000.m3u8?nimblesessionid=318541579&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTc6MTcgQU0maGFzaF92YWx1ZT1XMytUNTcxZE0zUlFRd3JrZ3gvMVl3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MTZkYmI4ZDgtM2UzNC00NGM2LWExZDctZTRhM2RhYjEyYTA2
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Notícias CNN 3H
+https://streaming-vod2.iol.pt/vod/_definst_/3/a/7/c/smil:63d355000cf2cf9224f63a7c-L/chunklist_w779696719_b2000000.m3u8?nimblesessionid=318541600&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTc6MjMgQU0maGFzaF92YWx1ZT1KTERhMEN2ZXpsb05qcGFPOXU5UmNRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MGEwN2FhYTUtNTEyMS00Mjc1LTg1NGYtYmJlYjcyNjFjMjlk
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Notícias CNN 2H
+https://streaming-vod2.iol.pt/vod/_definst_/4/7/e/c/smil:63d3406a0cf28f3e15c947ec-L/chunklist_w1220429824_b2000000.m3u8?nimblesessionid=318541623&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTc6MjcgQU0maGFzaF92YWx1ZT00UW13QnREY2xDb0I1RndITUg5bmd3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ODRiNzEyMjEtNWUzZS00ZDJkLTg4YmYtOTlhZmM0ZWFjNjQ4
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Meia Noite - 26 de janeiro de 2023
+https://streaming-vod2.iol.pt/vod/_definst_/c/7/9/b/smil:63d33c260cf2665294d2c79b-L/chunklist_w1399463690_b2000000.m3u8?nimblesessionid=318541654&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTc6MzMgQU0maGFzaF92YWx1ZT1MT3JHVGdZZzczU0RKZFlJc2NzZDFRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YjEzOTczOGUtNTg4Ny00ZWFkLTg4YzMtYTk5ZDZiMzFlYWE0
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Preto no Branco: episódio na íntegra
+https://streaming-vod2.iol.pt/vod/_definst_/3/0/9/d/smil:63d3f2600cf2c84d7fc5309d-L/chunklist_w441875144_b2500000.m3u8?nimblesessionid=318541677&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTc6MzggQU0maGFzaF92YWx1ZT1ydkFnbHF2S0E0b0FHTGFZekVFRVpnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YjE5Mjc5MDQtOTZmMC00YTY5LWJhNjYtOWVlODJhOWY0ODVm
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Jornal da CNN - 26 de janeiro de 2023
+https://streaming-vod3.iol.pt/vod/_definst_/4/4/7/5/smil:63d305470cf28f3e15c94475-L/chunklist_w696228967_b2000000.m3u8?nimblesessionid=618275968&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTc6NDIgQU0maGFzaF92YWx1ZT1GUm4yMzJjNjN5UzRvQVhHbjBRY0JBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MDEzMDQ0MjYtNWFkYS00NDkwLTg0ODgtYjlhMTZkNGMzM2Zl
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Fim de Tarde - 26 de janeiro de 2023
+https://streaming-vod3.iol.pt/vod/_definst_/3/e/7/7/smil:63d2e5a10cf28f3e15c93e77-L/chunklist_w1745974544_b2000000.m3u8?nimblesessionid=618275987&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTc6NDcgQU0maGFzaF92YWx1ZT1DYW9nQ2ZkRnRiTUdFMHozQnhyeWxBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YjgyNmNkYmEtNDM3Ni00ZDkxLTk4YTgtZjQ1N2ZmYzMwN2M5
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Agora CNN - Parte II - 26 de janeiro de 2023
+https://streaming-vod3.iol.pt/vod/_definst_/3/8/8/c/smil:63d2c6c10cf28f3e15c9388c-L/chunklist_w479045531_b2000000.m3u8?nimblesessionid=618276011&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTc6NTIgQU0maGFzaF92YWx1ZT1UL013aTJyMmVZUTB2Z09wRjcwNlBRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9N2UyODdjNGYtMjg5NC00Y2EzLWE0NWMtYmI2MDZmNGIwYzQy
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Mais Transferências - Pedro Porro já deu o «sim» ao Tottenham
+https://streaming-vod3.iol.pt/vod/_definst_/2/9/1/e/smil:63d2c1280cf2cf9224f6291e-L/chunklist_w360008958_b2000000.m3u8?nimblesessionid=618276053&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTc6NTcgQU0maGFzaF92YWx1ZT10WWNQbGtmeW5zaDZ0VHlIUi9NSUJnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NTJmZjdlMzctMGRhYi00N2UxLWEyN2UtMTE5YWQzOTU1MTM4
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Agora CNN - Parte I - 26 de janeiro de 2023
+https://streaming-vod3.iol.pt/vod/_definst_/b/5/0/0/smil:63d2b6f20cf2665294d2b500-L/chunklist_w1329112671_b2000000.m3u8?nimblesessionid=618276069&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTg6MiBBTSZoYXNoX3ZhbHVlPW91VVFiczRqaHZWN3R1OUMvWlZEMFE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0wY2RhN2E3NC04MzBiLTRiNzAtYTdkMy1kNWMzMDkyMGUyYjI%3D
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Meio Dia - 26 de janeiro de 2023
+https://streaming-vod1.iol.pt/vod/_definst_/b/1/a/d/smil:63d2a20d0cf2665294d2b1ad-L/chunklist_w1931084774_b2000000.m3u8?nimblesessionid=634872414&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTg6NiBBTSZoYXNoX3ZhbHVlPWJBMHdrb25OdC9xZW5WRWl3bjQ0NEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0zZTY4ZjBmNi0wODgyLTQ1OGUtODg4NS01OTgzNGQyODEyOGI%3D
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Hoje - 26 de janeiro de 2023
+https://streaming-vod3.iol.pt/vod/_definst_/a/a/0/c/smil:63d277b40cf2665294d2aa0c-L/chunklist_w1182797778_b2000000.m3u8?nimblesessionid=618276122&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTg6MTEgQU0maGFzaF92YWx1ZT04RlVqUGt1WUMvaUJSMnptdzNQOXdBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NThiYWNlYWMtZDdkOC00NDdlLWE3MmUtNWQ1NmQwYzFhODU0
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Novo Dia - 26 de janeiro de 2023
+https://streaming-vod3.iol.pt/vod/_definst_/2/6/e/a/smil:63d25e1c0cf28f3e15c926ea-L/chunklist_w1422320014_b2000000.m3u8?nimblesessionid=618276152&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTg6MTYgQU0maGFzaF92YWx1ZT1iaEdOTWlCc1FOcVY4ZUxXMlJnNXFBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MmE4N2JjOTctZmM1NC00M2YwLWI2MzMtODViMjBmYzM1Y2Mw
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Notícias CNN 3H
+https://streaming-vod3.iol.pt/vod/_definst_/1/1/f/c/smil:63d203fc0cf2cf9224f611fc-L/chunklist_w255142237_b2000000.m3u8?nimblesessionid=618276186&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTg6MjEgQU0maGFzaF92YWx1ZT1iL2pWNmdJSTEyME1aeEsyV3JzczBBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NWUyNjZhNGQtNzEyMi00MmJjLWE3ZGYtZjIxY2IwNGIzOWY2
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Notícias CNN 2H
+https://streaming-vod3.iol.pt/vod/_definst_/9/f/5/4/smil:63d1eec20cf2665294d29f54-L/chunklist_w370703477_b2000000.m3u8?nimblesessionid=618276213&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTg6MjUgQU0maGFzaF92YWx1ZT1CVm9xRGdzRDVoZ3dUVVNzL2U5YnFnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9Njc5YTQ0MGQtYjRiMy00OGQ1LTkwZWItMTBjYTRmZjAzZjZk
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Meia Noite - 25 de janeiro de 2023
+https://streaming-vod1.iol.pt/vod/_definst_/f/8/2/3/smil:63d1e66a0cf2c84d7fc4f823-L/chunklist_w1901627263_b2000000.m3u8?nimblesessionid=634872503&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTg6MzAgQU0maGFzaF92YWx1ZT13UkMxOXRSZGRHQXd1ckt5V0wyWlFnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MGVmMzQxMjctNGQ2My00YjVjLWIzNzktMzE3NDA3MjcwY2Fk
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Prime Time - 25 de janeiro de 2023
+https://streaming-vod1.iol.pt/vod/_definst_/1/0/e/e/smil:63d1d1c80cf2cf9224f610ee-L/chunklist_w1957314792_b2000000.m3u8?nimblesessionid=634872532&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTg6MzQgQU0maGFzaF92YWx1ZT10Zk10UzJCNmVzRFdjcDJ6TXowWERBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZDMzZGZjNTUtNTE2Zi00ZDdmLTg2YWEtNzRmMGM4YjI4NzU5
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Jornal da CNN - 25 de janeiro de 2023
+https://streaming-vod1.iol.pt/vod/_definst_/9/c/0/5/smil:63d1b4020cf2665294d29c05-L/chunklist_w1006812634_b2000000.m3u8?nimblesessionid=634872561&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTg6MzkgQU0maGFzaF92YWx1ZT1pb1BIcDdhWlFvakM0L2M1Z2psZ1ZRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9Mjk4Mzk4MDctNDhkZi00ZjI0LTk0ZGItMjdmMDlkMGFkNWE4
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Fim de Tarde - 25 de janeiro de 2023
+https://streaming-vod2.iol.pt/vod/_definst_/1/8/9/b/smil:63d1a0540cf28f3e15c9189b-L/chunklist_w2091494436_b2000000.m3u8?nimblesessionid=318541928&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTg6NDMgQU0maGFzaF92YWx1ZT1EQ2NVemU0dGZ4VWM0dmZwenV5RmFBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZWQ1MDJmOTQtOGY0OS00ZjU1LTk2YzUtYjg4NmVhMGYwNTQx
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Agora CNN - Parte II - 25 de janeiro de 2023
+https://streaming-vod2.iol.pt/vod/_definst_/0/1/6/8/smil:63d174700cf2cf9224f60168-L/chunklist_w465855196_b2000000.m3u8?nimblesessionid=318541957&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTg6NDggQU0maGFzaF92YWx1ZT1RWFkyRjgwczVSd0YzMVVNWDdsdkhBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MzI3MTE0YTItMGVmMy00NTA1LWExM2MtMDJlZGFjMmE1NmJj
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Mais Transferências - Reunião decisiva pode ditar saída de Porro
+https://streaming-vod2.iol.pt/vod/_definst_/8/e/8/8/smil:63d16f120cf2665294d28e88-L/chunklist_w768685907_b2000000.m3u8?nimblesessionid=318541983&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTg6NTMgQU0maGFzaF92YWx1ZT1zQm9NdGtRbU9tZ2l5NjkwdFZKM0pBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9N2Y3MmEzN2QtNDFmYS00NWY0LWIwNjMtOWE0YjZhY2VmZGU1
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Agora CNN - Parte I - 25 de janeiro de 2023
+https://streaming-vod2.iol.pt/vod/_definst_/8/c/b/7/smil:63d163060cf2665294d28cb7-L/chunklist_w1893654263_b2000000.m3u8?nimblesessionid=318542017&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTg6NTggQU0maGFzaF92YWx1ZT1pRTdOQXRqZ3JCRit1Nng1b0ozVzh3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YjRmNGY5ZDMtODg1Ny00ZjZlLWI4MGQtNzYxNWQ5ZWEzMmNj
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Meio Dia - 25 de janeiro de 2023
+https://streaming-vod2.iol.pt/vod/_definst_/f/a/f/b/smil:63d150410cf2cf9224f5fafb-L/chunklist_w568328614_b2000000.m3u8?nimblesessionid=318542043&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTk6MiBBTSZoYXNoX3ZhbHVlPTIyVHU4MTNBNmxUT1k2dVY0NmhPQlE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yM2QzMmRjMi1lYTNlLTRiZmEtODdhNy1jYmM4OTg4NjQ5MTE%3D
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Hoje - 25 de janeiro de 2023
+https://streaming-vod2.iol.pt/vod/_definst_/f/3/2/d/smil:63d122910cf2cf9224f5f32d-L/chunklist_w1565081913_b2000000.m3u8?nimblesessionid=318542075&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTk6NyBBTSZoYXNoX3ZhbHVlPVZ6Smw5VTJ2RzlPcVZVaytqa2xqTGc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD00YjFjY2YwYi1jZTkwLTRiMzYtODE3OS1kN2ZmYmY3M2ZiNzM%3D
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Novo Dia - 25 de janeiro de 2023
+https://streaming-vod1.iol.pt/vod/_definst_/d/9/2/2/smil:63d11aef0cf2c84d7fc4d922-L/chunklist_w383356781_b2000000.m3u8?nimblesessionid=634872677&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTk6MTIgQU0maGFzaF92YWx1ZT1iN2o2Ty81ZDd3bVpKRzVJamplVG5RPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZDJmNmIwZTAtNTE3MS00OTRlLWIzNzEtOTEyZjY5YmVlMWU2
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Notícias CNN 3H
+https://streaming-vod1.iol.pt/vod/_definst_/f/7/7/0/smil:63d0b2f10cf28f3e15c8f770-L/chunklist_w53253824_b2000000.m3u8?nimblesessionid=634872707&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTk6MTcgQU0maGFzaF92YWx1ZT1Kc3FKamc0SUw3dTRPY0NWeUdLa3hnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZmMyZGE3MGUtNzdkZi00MzQ2LWJhNjktMzRmYWNlNjg4ZmIx
+
+#EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Notícias CNN 2H
+https://streaming-vod1.iol.pt/vod/_definst_/7/7/f/6/smil:63d09c6c0cf2665294d277f6-L/chunklist_w1551495149_b2000000.m3u8?nimblesessionid=634872737&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTk6MjIgQU0maGFzaF92YWx1ZT1YTUpyN1lDTEU1a25jRGRwMGtJMDh3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MzdiN2ZiNzMtMjg1YS00YTk2LWEzMmEtMTAyNzZkNmM2YTcy
 
 #EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Meia Noite - 24 de janeiro de 2023
-https://streaming-vod2.iol.pt/vod/_definst_/c/f/e/2/smil:63d094560cf2c84d7fc4cfe2-L/chunklist_w1687633928_b2000000.m3u8?nimblesessionid=318536061&wmsAuthSign=c2VydmVyX3RpbWU9Mi8yLzIwMjMgMTE6NTg6NDcgUE0maGFzaF92YWx1ZT1OSEtIM3BoUkpXcmR3ZUFIaEFwOENRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZDI4Y2Q4MWQtYTA2My00OTAwLWFjMzEtN2E2MDM2NzBiNGU4
+https://streaming-vod1.iol.pt/vod/_definst_/c/f/e/2/smil:63d094560cf2c84d7fc4cfe2-L/chunklist_w1666558342_b2000000.m3u8?nimblesessionid=634872762&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTk6MjYgQU0maGFzaF92YWx1ZT00ZDZCY2t6QVpsTDFNUTZUdVRJQlB3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MjdhNTU5NWItN2Q2Yy00OWQ4LWFiYjktZGJlOGVhOGM0MGMy
 
 #EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Prime Time - 24 de janeiro de 2023
-https://streaming-vod1.iol.pt/vod/_definst_/f/6/5/3/smil:63d080d40cf28f3e15c8f653-L/chunklist_w904804077_b2000000.m3u8?nimblesessionid=634866736&wmsAuthSign=c2VydmVyX3RpbWU9Mi8yLzIwMjMgMTE6NTg6NTUgUE0maGFzaF92YWx1ZT14Q2h3N1lLZWkwUTJTT3BBTkRydFRRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9Njc0MWRiMDctMDEwMi00OTkxLWJiMWYtN2JiMGQzMTY4ZGM5
+https://streaming-vod1.iol.pt/vod/_definst_/f/6/5/3/smil:63d080d40cf28f3e15c8f653-L/chunklist_w2033690843_b2000000.m3u8?nimblesessionid=634872785&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTk6MzEgQU0maGFzaF92YWx1ZT10Z3h1N3VhTnhodk5WOEo4NHFNV2lRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MDY4ZDJlMTktZmY2Yi00OTA5LThhYTQtYjA2Y2RlZDZhNTQ1
 
 #EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Jornal da CNN - 24 de janeiro de 2023
-https://streaming-vod3.iol.pt/vod/_definst_/e/5/a/d/smil:63d0637c0cf2cf9224f5e5ad-L/chunklist_w854155848_b2000000.m3u8?nimblesessionid=618270902&wmsAuthSign=c2VydmVyX3RpbWU9Mi8yLzIwMjMgMTE6NTk6MSBQTSZoYXNoX3ZhbHVlPXA5clhTNHVmc2NKMzAzRHRJY3JKYXc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1kZjIyZWY1NS03MDczLTRhZmQtYWExMC05ZmI3NzZhMDlmOTg%3D
+https://streaming-vod3.iol.pt/vod/_definst_/e/5/a/d/smil:63d0637c0cf2cf9224f5e5ad-L/chunklist_w427507397_b2000000.m3u8?nimblesessionid=618276475&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTk6MzUgQU0maGFzaF92YWx1ZT13UTFMM1o3d2R5ZTN6MEtQMFNVSmF3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YTRmYTBjMjItYzBlYS00NGVhLThjZjItNjk1MGE5ZmRkOGE3
 
 #EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Fim de Tarde - 24 de janeiro de 2023
-https://streaming-vod1.iol.pt/vod/_definst_/7/0/9/c/smil:63d04eb50cf2665294d2709c-L/chunklist_w342901102_b2000000.m3u8?nimblesessionid=634866840&wmsAuthSign=c2VydmVyX3RpbWU9Mi8yLzIwMjMgMTE6NTk6OSBQTSZoYXNoX3ZhbHVlPVJHc1M0S3JLL3FOcy8wL3MvWkdFSUE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD03NGNmNzk0OS03YzgxLTQ5MzktODExNy0yNzFjNWU2Nzk3N2Y%3D
+https://streaming-vod3.iol.pt/vod/_definst_/7/0/9/c/smil:63d04eb50cf2665294d2709c-L/chunklist_w674065397_b2000000.m3u8?nimblesessionid=618276495&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTk6NDAgQU0maGFzaF92YWx1ZT0vY1kxaTVVVHBBOElqSDFBZEIrcEV3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9M2IyYTY5YmEtYjc1Yi00M2RjLTg0NjgtZmYxZTBkYWYyMDRj
 
 #EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Agora CNN - Parte II - 24 de janeiro de 2023
-https://streaming-vod1.iol.pt/vod/_definst_/b/e/c/7/smil:63d021ae0cf2c84d7fc4bec7-L/chunklist_w1316726669_b2000000.m3u8?nimblesessionid=634866892&wmsAuthSign=c2VydmVyX3RpbWU9Mi8yLzIwMjMgMTE6NTk6MTUgUE0maGFzaF92YWx1ZT1KTjZ6dEdoNGpwYXdLYWQvWndTd0x3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YjIxMzJlNTYtNTJkYy00NGRlLWIyNzgtMjVmOTU5N2Y5YWVj
+https://streaming-vod2.iol.pt/vod/_definst_/b/e/c/7/smil:63d021ae0cf2c84d7fc4bec7-L/chunklist_w1495774780_b2000000.m3u8?nimblesessionid=318542222&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTk6NDUgQU0maGFzaF92YWx1ZT1PZUc2azR1N3h3ZGN2Q2hRY3ZBRDVBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NWRmNzVmOGQtNTMwNC00NGViLTg0NmItZWIxNWM1OWFlNmI4
 
 #EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Mais Transferências - Barcelona e Real Madrid atentos a Enzo Fernández
-https://streaming-vod2.iol.pt/vod/_definst_/6/5/a/5/smil:63d01e910cf2665294d265a5-L/chunklist_w1826541084_b2000000.m3u8?nimblesessionid=318536223&wmsAuthSign=c2VydmVyX3RpbWU9Mi8yLzIwMjMgMTE6NTk6MjEgUE0maGFzaF92YWx1ZT0wS0JXYWxORVZDU0M4OTJTMk04U0VBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MTdmNGIxMGUtYmNmYi00Yjg0LTkyNzctMjY4OTI4YzEzNjIx
+https://streaming-vod3.iol.pt/vod/_definst_/6/5/a/5/smil:63d01e910cf2665294d265a5-L/chunklist_w658198696_b2000000.m3u8?nimblesessionid=618276525&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTk6NDkgQU0maGFzaF92YWx1ZT1FR0tYaWJmalJ4YWMzTGRpNFdadktnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MWZlZjc0NjEtMzVhOC00OTNhLThhNWQtZDQ5NDYxMWExOTM1
 
 #EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",Agora CNN - Parte I - 24 de janeiro de 2023
-https://streaming-vod2.iol.pt/vod/_definst_/6/4/2/c/smil:63d015420cf2665294d2642c-L/chunklist_w891063313_b2000000.m3u8?nimblesessionid=318536259&wmsAuthSign=c2VydmVyX3RpbWU9Mi8yLzIwMjMgMTE6NTk6MjggUE0maGFzaF92YWx1ZT1jbXZNcnZLbWtvb3cxWXJGR0E5eDRBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MWVmNzNiNjQtMjBlNy00YTAyLWIyNjYtNjhmNTgzMjhiNzg5
+https://streaming-vod3.iol.pt/vod/_definst_/6/4/2/c/smil:63d015420cf2665294d2642c-L/chunklist_w2014252551_b2000000.m3u8?nimblesessionid=618276546&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTk6NTMgQU0maGFzaF92YWx1ZT1odG0vS1dqOG5pTUZkWHRGdEJvbDdnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YzA5NTk4MGItY2EyMS00ZDgxLTkyNTAtZWJlNWVjMzU3YmU1
 
 #EXTINF:-1 group-title="TVI PLAYER" tvg-logo="https://cdn.iol.pt/img/logostvi/branco/tviplayer.png",CNN Meio Dia - Breaking News - 24 de janeiro de 2023
-https://streaming-vod2.iol.pt/vod/_definst_/6/3/0/b/smil:63d00c3b0cf2665294d2630b-L/chunklist_w735729339_b2000000.m3u8?nimblesessionid=318536300&wmsAuthSign=c2VydmVyX3RpbWU9Mi8yLzIwMjMgMTE6NTk6MzQgUE0maGFzaF92YWx1ZT14OG1RaEFXdUNWS2VvT3FvZElXVGZBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9OTZkZjVhODQtNjdhYi00ZGM5LWIxZGQtMDIxMjc0ZmQxNWJl
+https://streaming-vod3.iol.pt/vod/_definst_/6/3/0/b/smil:63d00c3b0cf2665294d2630b-L/chunklist_w884440386_b2000000.m3u8?nimblesessionid=618276573&wmsAuthSign=c2VydmVyX3RpbWU9Mi8zLzIwMjMgMTI6MTk6NTcgQU0maGFzaF92YWx1ZT1TVG0yUlRTeVB1SWVYMDQ2TEpMK01nPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YThmZTZiNWEtMGY3OC00N2RlLTkwMGYtY2E3MjJkZGI1ZDI0
 
