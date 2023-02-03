@@ -24,7 +24,7 @@ for i in range(1, 3):
     for title, link in zip(video_titles, video_links):
         now = datetime.datetime.now()
         timestamp = now.strftime("%m%d%H%M%S")
-        video_url = streamlink.streams(link)["best"].url if streamlink.streams(link) else None
+        video_url = streamlink.streams(link)["720P"].url if streamlink.streams(link) else None
         item = soup.find("a", class_="item", href=link)
         try:
             image_url = item.find("img")["src"]
