@@ -50,7 +50,8 @@ jobs:
          pip install fastapi 
          pip install uvicorn 
          pip install schedule
-
+         pip install selenium
+         
       - name: execute py script
         run: python STR2.py
               
