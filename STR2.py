@@ -12,7 +12,7 @@ m3u8_file = open("lista2str2.m3u", "w")
 
 
 
-for i in range(1, 15):
+for i in range(1, 2):
     url = f"https://tviplayer.iol.pt/videos/ultimos/{i}/canal:"
 
     response = requests.get(url, headers=headers)
