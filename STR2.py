@@ -1,42 +1,33 @@
-import requests
-from bs4 import BeautifulSoup
-import datetime
-import streamlink
-import time
+import os
+import subprocess
 
-headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
-}
+def run_command(command):
+    process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    output, error = process.communicate()
+    return output.decode().strip(), error.decode().strip()
 
-m3u8_file = open("lista2str2.m3u", "w")
+def install_yt_dlp():
+    os.system("sudo wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -O /usr/local/bin/yt-dlp")
+    os.system("sudo chmod a+rx /usr/local/bin/yt-dlp")
 
+def install_youtube_dl():
+    os.system("sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl")
+    os.system("sudo chmod a+rx /usr/local/bin/youtube-dl")
+    os.system("youtube-dl -U")
 
+def install_streamlink():
+    os.system("pip install --user --upgrade streamlink")
 
-for i in range(1, 3):
-    url = f"https://tviplayer.iol.pt/videos/ultimos/{i}/canal:"
+def get_lista4_m3u8():
+    with open("./lista2str.m3u", "w") as f:
 
-    response = requests.get(url, headers=headers)
-    soup = BeautifulSoup(response.content, "html.parser")
-
-    video_titles = [item.text for item in soup.find_all("span", class_="item-title")]
-    video_links = [f"https://tviplayer.iol.pt{item['href']}" for item in soup.find_all("a", class_="item")]
-    Data = [item.text for item in soup.find_all("span", class_="item-date")]
-
-    for title, link in zip(video_titles, video_links):
-        now = datetime.datetime.now()
-        timestamp = now.strftime("%m%d%H%M%S")
-        video_url = streamlink.streams(link)["best"].url if streamlink.streams(link) else None
-        item = soup.find("a", class_="item", href=link)
-        try:
-            image_url = item["style"].split("url(")[1].split(")")[0]
-        except Exception as e:
-            print(f"Error: {e}")
-            image_url = "https://cdn.iol.pt/img/logostvi/branco/tviplayer.png"
-        if video_url:
-            m3u8_file.write(f"#EXTINF:-1 group-title=\"TVI PLAYER\" tvg-logo=\"{image_url}\",{title}\n{video_url}\n")
-            m3u8_file.write("\n")
-
-time.sleep(15)
-
-m3u8_file.close()
-
+        file.write("#EXTM3U\n")
+        file.write("#EXT-X-VERSION:3\n")
+        file.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n")
+        file.write("#EXTINF:-1 tvg-id='$(yt-dlp --get-title https://www.youtube.com/watch?v=EeQnkxY9QFs)' group-title='Reality Show'S Live' group-title='CNN's' tvg-logo='$(yt-dlp --get-thumbnail https://www.youtube.com/watch?v=EeQnkxY9QFs)', YOUTUBEAOVIVO - $(yt-dlp --get-title https://www.youtube.com/watch?v=EeQnkxY9QFs)\n")
+        file.write("$(streamlink --url --default-stream --stream-url https://www.youtube.com/@TelemundoEntretenimiento/live best)\n")
+        file.write("#EXTM3U\n")
+        file.write("#EXT-X-VERSION:3\n")
+        file.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n")
+        file.write("#EXTINF:-1 tvg-id='$(youtube-dl --get-id https://www.dailymotion.com/video/x82pp99)' tvg-logo='$(youtube-dl --get-thumbnail https://www.dailymotion.com/video/x82pp99)',$(youtube-dl -e -C https://www.dailymotion.com/video/x82pp99) TV BRASIL\n")
+        file.write("$(streamlink --url --default-stream --stream-url https://www.dailymotion.com/video/x82pp99 best)\n")
