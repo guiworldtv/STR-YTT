@@ -18,7 +18,7 @@ def install_youtube_dl():
     os.system("youtube-dl -U")
 
 def install_streamlink():
-    os.system("pip install --user --upgrade streamlink")
+    os.system("!pip install --user --upgrade streamlink")
 
 def get_lista4_m3u8():
     with open("./BLINK182.m3u", "w") as f:
