@@ -1,30 +1,26 @@
 import requests
 from bs4 import BeautifulSoup
-import datetime
-import streamlink
 
-headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
-}
+url = 'https://tviplayer.iol.pt/'
 
-m3u8_file = open("lista2str2.m3u", "w")
+response = requests.get(url)
 
-url = "https://tviplayer.iol.pt/"
+soup = BeautifulSoup(response.text, 'html.parser')
 
-response = requests.get(url, headers=headers)
-soup = BeautifulSoup(response.content, "html.parser")
+links = []
+names = []
+images = []
 
-video_link = soup.find("a", href="/direto/TVI")["href"]
-video_link = f"https://tviplayer.iol.pt{video_link}"
+for link in soup.find_all('a', href=True):
+    if '/direto/TVI' in link['href']:
+        links.append('https://tviplayer.iol.pt' + link['href'])
 
-video_url = streamlink.streams(video_link)["best"].url if streamlink.streams(video_link) else None
+for name in soup.find_all('div', class_='titlePrograma'):
+    names.append(name.text)
 
-programs = soup.find_all("div", class_="programCover")
-program_names = [program.find_parent("div", class_="program").find("div", class_="titlePrograma").text for program in programs]
-program_images = [program["style"].split("url(")[1].split(")")[0] for program in programs]
+for image in soup.find_all('div', class_='programCover'):
+    images.append(image['style'].split("'")[1])
 
-for name, image in zip(program_names, program_images):
-    m3u8_file.write(f"#EXTINF:-1 group-title=\"TVI PLAYER\" tvg-logo=\"{image}\",{name}\n{video_url}\n")
-    m3u8_file.write("\n")
-
-m3u8_file.close()
+for i in range(len(links)):
+    stream_url = streamlink.streams("https://tviplayer.iol.pt" + links[i])['best'].url
+    print("Nome: " + names[i] + ", URL: " + stream_url + ", Thumbnail: " + images[i])
