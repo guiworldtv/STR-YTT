@@ -1,31 +1,42 @@
 import requests
 from bs4 import BeautifulSoup
+import datetime
+import streamlink
+import time
 
-url = 'https://tviplayer.iol.pt/'
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+}
 
-response = requests.get(url)
+m3u8_file = open("lista2str2.m3u", "w")
 
-soup = BeautifulSoup(response.text, 'html.parser')
 
-links = []
-names = []
-images = []
 
-for link in soup.find_all('a', href=True):
-    if link['href'].startswith('/direto/'):
-        video_url = 'https://tviplayer.iol.pt' + link['href']
-        title = link.find_next('div', class_='titlePrograma').text
-        image_url = link.find_next('div', class_='programCover')['style'].split("url(")[1].split(")")[0]
-        entry = "#EXTINF:-1 group-title=\"TVI PLAYER\" tvg-logo=\"{}\",{}\n{}".format(image_url, title, video_url)
-        with open('tvi_player.m3u', 'a') as file:
-            file.write(entry)
+for i in range(1, 3):
+    url = f"https://tviplayer.iol.pt/videos/ultimos/{i}/canal:"
 
-for name in soup.find_all('div', class_='titlePrograma'):
-    names.append(name.text)
+    response = requests.get(url, headers=headers)
+    soup = BeautifulSoup(response.content, "html.parser")
 
-for image in soup.find_all('div', class_='programCover'):
-    image_url = image['style'].split("url(")[1].split(")")[0]
-    images.append(image_url)
+    video_titles = [item.text for item in soup.find_all("span", class_="item-title")]
+    video_links = [f"https://tviplayer.iol.pt{item['href']}" for item in soup.find_all("a", class_="item")]
+    Data = [item.text for item in soup.find_all("span", class_="item-date")]
 
-for name, image in zip(names, images):
-    print("Nome: " + name + ", Thumbnail: " + image)
+    for title, link in zip(video_titles, video_links):
+        now = datetime.datetime.now()
+        timestamp = now.strftime("%m%d%H%M%S")
+        video_url = streamlink.streams(link)["best"].url if streamlink.streams(link) else None
+        item = soup.find("a", class_="item", href=link)
+        try:
+            image_url = item["style"].split("url(")[1].split(")")[0]
+        except Exception as e:
+            print(f"Error: {e}")
+            image_url = "https://cdn.iol.pt/img/logostvi/branco/tviplayer.png"
+        if video_url:
+            m3u8_file.write(f"#EXTINF:-1 group-title=\"TVI PLAYER\" tvg-logo=\"{image_url}\",{title}\n{video_url}\n")
+            m3u8_file.write("\n")
+
+time.sleep(12)
+
+m3u8_file.close()
+
