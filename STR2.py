@@ -2,7 +2,9 @@ import os
 import subprocess
 
 def run_command(command):
-    process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    process = subprocess.Popen(
+        command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE
+    )
     output, error = process.communicate()
     return output.decode().strip(), error.decode().strip()
 
