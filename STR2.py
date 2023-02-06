@@ -24,8 +24,8 @@ for name in soup.find_all('div', class_='titlePrograma'):
     names.append(name.text)
 
 for image in soup.find_all('div', class_='programCover'):
-    images.append(image['style'].split("'")[1])
+    image_url = image['style'].split("url(")[1].split(")")[0]
+    images.append(image_url)
 
-for i in range(len(links)):
-    stream_url = streamlink.streams("https://tviplayer.iol.pt" + links[i])['best'].url
-    print("Nome: " + names[i] + ", URL: " + stream_url + ", Thumbnail: " + images[i])
+for name, image in zip(names, images):
+    print("Nome: " + name + ", Thumbnail: " + image)
