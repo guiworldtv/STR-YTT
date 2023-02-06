@@ -3,6 +3,18 @@ from bs4 import BeautifulSoup
 import datetime
 import streamlink
 
+import streamlink.compat
+streamlink.compat.monkeypatch()
+streamlink.set_option("hls-segment-threads", 1)
+streamlink.set_option("http-ssl-verify", False)
+streamlink.set_option("http-no-ssl-verify", True)
+streamlink.set_option("http-headers", headers)
+streamlink.set_option("hls-live-edge", 9999999)
+streamlink.set_option("hls-timeout", 9999999)
+streamlink.set_option("hls-start-offset", 9999999)
+streamlink.set_option("http-user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3")
+streamlink.set_loglevel("error")
+streamlink.set_logoutput(None)
 
 
 headers = {
