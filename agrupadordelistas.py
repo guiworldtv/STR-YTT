@@ -1,33 +1,33 @@
-import requests
-from bs4 import BeautifulSoup
-import datetime
-import streamlink
+import glob
+import os
 
-headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
-}
+# Obter o caminho do arquivo atual
+file_path = os.path.dirname(os.path.realpath(__file__))
 
-m3u8_file = open("lista2str2.m3u", "w")
+# Verificar se o arquivo LISTASAGRUPADAS.m3u8 já existe
+file_to_merge = os.path.join(file_path, "LISTASAGRUPADAS.m3u8")
+if os.path.exists(file_to_merge):
+    if not os.remove(file_to_merge):
+        print("Erro ao excluir o arquivo: ", file_to_merge)
+else:
+    print("O arquivo {} não existe".format(file_to_merge))
 
-url = "https://tviplayer.iol.pt/"
+# Obter todos os arquivos .m3u na pasta
+source_files = sorted(glob.glob(os.path.join(file_path, "*.m3u")))
 
-response = requests.get(url, headers=headers)
-soup = BeautifulSoup(response.content, "html.parser")
+# Imprimir a lista de arquivos encontrados
+print("Arquivos encontrados:", source_files)
 
-video_link = soup.find("a", href="/direto/TVI")["href"]
-video_link = f"https://tviplayer.iol.pt{video_link}"
-
-video_url = streamlink.streams(video_link)["best"].url if streamlink.streams(video_link) else None
-
-programs = soup.find_all("div", class_="programCover")
-program_names = [program.find_parent("div", class_="program").find("div", class_="titlePrograma").text for program in programs]
-program_images = [program["style"].split("url(")[1].split(")")[0] for program in programs]
-
-for name, image in zip(program_names, program_images):
-    m3u8_file.write(f"#EXTINF:-1 group-title=\"TVI PLAYER\" tvg-logo=\"{image}\",{name}\n{video_url}\n")
-    m3u8_file.write("\n")
-
-m3u8_file.close()
-
+# Abrir o arquivo de saída para escrita
+with open(file_to_merge, "wb") as merged_file:
+    for file in source_files:
+        # Abrir o arquivo de entrada para leitura
+        with open(file, "rb") as source_file:
+            # Adicionar uma linha em branco entre cada arquivo
+            merged_file.write(b"\n")
+            # Copiar o conteúdo do arquivo de entrada para o arquivo de saída
+            merged_file.write(source_file.read())
+            
+            
 
 
