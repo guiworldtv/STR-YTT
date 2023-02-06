@@ -31,3 +31,5 @@ def get_lista4_m3u8():
         file.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n")
         file.write("#EXTINF:-1 tvg-id='$(youtube-dl --get-id https://www.dailymotion.com/video/x82pp99)' tvg-logo='$(youtube-dl --get-thumbnail https://www.dailymotion.com/video/x82pp99)',$(youtube-dl -e -C https://www.dailymotion.com/video/x82pp99) TV BRASIL\n")
         file.write("$(streamlink --url --default-stream --stream-url https://www.dailymotion.com/video/x82pp99 best)\n")
+        
+    lista2str.close()
