@@ -1,24 +1,58 @@
 import os
 import subprocess
+import sys
 
 def run_command(command):
-    process = subprocess.Popen(
-        command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE
-    )
-    output, error = process.communicate()
-    return output.decode().strip(), error.decode().strip()
+    """
+    Executa um comando e retorna a saída e o erro.
+    """
+    try:
+        process = subprocess.Popen(
+            command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE
+        )
+        output, error = process.communicate()
+        return output.decode().strip(), error.decode().strip()
+    except Exception as e:
+        print("Erro ao executar comando:", e)
+        sys.exit(1)
+
+def install_dependency(dependency_name, dependency_url, binary_path):
+    """
+    Instala uma dependência a partir de uma URL e define permissões de execução.
+    """
+    try:
+        os.system(f"wget {dependency_url} -O {binary_path}")
+        os.system(f"chmod a+rx {binary_path}")
+    except Exception as e:
+        print(f"Erro ao instalar {dependency_name}:", e)
+        sys.exit(1)
 
 def install_yt_dlp():
-    os.system("sudo wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -O /usr/local/bin/yt-dlp")
-    os.system("sudo chmod a+rx /usr/local/bin/yt-dlp")
+    """
+    Instala o yt-dlp.
+    """
+    install_dependency("yt-dlp", "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp", "/usr/local/bin/yt-dlp")
 
 def install_youtube_dl():
-    os.system("sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl")
-    os.system("sudo chmod a+rx /usr/local/bin/youtube-dl")
-    os.system("youtube-dl -U")
+    """
+    Instala o youtube-dl.
+    """
+    install_dependency("youtube-dl", "https://yt-dl.org/downloads/latest/youtube-dl", "/usr/local/bin/youtube-dl")
+    try:
+        os.system("youtube-dl -U")
+    except Exception as e:
+        print("Erro ao atualizar youtube-dl:", e)
+        sys.exit(1)
 
 def install_streamlink():
-    os.system("!pip install --user --upgrade streamlink")
+    """
+    Instala o Streamlink usando o pip.
+    """
+    try:
+        os.system("pip install --user --upgrade streamlink")
+    except Exception as e:
+        print("Erro ao instalar streamlink:", e)
+        sys.exit(1)
 
 def get_lista4_m3u8():
     with open("./BLINK182.m3u", "w") as f:
@@ -34,10 +68,12 @@ def get_lista4_m3u8():
         f.write("$(streamlink --url --default-stream  --stream-url https://www.nbcnews.com/now?icid=now_hp_header best)\n")
 
 def main():
+    run_command()
+    install_dependency()
     install_yt_dlp()
     install_youtube_dl()
     install_streamlink()
-
-
+    get_lista4_m3u8()
+    
 if __name__ == '__main__':
     main()
