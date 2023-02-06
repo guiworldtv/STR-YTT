@@ -70,6 +70,13 @@ jobs:
          #EXTM3U
          #EXT-X-VERSION:3
          #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+         #EXTINF:-1 tvg-id="rtpaf.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png",VOD RTP 
+         $(streamlink --url --default-stream  --stream-url  https://www.rtp.pt/play/p11331/alteracoes-climaticas-um-futuro-possivel best)         
+         
+         
+         #EXTM3U
+         #EXT-X-VERSION:3
+         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
          #EXTINF:-1 tvg-id="$(yt-dlp --get-title https://www.youtube.com/watch?v=EeQnkxY9QFs)" group-title="Reality Show'S Live" group-title="CNN's" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/watch?v=EeQnkxY9QFs)", YOUTUBEAOVIVO - $(yt-dlp --get-title https://www.youtube.com/watch?v=EeQnkxY9QFs)
          $(streamlink --url --default-stream  --stream-url  https://www.youtube.com/@TelemundoEntretenimiento/live best)
 
@@ -176,6 +183,8 @@ jobs:
          #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
          #EXTINF:-1 tvg-id="rtpacorhd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Açores.png",RTP Açores
          $(streamlink --url --default-stream  --stream-url  https://www.rtp.pt/play/direto/rtpacores best)
+         
+         
          #EXTM3U
          #EXT-X-VERSION:3
          #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
