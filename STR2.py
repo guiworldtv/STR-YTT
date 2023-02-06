@@ -35,8 +35,7 @@ def main():
     install_yt_dlp()
     install_youtube_dl()
     install_streamlink()
-    get_lista4_m3u8()
-    git_add_commit_push()
+
 
 if __name__ == '__main__':
     main()
