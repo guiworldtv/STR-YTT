@@ -20,17 +20,24 @@ def install_streamlink():
 
 def get_lista4_m3u8():
     with open("./lista2str.m3u", "w") as f:
+        f.write("#EXTM3U\n")
+        f.write("#EXT-X-VERSION:3\n")
+        f.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n")
+        f.write('#EXTINF:-1 tvg-id="$(yt-dlp --get-title https://www.youtube.com/watch?v=EeQnkxY9QFs)" group-title="Reality Show\'S Live" group-title="CNN\'s" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/watch?v=EeQnkxY9QFs)", YOUTUBEAOVIVO - $(yt-dlp --get-title https://www.youtube.com/watch?v=EeQnkxY9QFs)\n')
+        f.write("$(streamlink --url --default-stream  --stream-url  https://www.youtube.com/@TelemundoEntretenimiento/live best)\n")
+        f.write("#EXTM3U\n")
+        f.write("#EXT-X-VERSION:3\n")
+        f.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n")
+        f.write('#EXTINF:-1 tvg-id="$(youtube-dl --get-id https://www.dailymotion.com/video/x82pp99)" tvg-logo="$(youtube-dl --get-thumbnail https://www.dailymotion.com/video/x82pp99)",$(youtube-dl -e -C https://www.dailymotion.com/video/x82pp99) TV BRASIL\n')
+        f.write("$(streamlink --url --default-stream  --stream-url  https://www.dailymotion.com/video/x82pp99 best)\n")
 
-        file.write("#EXTM3U\n")
-        file.write("#EXT-X-VERSION:3\n")
-        file.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n")
-        file.write("#EXTINF:-1 tvg-id='$(yt-dlp --get-title https://www.youtube.com/watch?v=EeQnkxY9QFs)' group-title='Reality Show'S Live' group-title='CNN's' tvg-logo='$(yt-dlp --get-thumbnail https://www.youtube.com/watch?v=EeQnkxY9QFs)', YOUTUBEAOVIVO - $(yt-dlp --get-title https://www.youtube.com/watch?v=EeQnkxY9QFs)\n")
-        file.write("$(streamlink --url --default-stream --stream-url https://www.youtube.com/@TelemundoEntretenimiento/live best)\n")
-        file.write("#EXTM3U\n")
-        file.write("#EXT-X-VERSION:3\n")
-        file.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n")
-        file.write("#EXTINF:-1 tvg-id='$(youtube-dl --get-id https://www.dailymotion.com/video/x82pp99)' tvg-logo='$(youtube-dl --get-thumbnail https://www.dailymotion.com/video/x82pp99)',$(youtube-dl -e -C https://www.dailymotion.com/video/x82pp99) TV BRASIL\n")
-        file.write("$(streamlink --url --default-stream --stream-url https://www.dailymotion.com/video/x82pp99 best)\n")
-        
-if name == "main":
-main()
+def main():
+    install_yt_dlp()
+    install_youtube_dl()
+    install_streamlink()
+    get_lista4_m3u8()
+    git_add_commit_push()
+
+if __name__ == '__main__':
+    main()
+
