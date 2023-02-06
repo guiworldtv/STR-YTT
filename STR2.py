@@ -10,33 +10,23 @@ headers = {
 
 m3u8_file = open("lista2str2.m3u", "w")
 
+url = "https://tviplayer.iol.pt/"
 
+response = requests.get(url, headers=headers)
+soup = BeautifulSoup(response.content, "html.parser")
 
-for i in range(1, 5):
-    url = f"https://tviplayer.iol.pt/videos/ultimos/{i}/canal:"
+video_links = [f"https://tviplayer.iol.pt{item['href']}" for item in soup.find_all("a", class_="direto")]
+video_titles = [item.text for item in soup.find_all("div", class_="titlePrograma")]
+image_urls = [item["style"].split("url(")[1].split(")")[0] for item in soup.find_all("div", class_="programCover")]
 
-    response = requests.get(url, headers=headers)
-    soup = BeautifulSoup(response.content, "html.parser")
-
-    video_titles = [item.text for item in soup.find_all("span", class_="item-title")]
-    video_links = [f"https://tviplayer.iol.pt{item['href']}" for item in soup.find_all("a", class_="item")]
-    Data = [item.text for item in soup.find_all("span", class_="item-date")]
-
-    for title, link in zip(video_titles, video_links):
-        now = datetime.datetime.now()
-        timestamp = now.strftime("%m%d%H%M%S")
-        video_url = streamlink.streams(link)["best"].url if streamlink.streams(link) else None
-        item = soup.find("a", class_="item", href=link)
-        try:
-            image_url = item["style"].split("url(")[1].split(")")[0]
-        except Exception as e:
-            print(f"Error: {e}")
-            image_url = "https://cdn.iol.pt/img/logostvi/branco/tviplayer.png"
-        if video_url:
-            m3u8_file.write(f"#EXTINF:-1 group-title=\"TVI PLAYER\" tvg-logo=\"{image_url}\",{title}\n{video_url}\n")
-            m3u8_file.write("\n")
+for link, title, image_url in zip(video_links, video_titles, image_urls):
+    now = datetime.datetime.now()
+    timestamp = now.strftime("%m%d%H%M%S")
+    video_url = streamlink.streams(link)["best"].url if streamlink.streams(link) else None
+    if video_url:
+        m3u8_file.write(f"#EXTINF:-1 group-title=\"TVI PLAYER\" tvg-logo=\"{image_url}\",{title}\n{video_url}\n")
+        m3u8_file.write("\n")
 
 time.sleep(12)
 
 m3u8_file.close()
-
