@@ -28,10 +28,10 @@ for i in range(1, 5):
         video_url = streamlink.streams(link)["best"].url if streamlink.streams(link) else None
         item = soup.find("a", class_="item", href=link)
         try:
-            image_url = item["style"].split("url(")[1].split(")")[0]
-        except Exception as e:
-            print(f"Error: {e}")
-            image_url = "https://cdn.iol.pt/img/logostvi/branco/tviplayer.png"
+            style = item["style"]
+            image_url = style.split("url(")[1].split(")")[0]
+        except (KeyError, IndexError):
+            image_url = "https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/63e0c6060cf2cf9224f7b971/480"
         if video_url:
             m3u8_file.write(f"#EXTINF:-1 group-title=\"TVI PLAYER\" tvg-logo=\"{image_url}\",{title}\n{video_url}\n")
             m3u8_file.write("\n")
