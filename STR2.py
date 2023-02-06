@@ -1,55 +1,36 @@
-import os
-import subprocess
-import sys
-import logging
+import requests
+from bs4 import BeautifulSoup
+import datetime
+import streamlink
+import time
 
-logger = logging.getLogger(__name__)
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+}
 
-def run_command(command):
-    process = subprocess.Popen(
-        command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE
-    )
-    output, error = process.communicate()
-    if process.returncode != 0:
-        logger.error(f"Error running command: {command}. Error: {error}")
-        return None, None
-    return output.decode().strip(), error.decode().strip()
+m3u8_file = open("lista2str2.m3u", "w")
 
-def install_dependencies():
-    dependencies = ["yt-dlp", "youtube-dl", "streamlink"]
-    for dependency in dependencies:
-        if not run_command(f"which {dependency}")[0]:
-            install_command = f"pip install {dependency}"
-            os.system(install_command)
+for i in range(1, 3):
+    url = f"https://tviplayer.iol.pt/videos/ultimos/{i}/canal:"
 
-def write_m3u_header(f):
-    f.write("#EXTM3U\n")
-    f.write("#EXT-X-VERSION:3\n")
+    response = requests.get(url, headers=headers)
+    soup = BeautifulSoup(response.content, "html.parser")
 
-def write_m3u_entry(f, tvg_id, tvg_logo, title, stream_url):
-    f.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n")
-    f.write(f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{tvg_logo}",{title}\n')
-    f.write(stream_url + "\n")
+    video_titles = [item.text for item in soup.find_all("span", class_="item-title")]
+    video_links = [f"https://tviplayer.iol.pt{item['href']}" for item in soup.find_all("a", class_="item")]
+    Data = [item.text for item in soup.find_all("span", class_="item-date")]
 
-def get_lista4_m3u8():
-    youtube_url = "https://www.youtube.com/watch?v=EeQnkxY9QFs"
-    dailymotion_url = "https://www.dailymotion.com/video/x82pp99"
-    telemundo_url = "https://www.youtube.com/@TelemundoEntretenimiento/live"
-    nbcnews_url = "https://www.nbcnews.com/now?icid=now_hp_header"
-    file_path = "./BLINK182.m3u"
+    for title, link in zip(video_titles, video_links):
+        now = datetime.datetime.now()
+        timestamp = now.strftime("%m%d%H%M%S")
+        video_url = streamlink.streams(link)["best"].url if streamlink.streams(link) else None
+        item = soup.find("a", class_="item", href=link)
+        try:
+            image_url = item["style"].split("url(")[1].split(")")[0]
+        except Exception as e:
+            print(f"Error: {e}")
+            image_url = "https://cdn.iol.pt/img/logostvi/branco/tviplayer.png"
+        if video_url:
+            m3u8_file.write(f"#EXTINF:-1 group-title=\"TVI PLAYER\",{title} tvg-logo={image_url}\n{video_url}\n")
 
-    if os.path.exists(file_path):
-        logger.error(f"File already exists: {file_path}")
-        return
-    
-    install_dependencies()
-    
-    try:
-        with open(file_path, "w") as f:
-            write_m3u_header(f)
-            youtube_title = run_command(f"yt-dlp --get-title {youtube_url}")[0]
-            if not youtube_title:
-                raise Exception(f"Failed to get title for url: {youtube_url}")
-            youtube_thumbnail = run_command(f"yt-dlp --get-thumbnail {youtube_url}")[0]
-            if not youtube_thumbnail:
-                raise Exception(f"Failed to get thumbnail for url: {youtube_url}
+m3u8_file.close()
