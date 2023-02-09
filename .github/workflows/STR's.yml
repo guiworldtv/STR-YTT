@@ -67,7 +67,7 @@ jobs:
          #EXT-X-VERSION:3
          #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
          #EXTINF:-1 tvg-id="$(yt-dlp --get-title https://www.youtube.com/watch?v=EeQnkxY9QFs)" group-title="Reality Show'S Live" group-title="CNN's" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/watch?v=EeQnkxY9QFs)", YOUTUBEAOVIVO - $(yt-dlp --get-title https://www.youtube.com/watch?v=EeQnkxY9QFs)
-         $(streamlink --url --default-stream  --hls-duration 00:01:00 --output "BBUSAMEXICO./.ts"  https://www.youtube.com/@TelemundoEntretenimiento/live best)
+         $(streamlink --url --default-stream  --hls-duration 00:02:00 --output "BBUSAMEXICO.ts"  https://www.youtube.com/@TelemundoEntretenimiento/live best)
          
       - name: Get LISTA4.m3u8
         run: |
