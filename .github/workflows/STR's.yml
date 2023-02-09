@@ -57,10 +57,7 @@ jobs:
         run: python STR2.py        
 
               
-      - name: Get LISTA4.ts
-        run: |
-         touch ./lista2str.ts
-         sudo cat >./lista2str.ts <<EOL
+
          
          
          #EXTM3U
