@@ -13,6 +13,7 @@ streamlink.set_option("http-user-agent", headers["User-Agent"])
 streamlink.set_loglevel("error")
 streamlink.set_logoutput(None)
 
+
 m3u8_file = open("lista3str3.m3u", "w")
 
 url = "https://www.youtube.com/results?search_query=aula&sp=CAISBBABGAI%253D"
