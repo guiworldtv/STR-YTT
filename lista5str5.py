@@ -22,7 +22,7 @@ with open('./LISTAMASTER.m3u', 'w') as f:
     title = title.stdout.decode().strip()
     thumbnail = subprocess.run(['yt-dlp', '--get-thumbnail', 'https://www.youtube.com/c/GuilhermeMartinsTV/videos'], stdout=subprocess.PIPE)
     thumbnail = thumbnail.stdout.decode().strip()
-    url = subprocess.run(['yt-dlp', '--get-url', 'https://www.youtube.com/c/GuilhermeMartinsTV/videos'], stdout=subprocess.PIPE)
+    url = subprocess.run(['yt-dlp', '--get-url', 'https://tviplayer.iol.pt/direto/CNN'], stdout=subprocess.PIPE)
     url = url.stdout.decode().strip()
     f.write(f"#EXTINF:-1 tvg-id='{title}' tvg-logo='{thumbnail}',{title}\n")
     f.write(f"{url}\n")
