@@ -14,7 +14,7 @@ subprocess.run(['youtube-dl', '-U'])
 subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
 
 # Get LISTA4.m3u8
-with open('./lista2str.m3u', 'w') as f:
+with open('./LISTAMASTER.m3u', 'w') as f:
     f.write("#EXTM3U\n")
     f.write("#EXT-X-VERSION:3\n")
     f.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n")
