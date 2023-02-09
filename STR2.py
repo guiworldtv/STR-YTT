@@ -1,41 +1,27 @@
-import requests
-from bs4 import BeautifulSoup
-import datetime
 import streamlink
+import moviepy.editor as mp
 import time
 
-headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
-}
+# URL do stream
+url = "https://hunq9fz8yk.zoeweb.tv/av85/av85.stream/chunklist_w123426081.m3u8"
 
-m3u8_file = open("lista2str2.m3u", "w")
+# Tempo de captura de cada frame (em segundos)
+capture_time = 5
 
+# Número de frames a serem capturados
+num_frames = 60
 
+# Iniciar o stream
+streams = streamlink.streams(url)
+stream = streams["best"]
 
-for i in range(1, 6):
-    url = f"https://tviplayer.iol.pt/videos/ultimos/{i}/canal:"
+# Iniciar a captura de frames
+frames = []
+for i in range(num_frames):
+    frame = stream.get_frames()
+    frames.append(frame)
+    time.sleep(capture_time)
 
-    response = requests.get(url, headers=headers)
-    soup = BeautifulSoup(response.content, "html.parser")
-
-    video_titles = [item.text for item in soup.find_all("span", class_="item-title")]
-    video_links = [f"https://tviplayer.iol.pt{item['href']}" for item in soup.find_all("a", class_="item")]
-    Data = [item.text for item in soup.find_all("span", class_="item-date")]
-
-    for title, link in zip(video_titles, video_links):
-        now = datetime.datetime.now()
-        timestamp = now.strftime("%m%d%H%M%S")
-        video_url = streamlink.streams(link)["best"].url if streamlink.streams(link) else None
-        item = soup.find("a", class_="item", href=link)
-        try:
-            image_url = item["style"].split("url(")[1].split(")")[0]
-        except Exception as e:
-            print(f"Error: {e}")
-            image_url = "https://cdn.iol.pt/img/logostvi/branco/tviplayer.png"
-        if video_url:
-            m3u8_file.write(f"#EXTINF:-1 group-title=\"TVI PLAYER\" tvg-logo=\"{image_url}\",{title}\n{video_url}\n")
-            m3u8_file.write("\n")
-
-time.sleep(13)
-
-m3u8_file.close()
+# Criar o vídeo a partir dos frames capturados
+clip = mp.ImageSequenceClip(frames, fps=1 / capture_time)
+clip.write_videofile("timelapse.mp4")
