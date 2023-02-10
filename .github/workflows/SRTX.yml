@@ -47,18 +47,20 @@ jobs:
               
       - name: execute py script
         run: python lista5str5.py 
-        
+         touch ./lista2str.ts
+         sudo cat >./lista2str.ts <<EOL
+         
          #EXTM3U
          #EXT-X-VERSION:3
          #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
          #EXTINF:-1 tvg-id="$(yt-dlp --get-title https://www.youtube.com/watch?v=EeQnkxY9QFs)" group-title="Reality Show'S Live" group-title="CNN's" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/watch?v=EeQnkxY9QFs)", YOUTUBEAOVIVO - $(yt-dlp --get-title https://www.youtube.com/watch?v=EeQnkxY9QFs)
-         $(streamlink --url --default-stream  --hls-duration 00:02:00 --output "BBUSAMEXICO.ts"  https://www.youtube.com/@TelemundoEntretenimiento/live best)
+         $(streamlink  --hls-duration 00:02:00 --output "BBUSAMEXICO.ts"  https://www.youtube.com/@TelemundoEntretenimiento/live best)
          
          #EXTM3U
          #EXT-X-VERSION:3
          #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
          #EXTINF:-1 tvg-id="cnnpthd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",CNN Portugal
-         $(streamlink --url --default-stream  --hls-duration 00:02:00 --output "CNNPORTUGAL.mp4" https://tviplayer.iol.pt/direto/CNN best)
+         $(streamlink  --hls-duration 00:02:00 --output "CNNPORTUGAL.mp4" https://tviplayer.iol.pt/direto/CNN best)
          #EXTM3U
          #EXT-X-VERSION:3
          #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -79,7 +81,7 @@ jobs:
          #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
          #EXTINF:-1 tvg-id="TVIInt.pt" tvg-logo="https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",TVI Internacional
          $(streamlink --url --default-stream  --hls-duration 00:02:00 --output "TVI INTERNACIONAL.ts"  https://tviplayer.iol.pt/direto/TVI_INTERNACIONAL best)
-       
+         EOL
          
 
       - name: git add
