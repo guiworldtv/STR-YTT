@@ -26,20 +26,18 @@ def main():
 
     # Obtenha a hora atual no fuso horário de São Paulo
     tz = pytz.timezone("America/Sao_Paulo")
-    hora_atual1 = datetime.datetime.now(tz).strftime("%d%m_%H%M%S")
-    hora_atual2 = datetime.datetime.now(tz).strftime("%Y_-")
-
+    hora_atual = datetime.datetime.now(tz).strftime("%d%m_%H%M%S")
 
     streamlink_command_1 = "streamlink --force --hls-duration 00:00:15 --output "
-    streamlink_command_1 += f"\"GRAVADOS/{hora_atual1}_CBSTELEMUNDO_{hora_atual2}.ts\" https://www.youtube.com/@TelemundoEntretenimiento/live best"
+    streamlink_command_1 += f"\"GRAVADOS/{hora_atual}_CBSTELEMUNDO_.ts\" https://www.youtube.com/@TelemundoEntretenimiento/live best"
     os.system(streamlink_command_1)
 
     streamlink_command_2 = "streamlink --force --hls-duration 00:00:15 --output "
-    streamlink_command_2 += f"\"GRAVADOS/{hora_atual1}_GLOBONEWS_{hora_atual2}.ts\" https://www.cbsnews.com/live/ best"
+    streamlink_command_2 += f"\"GRAVADOS/{hora_atual}_GLOBONEWS_.ts\" https://www.cbsnews.com/live/ best"
     os.system(streamlink_command_2)
 
     streamlink_command_3 = "streamlink --force --hls-duration 00:00:15 --output "
-    streamlink_command_3 += f"\"GRAVADOS/{hora_atual1}_CNNPORTUGAL_{hora_atual2}.ts\" https://tviplayer.iol.pt/direto/CNN best"
+    streamlink_command_3 += f"\"GRAVADOS/{hora_atual}_CNNPORTUGAL.ts\" https://tviplayer.iol.pt/direto/CNN best"
     os.system(streamlink_command_3)
 
 if __name__ == "__main__":
