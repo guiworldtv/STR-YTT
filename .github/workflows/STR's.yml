@@ -79,13 +79,13 @@ jobs:
         run: |
          NOW=$(date +%m%d_%H%M%S)
          TIMESTAMP=$(date +-%Y)
-         FILENAME="${NOW}BBMEXICOUSA_${TIMESTAMP}.ts"
+         FILENAME="${NOW}BBMEXICOUSA_${TIMESTAMP}"
          touch "./BBMEXICOUSA.ts"
 
 
          touch ./"BBMEXICOUSA.ts
          sudo cat >./BBMEXICOUSA.ts <<EOL
-         $(streamlink --force --hls-duration 00:00:15 --output "{filename}" https://www.youtube.com/@TelemundoEntretenimiento/live best)
+         $(streamlink --force --hls-duration 00:00:15 --output "{filename}.ts" https://www.youtube.com/@TelemundoEntretenimiento/live best)
 
       
       - name: Get LISTA4.m3u8
