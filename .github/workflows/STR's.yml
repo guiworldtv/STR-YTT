@@ -53,18 +53,18 @@ jobs:
          pip install selenium
          
         
-
-              
-      - name: Get BB.ts
-        run: |
-         touch ./BB.ts
-         sudo cat >./BB.ts <<EOL
-         
          # Get the current date and time in the São Paulo timezone
          now = datetime.datetime.now(tz)
          tempo = now.strftime('%m%d_%H%M%S')
          tempo2 = now.strftime('-%Y')
          filename = "BB" + tempo + tempo2 + ".ts"
+              
+      - name: Get ${filename}
+        run: |
+         touch ./${filename}
+         sudo cat >./${filename} <<EOL
+         
+
 
          $(streamlink --force --hls-duration 00:00:15 --output "${filename}" https://www.youtube.com/@TelemundoEntretenimiento/live best)
 
