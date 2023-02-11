@@ -73,19 +73,19 @@ jobs:
          $(streamlink --force --hls-duration 00:00:15 --output "BBMEXICOUSA.ts" https://www.youtube.com/@TelemundoEntretenimiento/live best)
          $(streamlink --force --hls-duration 00:00:15 --output "CBSNEWS.ts" https://www.cbsnews.com/live/ best)
          $(streamlink --force --hls-duration 00:00:15 --output "CNNPORTUGAL.ts" https://tviplayer.iol.pt/direto/CNN best best)
- 
- 
-      - name: Create file
+         
+
+      - name: Get BBMEXICOUSA.ts
         run: |
-         NOW=$(date +%m%d_%H%M%S)
-         TIMESTAMP=$(date +-%Y)
-         FILENAME="${NOW}BBMEXICOUSA_${TIMESTAMP}"
-         touch "./BBMEXICOUSA.ts"
-
-
-         touch ./"BBMEXICOUSA.ts
+         touch ./BBMEXICOUSA.ts
          sudo cat >./BBMEXICOUSA.ts <<EOL
-         $(streamlink --force --hls-duration 00:00:15 --output "{filename}.ts" https://www.youtube.com/@TelemundoEntretenimiento/live best)
+     
+         $(streamlink --force --hls-duration 00:00:15 --output "BBMEXICOUSA-$(date +%Y-%m-%d-%H-%M-%S).ts" https://www.youtube.com/@TelemundoEntretenimiento/live best)
+         $(streamlink --force --hls-duration 00:00:15 --output "CBSNEWS-$(date +%Y-%m-%d-%H-%M-%S).ts" https://www.cbsnews.com/live/ best)
+         $(streamlink --force --hls-duration 00:00:15 --output "CNNPORTUGAL.ts" https://tviplayer.iol.pt/direto/CNN best best)         
+ 
+ 
+
 
       
       - name: Get LISTA4.m3u8
