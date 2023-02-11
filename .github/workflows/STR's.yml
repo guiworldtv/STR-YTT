@@ -67,6 +67,7 @@ jobs:
          sudo cat >./BBMEXICOUSA.ts <<EOL
      
          $(streamlink --force --hls-duration 00:00:15 --output "BBMEXICOUSA.ts" https://www.youtube.com/@TelemundoEntretenimiento/live best)
+         $(streamlink --force --hls-duration 00:00:15 --output "CBSNEWS.ts" https://www.cbsnews.com/live/ best)
  
       
       - name: Get LISTA4.m3u8
