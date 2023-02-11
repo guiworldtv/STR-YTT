@@ -52,30 +52,16 @@ jobs:
          pip install schedule
          pip install selenium
          
-
-      - name: execute py script
-        run: python STR2.py        
-
+        
+      - name: execute py script 4
+        run: python STR2.py
               
-
-         
-         
-
-         
-         
       - name: Get LISTA4.m3u8
         run: |
          touch ./lista2str.m3u
          sudo cat >./lista2str.m3u <<EOL
-
-
-    
+       
          
-         
-   
-         
-         
-
          
          #EXTM3U
          #EXT-X-VERSION:3
@@ -112,8 +98,8 @@ jobs:
          #EXTM3U
          #EXT-X-VERSION:3
          #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-         #EXTINF:-1 tvg-id="$(yt-dlp --get-title https://www.youtube.com/@puavipclubedoshomens2452/videos)" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/@puavipclubedoshomens2452/videos)",$(yt-dlp --get-title https://www.youtube.com/@puavipclubedoshomens2452/videos)
-         $(yt-dlp --get-url https://www.youtube.com/@puavipclubedoshomens2452/videos)
+         #EXTINF:-1 tvg-id="$(yt-dlp --get-title https://www.youtube.com/c/GuilhermeMartinsTV/videos)" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/c/GuilhermeMartinsTV/videos)",$(yt-dlp --get-title https://www.youtube.com/c/GuilhermeMartinsTV/videos)
+         $(yt-dlp --get-url https://www.youtube.com/c/GuilhermeMartinsTV/videos)
         
          #EXTM3U
          #EXT-X-VERSION:3
@@ -186,8 +172,6 @@ jobs:
          #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
          #EXTINF:-1 tvg-id="rtpacorhd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Açores.png",RTP Açores
          $(streamlink --url --default-stream  --stream-url  https://www.rtp.pt/play/direto/rtpacores best)
-         
-         
          #EXTM3U
          #EXT-X-VERSION:3
          #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -206,7 +190,31 @@ jobs:
          #EXTINF:-1 tvg-id="$(yt-dlp --get-title https://www.youtube.com/@cnnturk/live)" group-title="NEWS WORLD" group-title="CNN's" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/@cnnturk/live)", YOUTUBEAOVIVO - $(yt-dlp --get-title https://www.youtube.com/@cnnturk/live)
          $(streamlink --url --default-stream  --stream-url  https://www.youtube.com/@cnnturk/live best)
          
-
+         #EXTM3U
+         #EXT-X-VERSION:3
+         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+         #EXTINF:-1 tvg-id="cnnpthd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",CNN Portugal
+         $(streamlink --url --default-stream  --stream-url https://tviplayer.iol.pt/direto/CNN best)
+         #EXTM3U
+         #EXT-X-VERSION:3
+         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+         #EXTINF:-1 tvg-id="tvihd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
+         $(streamlink --hls-segment-stream-data --hls-live-edge 5 --hls-segment-threads 10 --ffmpeg-ffmpeg /usr/local/bin/ffmpeg --hls-live-edge 6 --stream-url  https://tviplayer.iol.pt/direto/TVI best)
+         #EXTM3U
+         #EXT-X-VERSION:3
+         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+         #EXTINF:-1 tvg-id="TVIFIC.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI-Ficção.png",TVI Ficção
+         $(streamlink --url --default-stream  --stream-url  https://tviplayer.iol.pt/direto/TVI_FICCAO best)
+         #EXTM3U
+         #EXT-X-VERSION:3
+         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+         #EXTINF:-1,
+         $(streamlink --url --default-stream  --stream-url  https://tviplayer.iol.pt/direto/TVI_AFRICA best)
+         #EXTM3U
+         #EXT-X-VERSION:3
+         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+         #EXTINF:-1 tvg-id="TVIInt.pt" tvg-logo="https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",TVI Internacional
+         $(streamlink --url --default-stream  --stream-url  https://tviplayer.iol.pt/direto/TVI_INTERNACIONAL best)
          #EXTM3U
          #EXT-X-VERSION:3
          #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
@@ -254,4 +262,3 @@ jobs:
         run: |
           git commit -m "links atualizados"
           git push
-
