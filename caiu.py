@@ -26,11 +26,11 @@ def main():
     os.system("sudo cat >./BBMEXICOUSA.ts <<EOL")
 
     streamlink_command_1 = "streamlink --force --hls-duration 00:00:15 --output "
-    streamlink_command_1 += "\"GRAVADOS/$(date +%d%m)_$(date +%H%M%S)_BBMEXICOUSA_-$(date +%Y).ts\" https://www.youtube.com/@TelemundoEntretenimiento/live best"
+    streamlink_command_1 += "\"GRAVADOS/$(date +%d%m)_$(date +%H%M%S)_CBSTELEMUNDO_-$(date +%Y).ts\" https://www.youtube.com/@TelemundoEntretenimiento/live best"
     os.system(streamlink_command_1)
 
     streamlink_command_2 = "streamlink --force --hls-duration 00:00:15 --output "
-    streamlink_command_2 += "\"GRAVADOS/$(date +%d%m)_$(date +%H%M%S)_CBSNEWS_-$(date +%Y).ts\" https://www.cbsnews.com/live/ best"
+    streamlink_command_2 += "\"GRAVADOS/$(date +%d%m)_$(date +%H%M%S)_GLOBONEWS_-$(date +%Y).ts\" https://www.cbsnews.com/live/ best"
     os.system(streamlink_command_2)
 
     streamlink_command_3 = "streamlink --force --hls-duration 00:00:15 --output "
