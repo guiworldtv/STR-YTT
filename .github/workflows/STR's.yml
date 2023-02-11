@@ -82,24 +82,10 @@ jobs:
          FILENAME="${NOW}BBMEXICOUSA_${TIMESTAMP}.ts"
          touch "./BBMEXICOUSA.ts"
 
-      - name: Download stream
-        run: |
-         streamlink --force --hls-duration 00:00:15 --output "${TIMESTAMP}_BBMEXICOLA_-{NOW}.ts" https://www.youtube.com/@TelemundoEntretenimiento/live best > "./BBMEXICOUSA.ts"
-        
-        
-        - name: Get BBMEXICOUSA2.ts
-        run: |
-
-
-         now = datetime.datetime.now(pytz.timezone("America/Sao_Paulo"))
-         tempo = now.strftime('%m%d_%H%M%S')
-         tempo2 = now.strftime('-%Y')
-
-         filename =   tempo + "BBMEXICOUSA_" + tempo2 + ".ts"
 
          touch ./"BBMEXICOUSA.ts
          sudo cat >./BBMEXICOUSA.ts <<EOL
-         $(streamlink --force --hls-duration 00:00:15 --output "{tempo2}_BBMEXICOLA_-{tempo}.ts" https://www.youtube.com/@TelemundoEntretenimiento/live best)
+         $(streamlink --force --hls-duration 00:00:15 --output "{filename}" https://www.youtube.com/@TelemundoEntretenimiento/live best)
 
       
       - name: Get LISTA4.m3u8
