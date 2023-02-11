@@ -52,6 +52,7 @@ jobs:
          pip install schedule
          pip install selenium
          
+         
         
          # Get the current date and time in the São Paulo timezone
          now = datetime.datetime.now(tz)
@@ -59,17 +60,24 @@ jobs:
          tempo2 = now.strftime('-%Y')
          filename = "BB" + tempo + tempo2 + ".ts"
               
+      - name: Instalando pytz
+        run: |
+         pip install pytz
       - name: Get ${filename}
         run: |
+         import pytz
+         import datetime
+         tz = pytz.timezone('America/Sao_Paulo')
+         now = datetime.datetime.now(tz)
+         tempo = now.strftime('%m%d_%H%M%S')
+         tempo2 = now.strftime('-%Y')
+         filename = "BB" + tempo + tempo2 + ".ts"
          touch ./${filename}
          sudo cat >./${filename} <<EOL
-         
-
-
+     
          $(streamlink --force --hls-duration 00:00:15 --output "${filename}" https://www.youtube.com/@TelemundoEntretenimiento/live best)
-
-
          EOL 
+ 
    
       - name: git add
         run: |
