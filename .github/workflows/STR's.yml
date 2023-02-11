@@ -83,8 +83,7 @@ jobs:
          $(streamlink --url --default-stream  --stream-url  https://www.youtube.com/@TelemundoEntretenimiento/live best)
          
          
-         EOL         
-         # Add changes to Git
+         EOL       
       - name: Add Changes to Git
         run: |
           git add -A
