@@ -4,7 +4,9 @@ name: STREAMLINK LIVE
 on:
   schedule:
     - cron: "*/41 * * * *"
- 
+
+  
+  
   push:
     branches:
     - master
@@ -60,6 +62,9 @@ jobs:
           pip install uvicorn 
           pip install schedule
           pip install selenium
+          pip install datetime
+          pip install timezone
+          pip install pytz
       
       - name: Get BBMEXICOUSA.ts
         run: |
