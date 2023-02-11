@@ -37,7 +37,7 @@ def main():
     os.system(streamlink_command_2)
 
     streamlink_command_3 = "streamlink --force --hls-duration 00:00:15 --output "
-    streamlink_command_3 += f"\"GRAVADOS/{hora_atual}_CNNPORTUGAL.ts\" https://tviplayer.iol.pt/direto/CNN best best"
+    streamlink_command_3 += f"\"GRAVADOS/{hora_atual}_CNNPORTUGAL.ts\" https://tviplayer.iol.pt/direto/CNN best"
     os.system(streamlink_command_3)
 
 if __name__ == "__main__":
