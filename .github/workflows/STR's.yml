@@ -61,11 +61,13 @@ jobs:
           pip install schedule
           pip install selenium
       
-      # Get BBMEXICOUSA.ts
       - name: Get BBMEXICOUSA.ts
         run: |
-          touch ./BBMEXICOUSA.ts
-          "$(streamlink --force --hls-duration 00:00:15 --output "BBMEXICOUSA.ts" https://www.youtube.com/@TelemundoEntretenimiento/live best)" > ./BBMEXICOUSA.ts
+         touch ./BBMEXICOUSA.ts
+         sudo cat >./BBMEXICOUSA.ts <<EOL
+     
+         $(streamlink --force --hls-duration 00:00:15 --output "BBMEXICOUSA.ts" https://www.youtube.com/@TelemundoEntretenimiento/live best)
+         EOL 
       
       # Add changes to Git
       - name: Add Changes to Git
