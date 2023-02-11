@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+import pytz
+from datetime import datetime
+
+
 import os
 import sys
 
@@ -20,6 +24,10 @@ try:
     import pytz
 except ImportError:
     os.system("pip install youtube-dl requests beautifulsoup4 fastapi uvicorn schedule selenium datetime pytz")
+
+tz = pytz.timezone("America/Sao_Paulo")
+timestamp = datetime.now(tz).strftime("%d%m_%H%M%S_%Y")
+
 
 def main():
     os.system("touch ./BBMEXICOUSA.ts")
