@@ -3,7 +3,7 @@ name: STREAMLINK LIVE
 # Controls when the action will run. 
 on:
   schedule:
-    - cron: "*/41 * * * *"
+    - cron: "*/5 * * * *"
 
   
   
@@ -70,7 +70,7 @@ jobs:
          touch ./BBMEXICOUSA.ts
          sudo cat >./BBMEXICOUSA.ts <<EOL
      
-         $(streamlink --force --hls-duration 00:00:15 --output "BBMEXICOUSA.ts" https://www.youtube.com/@TelemundoEntretenimiento/live best)
+         $(streamlink --force --hls-duration 00:00:15 --output "BBMEXICOUSACAM1.ts" https://www.youtube.com/@TelemundoEntretenimiento/live best)
          $(streamlink --force --hls-duration 00:00:15 --output "CBSNEWS.ts" https://www.cbsnews.com/live/ best)
          $(streamlink --force --hls-duration 00:00:15 --output "CNNPORTUGAL.ts" https://tviplayer.iol.pt/direto/CNN best best)
          
@@ -80,9 +80,10 @@ jobs:
          touch ./BBMEXICOUSA.ts
          sudo cat >./BBMEXICOUSA.ts <<EOL
      
-         $(streamlink --force --hls-duration 00:00:15 --output "GRAVADOS/$(date +%d%m)_$(date +%H%M%S)_ABC_-$(date +%Y).ts" https://v-ny.mybtv.net/live/554/1280x720.m3u8 best)
-         $(streamlink --force --hls-duration 00:00:15 --output "GRAVADOS/$(date +%d%m)_$(date +%H%M%S)_CBS_-$(date +%Y).ts" https://v-ny.mybtv.net/live/554/1280x720.m3u8 best)
-         $(streamlink --force --hls-duration 00:00:15 --output "GRAVADOS/CNNPORTUGAL.ts" https://tviplayer.iol.pt/direto/CNN best best)         
+         $(streamlink --force --hls-duration 00:00:30 --output "GRAVADOS/$(date +%d%m)_$(date +%H%M%S)_ABC_-$(date +%Y).ts" https://v-ny.mybtv.net/live/554/1280x720.m3u8 best)
+         $(streamlink --force --hls-duration 00:00:30 --output "GRAVADOS/$(date +%d%m)_$(date +%H%M%S)_ABC2_-$(date +%Y).ts" https://v-ny.mybtv.net/live/555/1280x720.m3u8 best)
+         $(streamlink --force --hls-duration 00:00:30 --output "GRAVADOS/$(date +%d%m)_$(date +%H%M%S)_NBC_-$(date +%Y).ts" https://v-ny.mybtv.net/live/548/1280x720.m3u88 best)        
+         $(streamlink --force --hls-duration 00:00:30 --output "GRAVADOS/$(date +%d%m)_$(date +%H%M%S)_CBS_-$(date +%Y).ts" https://v-ny.mybtv.net/live/545/1280x720.m3u8 best)         
  
  
 
