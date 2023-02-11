@@ -1,7 +1,7 @@
 import os
 import sys
 import pytz
-
+import datetime
 try:
     import streamlink
 except ImportError:
@@ -15,7 +15,7 @@ try:
     import uvicorn
     import schedule
     import selenium
-    import datetime
+
 except ImportError:
     os.system("pip install youtube-dl requests beautifulsoup4 fastapi uvicorn schedule selenium datetime")
 
