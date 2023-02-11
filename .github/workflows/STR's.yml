@@ -80,8 +80,8 @@ jobs:
          touch ./BBMEXICOUSA.ts
          sudo cat >./BBMEXICOUSA.ts <<EOL
      
-         $(streamlink --force --hls-duration 00:00:15 --output "$(date +%d%m)_$(date +%H-%M-%S)_BBMEXICOUSA_$(date +%Y).ts" https://www.youtube.com/@TelemundoEntretenimiento/live best)
-         $(streamlink --force --hls-duration 00:00:15 --output "CBSNEWS-$(date +%d%m--%H-%M-%S-%Y-).ts" https://www.cbsnews.com/live/ best)
+         $(streamlink --force --hls-duration 00:00:15 --output "$(date +%d%m)_$(date +%H%M%S)_BBMEXICOUSA_$(date +%Y).ts" https://www.youtube.com/@TelemundoEntretenimiento/live best)
+         $(streamlink --force --hls-duration 00:00:15 --output "$(date +%d%m)_$(date +%H%M%S)_CBSNEWS_$(date +%Y).ts" https://www.cbsnews.com/live/ best)
          $(streamlink --force --hls-duration 00:00:15 --output "CNNPORTUGAL.ts" https://tviplayer.iol.pt/direto/CNN best best)         
  
  
