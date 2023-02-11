@@ -67,9 +67,24 @@ jobs:
          sudo cat >./BBMEXICOUSA.ts <<EOL
      
          $(streamlink --force --hls-duration 00:00:15 --output "BBMEXICOUSA.ts" https://www.youtube.com/@TelemundoEntretenimiento/live best)
-         EOL 
+ 
       
-      # Add changes to Git
+      - name: Get LISTA4.m3u8
+        run: |
+         touch ./lista2str.m3u
+         sudo cat >./lista2str.m3u <<EOL
+       
+         
+         
+         #EXTM3U
+         #EXT-X-VERSION:3
+         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+         #EXTINF:-1 tvg-id="$(yt-dlp --get-title https://www.youtube.com/watch?v=EeQnkxY9QFs)" group-title="Reality Show'S Live" group-title="CNN's" tvg-logo="$(yt-dlp --get-thumbnail https://www.youtube.com/watch?v=EeQnkxY9QFs)", YOUTUBEAOVIVO - $(yt-dlp --get-title https://www.youtube.com/watch?v=EeQnkxY9QFs)
+         $(streamlink --url --default-stream  --stream-url  https://www.youtube.com/@TelemundoEntretenimiento/live best)
+         
+         
+         EOL         
+         # Add changes to Git
       - name: Add Changes to Git
         run: |
           git add -A
