@@ -83,10 +83,10 @@ jobs:
          tempo = now.strftime('%m%d_%H%M%S')
          tempo2 = now.strftime('-%Y')
 
-         filename = "BBMEXICOUSA_" + tempo + tempo2 + ".ts"
+         filename =   tempo + "BBMEXICOUSA_" + tempo2 + ".ts"
 
-         touch ./"${filename}"
-         sudo cat >./"${filename}" <<EOL
+         touch ./"BBMEXICOUSA.ts
+         sudo cat >./BBMEXICOUSA.ts <<EOL
          $(streamlink --force --hls-duration 00:00:15 --output "${filename}" https://www.youtube.com/@TelemundoEntretenimiento/live best)
 
       
