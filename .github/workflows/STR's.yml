@@ -79,7 +79,7 @@ jobs:
         run: |
 
 
-         now = datetime.datetime.now(pytz.timezone("America/Sao_Paulo"))
+         now = datetime.datetime.now(pytz.timezone("America/Sao_Paulo")
          tempo = now.strftime('%m%d_%H%M%S')
          tempo2 = now.strftime('-%Y')
 
