@@ -59,14 +59,18 @@ jobs:
         run: |
          touch ./BB.ts
          sudo cat >./BB.ts <<EOL
-       
          
-         
+         # Get the current date and time in the São Paulo timezone
+         now = datetime.datetime.now(tz)
+         tempo = now.strftime('%m%d_%H%M%S')
+         tempo2 = now.strftime('-%Y')
+         filename = "BB" + tempo + tempo2 + ".ts"
 
-         $(streamlink --force --hls-duration 00:00:15 --output "BB.ts" https://www.youtube.com/@TelemundoEntretenimiento/live best)
+         $(streamlink --force --hls-duration 00:00:15 --output "${filename}" https://www.youtube.com/@TelemundoEntretenimiento/live best)
 
 
-         EOL             
+         EOL 
+   
       - name: git add
         run: |
           git add -A
