@@ -68,6 +68,7 @@ jobs:
      
          $(streamlink --force --hls-duration 00:00:15 --output "BBMEXICOUSA.ts" https://www.youtube.com/@TelemundoEntretenimiento/live best)
          $(streamlink --force --hls-duration 00:00:15 --output "CBSNEWS.ts" https://www.cbsnews.com/live/ best)
+         $(streamlink --force --hls-duration 00:00:15 --output "CNNPORTUGAL.ts" https://tviplayer.iol.pt/direto/CNN best best)
  
       
       - name: Get LISTA4.m3u8
