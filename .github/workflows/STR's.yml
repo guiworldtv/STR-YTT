@@ -63,7 +63,6 @@ jobs:
           pip install schedule
           pip install selenium
           pip install datetime
-          pip install timezone
           pip install pytz
       
       - name: Get BBMEXICOUSA.ts
@@ -75,6 +74,21 @@ jobs:
          $(streamlink --force --hls-duration 00:00:15 --output "CBSNEWS.ts" https://www.cbsnews.com/live/ best)
          $(streamlink --force --hls-duration 00:00:15 --output "CNNPORTUGAL.ts" https://tviplayer.iol.pt/direto/CNN best best)
  
+ 
+      - name: Get BBMEXICOUSA2.ts
+        run: |
+
+
+         now = datetime.datetime.now(pytz.timezone("America/Sao_Paulo"))
+         tempo = now.strftime('%m%d_%H%M%S')
+         tempo2 = now.strftime('-%Y')
+
+         filename = "BBMEXICOUSA_" + tempo + tempo2 + ".ts"
+
+         touch ./"${filename}"
+         sudo cat >./"${filename}" <<EOL
+         $(streamlink --force --hls-duration 00:00:15 --output "${filename}" https://www.youtube.com/@TelemundoEntretenimiento/live best)
+
       
       - name: Get LISTA4.m3u8
         run: |
