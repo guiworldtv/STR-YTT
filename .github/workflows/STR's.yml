@@ -54,15 +54,17 @@ jobs:
          
          
         
+      - name: Instalando pytz
+        run: |
+         pip install pytz
+         
          # Get the current date and time in the São Paulo timezone
          now = datetime.datetime.now(tz)
          tempo = now.strftime('%m%d_%H%M%S')
          tempo2 = now.strftime('-%Y')
          filename = "BB" + tempo + tempo2 + ".ts"
               
-      - name: Instalando pytz
-        run: |
-         pip install pytz
+
       - name: Get ${filename}
         run: |
          import pytz
