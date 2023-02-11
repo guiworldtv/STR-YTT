@@ -57,7 +57,7 @@ jobs:
               
       - name: Get BB.ts
         run: |
-         touch ./BIGBROTHER/BB.ts
+         touch ./BB.ts
          sudo cat >./BB.ts <<EOL
        
          
