@@ -28,15 +28,15 @@ def main():
     tz = pytz.timezone("America/Sao_Paulo")
     hora_atual = datetime.datetime.now(tz).strftime("%d%m_%H%M%S")
 
-    streamlink_command_1 = "streamlink --force --hls-duration 00:00:15 --output "
+    streamlink_command_1 = "streamlink --force --hls-duration 00:04:00 --output "
     streamlink_command_1 += f"\"GRAVADOS/{hora_atual}_CBSTELEMUNDO_.ts\" https://www.youtube.com/@TelemundoEntretenimiento/live best"
     os.system(streamlink_command_1)
 
-    streamlink_command_2 = "streamlink --force --hls-duration 00:00:15 --output "
-    streamlink_command_2 += f"\"GRAVADOS/{hora_atual}_GLOBONEWS_.ts\" https://www.cbsnews.com/live/ best"
+    streamlink_command_2 = "streamlink --force --hls-duration 00:07:00 --output "
+    streamlink_command_2 += f"\"GRAVADOS/{hora_atual}_CBSNEWS_.ts\" https://www.cbsnews.com/live/ best"
     os.system(streamlink_command_2)
 
-    streamlink_command_3 = "streamlink --force --hls-duration 00:00:15 --output "
+    streamlink_command_3 = "streamlink --force --hls-duration 00:07:00 --output "
     streamlink_command_3 += f"\"GRAVADOS/{hora_atual}_CNNPORTUGAL.ts\" https://tviplayer.iol.pt/direto/CNN best"
     os.system(streamlink_command_3)
 
