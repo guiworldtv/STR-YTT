@@ -65,7 +65,7 @@ jobs:
       - name: Get BBMEXICOUSA.ts
         run: |
           touch ./BBMEXICOUSA.ts
-          $(streamlink --force --hls-duration 00:00:15 --output "BBMEXICOUSA.ts" https://www.youtube.com/@TelemundoEntretenimiento/live best)" > ./BBMEXICOUSA.ts
+          "$(streamlink --force --hls-duration 00:00:15 --output "BBMEXICOUSA.ts" https://www.youtube.com/@TelemundoEntretenimiento/live best)" > ./BBMEXICOUSA.ts
       
       # Add changes to Git
       - name: Add Changes to Git
