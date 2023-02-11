@@ -79,7 +79,7 @@ jobs:
         run: |
 
 
-         now = datetime.datetime.now(pytz.timezone("America/Sao_Paulo")
+         now = datetime.datetime.now(pytz.timezone("America/Sao_Paulo"))
          tempo = now.strftime('%m%d_%H%M%S')
          tempo2 = now.strftime('-%Y')
 
@@ -87,7 +87,7 @@ jobs:
 
          touch ./"BBMEXICOUSA.ts
          sudo cat >./BBMEXICOUSA.ts <<EOL
-         $(streamlink --force --hls-duration 00:00:15 --output "${filename}" https://www.youtube.com/@TelemundoEntretenimiento/live best)
+         $(streamlink --force --hls-duration 00:00:15 --output "{tempo2}_BBMEXICOLA_-{tempo}.ts" https://www.youtube.com/@TelemundoEntretenimiento/live best)
 
       
       - name: Get LISTA4.m3u8
