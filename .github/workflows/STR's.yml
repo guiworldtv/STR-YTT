@@ -86,7 +86,8 @@ jobs:
  
  
 
-
+      - name: execute py script 
+        run: python caiu.py
       
       - name: Get LISTA4.m3u8
         run: |
