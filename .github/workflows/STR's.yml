@@ -75,7 +75,19 @@ jobs:
          $(streamlink --force --hls-duration 00:00:15 --output "CNNPORTUGAL.ts" https://tviplayer.iol.pt/direto/CNN best best)
  
  
-      - name: Get BBMEXICOUSA2.ts
+      - name: Create file
+        run: |
+         NOW=$(date +%m%d_%H%M%S)
+         TIMESTAMP=$(date +-%Y)
+         FILENAME="${NOW}BBMEXICOUSA_${TIMESTAMP}.ts"
+         touch "./BBMEXICOUSA.ts"
+
+      - name: Download stream
+        run: |
+         streamlink --force --hls-duration 00:00:15 --output "${TIMESTAMP}_BBMEXICOLA_-{NOW}.ts" https://www.youtube.com/@TelemundoEntretenimiento/live best > "./BBMEXICOUSA.ts"
+        
+        
+        - name: Get BBMEXICOUSA2.ts
         run: |
 
 
