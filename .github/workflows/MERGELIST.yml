@@ -27,8 +27,7 @@ jobs:
     - name: execute py script 
       run: python agrupadordelistas.py
       
-    - name: execute py script 
-      run: python caiu.py
+
     
     - name: git add
       run: |
