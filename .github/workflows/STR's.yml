@@ -63,7 +63,7 @@ jobs:
          
          
 
-         $(streamlink --hls-duration 00:00:15 --output "BB.ts" https://www.youtube.com/@TelemundoEntretenimiento/live best)
+         $(streamlink --force --hls-duration 00:00:15 --output "BB.ts" https://www.youtube.com/@TelemundoEntretenimiento/live best)
 
 
          EOL             
