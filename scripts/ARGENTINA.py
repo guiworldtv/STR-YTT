@@ -439,8 +439,7 @@ https://5f700d5b2c46f.streamlock.net/madryntv/madryntv/playlist.m3u8
 http://arcast.net:1935/mp/mp/playlist.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
 http://200.115.193.177/live/26hd-720/playlist.m3u8
-#EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
-http://www.trimi.com.ar/provincial/streaming/mystream.m3u8
+
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
 https://5e7cdf2370883.streamlock.net/tdconline/tdconline/playlist.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
