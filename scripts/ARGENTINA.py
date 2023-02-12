@@ -414,26 +414,21 @@ http://live-edge01.telecentro.net.ar/live/smil:c26.smil/chunklist_w858131162_b41
 http://panel.dattalive.com:1935/8250/8250/playlist.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
 http://uni5rtmp.tulix.tv:1935/bettervida/bettervida/playlist.m3u8
-#EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
-https://moiptvhls-i.akamaihd.net/hls/live/652315/secure/master.m3u8
-#EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
-https://api.new.livestream.com/accounts/22636012/events/8242619/live.m3u8
+
+
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
 http://www.coninfo.net:1935/tvcinco/live1/playlist.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
 http://azxtv.com/hls/stream.m3u8
-#EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
-http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
+
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
 http://api.new.livestream.com/accounts/679322/events/3782013/live.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
 https://59d52c5a5ce5e.streamlock.net:4443/canal3rosario/ngrp:canal3rosario_all/playlist.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
 http://190.52.32.13:1935/canal4/smil:manifest.smil/playlist.m3u8
-#EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
-https://live.canalnueve.tv/canal.m3u8
-#EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
-https://5b3050bb1b2d8.streamlock.net/viviloendirecto2/canal9/playlist.m3u8
+
+
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
 http://panel.dattalive.com:1935/8204/8204/playlist.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="Argentina" tvg-logo="N/A",Canal Nueve Multivisi n (AR)
