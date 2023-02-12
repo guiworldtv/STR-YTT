@@ -64,6 +64,7 @@ jobs:
           pip install selenium
           pip install datetime
           pip install pytz
+          pip install google-api-python-client
       
       - name: Get BBMEXICOUSA.ts
         run: |
