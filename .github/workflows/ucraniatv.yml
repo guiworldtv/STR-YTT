@@ -39,8 +39,17 @@ jobs:
           
           
       - name: execute py script 3
-        run: python ucraniatv.py
+        run: youtube-dl
+             requests
+             beautifulsoup4
+             fastapi
+             uvicorn
+             schedule
         
+        
+      - name: execute py script 3
+        run: python ucraniatv.py
+
         
           
           
