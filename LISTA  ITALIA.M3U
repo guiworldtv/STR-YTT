@@ -28,12 +28,10 @@ https://5db313b643fd8.streamlock.net/Vuemme/Vuemme/playlist.m3u8
 http://wms.shared.streamshow.it:1935/visualradio/visualradio/live.m3u8
 #EXTINF:-1 ,Virgin Radio TV Ⓢ Ⓖ
 https://live3.msr.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(ew)/manifest.mpd
-#EXTINF:-1 ,Vintage Radio Tv
-https://stream4.xdevel.com/video0s975967-804/stream/playlist.m3u8
+
 #EXTINF:-1 ,Videostar Tv Lombardia
 http://dreamsiteradiocpvideo.com:1935/vds/vds/playlist.m3u8
-#EXTINF:-1 ,Videostar Canale 193 (480p) [Not 24/7]
-https://5cbd3bc28341f.streamlock.net:444/videostar_live/videostar/playlist.m3u8
+
 #EXTINF:-1 ,Videolina (Sardegna) (404p) [Not 24/7]
 http://livestreaming.videolina.it/live/Videolina/playlist.m3u8
 #EXTINF:-1 ,Videolina
