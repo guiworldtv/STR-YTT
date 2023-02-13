@@ -10,6 +10,7 @@ subprocess.run(['sudo', 'wget', 'https://yt-dl.org/downloads/latest/youtube-dl',
 subprocess.run(['sudo', 'chmod', 'a+rx', '/usr/local/bin/youtube-dl'])
 subprocess.run(['youtube-dl', '-U'])
 
+
 # Instalando streamlink
 subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
 
