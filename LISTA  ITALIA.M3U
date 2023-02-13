@@ -1,24 +1,14 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml"
 
 
-#EXTINF:-1 tvg-id="" group-title="Italia" tvg-logo="https://www.cafetv24.it/wp-content/uploads/2021/05/logo-cafe-trasmissione_ARROTONDATO1.png",🇮🇹🎬 ●| Cafe 24ᴴᴰ
-http://srv3.meway.tv:1957/cafe/live/chunklist_w252488479.m3u8
+
 #EXTINF:-1 tvg-id="" group-title="Italia" tvg-logo="https://www.raiplay.it/dl/img/2016/09/1473662801274Logo-Rai3.png",🇮🇹 ●| Rai 3ᴴᴰ 
 http://wzstreaming.rai.it/TVlive/liveStream/chunklist_w823540263.m3u8?wowzasessionid=inspiration
-#EXTINF:-1 tvg-id="" group-title="Italia" tvg-logo="https://i.imgur.com/Hp723RU.png",🇮🇹 ●| Nove
-https://sbshdlu5-lh.akamaihd.net/i/sbshdl_3@810997/master.m3u8
+
 #EXTINF:-1 tvg-id="" group-title="Italia" tvg-logo="https://camo.githubusercontent.com/d355454c80b49e9ef5ae0526128009744e1d44ece3307a0ff0a2f21bbbaec262/68747470733a2f2f692e696d6775722e636f6d2f41613141626d652e706e67",🇮🇹 ●| Donna tv
 https://streaming.softwarecreation.it/DonnaTv/DonnaTv/chunklist_w1878015151.m3u8
-#EXTINF:-1 ,🇮🇹 ●| Discovery Ream Timeᴴᴰ
-https://sbshdlu5-lh.akamaihd.net/i/sbshdl_4@810998/master.m3u8?sd=10&rebase=on
-#EXTINF:-1 ,🇮🇹 ●| Discovery MotorTrendᴴᴰ
-https://sbshdlu5-lh.akamaihd.net/i/sbshdl_1@810993/master.m3u8?wowzasessionid=inspiration
-#EXTINF:-1 ,🇮🇹 ●| Discovery HGTVᴴᴰ
-https://sbshdlu5-lh.akamaihd.net/i/sbshdl_7@106896/master.m3u8?sd=10&rebase=on
-#EXTINF:-1 ,🇮🇹 ●| Discovery Gialloᴴᴰ
-https://sbshdlu5-lh.akamaihd.net/i/sbshdl_2@810996/master.m3u8?wowzasessionid=inspiration
-#EXTINF:-1 ,🇮🇹 ●| Discovery DMAXᴴᴰ
-https://sbshdlu5-lh.akamaihd.net/i/sbshdl_5@825063/master.m3u8?sd=10&rebase=on
+
+
 #EXTINF:-1 ,Zerouno Tv News
 https://5db313b643fd8.streamlock.net/ZerounoTVEventi/ZerounoTVEventi/playlist.m3u8
 #EXTINF:-1 ,Yvii Tv
