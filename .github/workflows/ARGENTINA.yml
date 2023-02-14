@@ -39,7 +39,7 @@ jobs:
 
       - name: Main
         run: |
-          curl https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location --output location.txt
+          curl https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location --output minhalocalização.txt
           pwd
           chmod +x ARGENTINA.sh
           ./ARGENTINA.sh
