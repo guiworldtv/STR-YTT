@@ -1,57 +1,33 @@
-import streamlink
-import subprocess
-import time
+import glob
 import os
-from selenium import webdriver
-from bs4 import BeautifulSoup
-from selenium.webdriver.chrome.options import Options
+
+# Obter o caminho do arquivo atual
+file_path = os.path.dirname(os.path.realpath(__file__))
+
+# Verificar se o arquivo LISTASAGRUPADAS.m3u8 já existe
+file_to_merge = os.path.join(file_path, "LISTASAGRUPADAS.m3u8")
+if os.path.exists(file_to_merge):
+    if not os.remove(file_to_merge):
+        print("Erro ao excluir o arquivo: ", file_to_merge)
+else:
+    print("O arquivo {} não existe".format(file_to_merge))
+
+# Obter todos os arquivos .m3u na pasta
+source_files = sorted(glob.glob(os.path.join(file_path, "*.m3u")))
+
+# Imprimir a lista de arquivos encontrados
+print("Arquivos encontrados:", source_files)
+
+# Abrir o arquivo de saída para escrita
+with open(file_to_merge, "wb") as merged_file:
+    for file in source_files:
+        # Abrir o arquivo de entrada para leitura
+        with open(file, "rb") as source_file:
+            # Adicionar uma linha em branco entre cada arquivo
+            merged_file.write(b"\n")
+            # Copiar o conteúdo do arquivo de entrada para o arquivo de saída
+            merged_file.write(source_file.read())
+            
+            
 
 
-
-
-# URL da página desejada
-url_twitch = "https://www.twitch.tv/search?term=big%20brother"
-
- # Configuring Chrome options
-chrome_options = Options()
-chrome_options.add_argument("--headless")
-chrome_options.add_argument("--disable-gpu")
-
-# Instanciando o driver do Chrome
-driver = webdriver.Chrome(options=chrome_options)
-
-# Abrir a página desejada
-driver.get(url_twitch)
-
-# Aguardar alguns segundos para carregar todo o conteúdo da página
-time.sleep(5)
-
-# Obter o conteúdo da página
-html_content = driver.page_source
-
-# Encontrar o link do primeiro canal encontrado
-soup = BeautifulSoup(html_content, "html.parser")
-link = "https://www.twitch.tv" + soup.find("a", class_="ScCoreLink-sc-16kq0mq-0 eYjhIv tw-link").get("href")
-
-# Fechar o driver
-driver.quit()
-
-print(link)
-
-# Instalando streamlink
-subprocess.run(['pip', 'install', '--user', '--upgrade', 'streamlink'])
-
-    
-try:
-    # Get LISTA4.m3u8
-    with open('./BBVIPALBANIA.m3u8', 'w') as f:
-        streams = streamlink.streams(link)
-        url = streams['best'].url
-        f.write("#EXTM3U\n")
-        f.write("#EXT-X-VERSION:3\n")
-        f.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000\n")
-        f.write(f"{url}\n")
-except Exception as e:
-    print(f"Erro ao criar o arquivo .m3u8: {e}")
-    
-    
