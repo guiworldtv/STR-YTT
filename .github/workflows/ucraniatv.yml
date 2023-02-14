@@ -1,7 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: M3U generator
-
+name: UcraniaTV
 # Controls when the action will run. 
 on:
   schedule:
@@ -51,15 +50,19 @@ jobs:
         run: python ucraniatv.py
 
         
-          
+
+        
+        
+      - name: commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "update data" -a
           
         
-      - name: git add
-        run: |
-          git add -A
-          ls -la 
-          
-      - name: commit & push
-        run: |
-          git commit -m "links atualizados"
-          git push        
+      - name: push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main  
