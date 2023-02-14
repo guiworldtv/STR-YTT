@@ -66,29 +66,7 @@ jobs:
           pip install pytz
           pip install google-api-python-client
       
-      - name: Get BBMEXICOUSA.ts
-        run: |
-         touch ./BBMEXICOUSA.ts
-         sudo cat >./BBMEXICOUSA.ts <<EOL
-     
-         $(streamlink --force --hls-duration 00:00:15 --output "BBMEXICOUSA.ts" https://www.youtube.com/@TelemundoEntretenimiento/live best)
-         $(streamlink --force --hls-duration 00:00:15 --output "CBSNEWS.ts" https://www.cbsnews.com/live/ best)
-         $(streamlink --force --hls-duration 00:00:15 --output "CNNPORTUGAL.ts" https://tviplayer.iol.pt/direto/CNN best best)
-         
 
-      - name: Get BBMEXICOUSA.ts
-        run: |
-         touch ./BBMEXICOUSA.ts
-         sudo cat >./BBMEXICOUSA.ts <<EOL
-     
-         $(streamlink --force --hls-duration 00:00:15 --output "GRAVADOS/$(date +%d%m)_$(date +%H%M%S)_ABC_-$(date +%Y).ts" https://v-ny.mybtv.net/live/554/1280x720.m3u8 best)
-         $(streamlink --force --hls-duration 00:00:15 --output "GRAVADOS/$(date +%d%m)_$(date +%H%M%S)_CBS_-$(date +%Y).ts" https://v-ny.mybtv.net/live/554/1280x720.m3u8 best)
-         $(streamlink --force --hls-duration 00:00:15 --output "GRAVADOS/CNNPORTUGAL.ts" https://tviplayer.iol.pt/direto/CNN best best)         
- 
- 
-
-      - name: execute py script 
-        run: python caiu.py
       
       - name: Get LISTA4.m3u8
         run: |
