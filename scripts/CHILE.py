@@ -40,16 +40,7 @@ https://unlimited1-cl-isp.dps.live/t13/t13.smil/t13/livestream1/chunks.m3u8
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1  group-title="CHILE" tvg-logo="https://im2.ezgif.com/tmp/ezgif-2-cbd343be23.png",CHV NOTICIAS
 https://siloh.pluto.tv/lilo/production/Chilevision/master_1.m3u8
-#EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-#EXTINF:-1  group-title="CHILE" tvg-logo="N/A",CNN INTERNACIONAL
-https://cnn-cnninternational-1-gb.samsung.wurl.com/manifest/playlist.m3u8
-#EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-#EXTINF:-1  group-title="CHILE" tvg-logo="N/A",tv saúde - chile
-https://srv3.zcast.com.br/mastermedia/mastermedia/playlist.m3u8
+
 
 #EXTINF:-1 tvg-name="Camara de Diputados" tvg-logo="https://i2.paste.pics/8ac54ede0184c4fd9e872231a6d673b3.png" group-title="CHILE",Camara de Diputados
 https://tls-cl.cdnz.cl/camara/live/playlist.m3u8
