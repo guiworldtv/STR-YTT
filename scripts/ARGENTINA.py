@@ -215,15 +215,6 @@ https://delivery.cdn.rcs.net.ar/mnp/syfy_hls/playlist.m3u8
 https://delivery.cdn.rcs.net.ar/mnp/paramount_hls/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/-F2BnsazA7os/Ys31hnU_n3I/AAAAAAAAApQ/0MXv4sr5nusxWpjqfA0hm_aZj8GBqD1gACNcBGAsYHQ/w480/ver-mas-chic-en-vivo.jpg" group-title="(COCINA/ESTILO)" , MAS CHIC 
-https://delivery.cdn.rcs.net.ar/mnp/maschic_hls/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEhWU7qTkDs3xwDNs8Ma9dfG1R4PEnjNr4tQkQT2VnRCmLimj4dC5VfGeAg__wPr8pzRHzWBfuuqNionC5CJz5ro8ymVHmo1-9LSEEEW1EgC6WEXlvN6Hsxuyso7RjM_4UbPYcSxhS92j6jFMlw-RzUwpTDKfoMxjxvSlfupuoUjMHtcvSF6BHncy1xl=w480" group-title="(COCINA/ESTILO)" , LIFETIME 
-https://delivery.cdn.rcs.net.ar/mnp/lifetime_hls/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEhVVcU81CJ-9e-tEsH5-VNlr6mg8_PjlqQY4ZuSvc59RPALyd8p0QkfPZl-YwJcH3p7AgUNS0W8v2FFIiRj0B0ACKm4jgobepjqmkf7lloDqobhwoOa5_Abc4YcCJb5VdQnU_YNzDtI2xZqNWcGe3lqBat3qn5EVhm6fBFCO7g4Ch3tKKal2cl_xD0J=w480" group-title="(COCINA/ESTILO)" , GLITZ 
-https://delivery.cdn.rcs.net.ar/mnp/glitz_hls/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://exchange4media.gumlet.io/news-photo/98602-MTVlogo.jpg?w=400&dpr=2.6" group-title="Argentina" , MTV 
 https://delivery.cdn.rcs.net.ar/mnp/mtv_hls/playlist.m3u8
 
