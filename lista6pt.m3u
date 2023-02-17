@@ -870,11 +870,12 @@ https://bit.ly/rtp3_pt?/index.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #https://live.impresa.pt/live/sic/sic.m3u8
 
-#EXTINF:-1 group-title="PORTUGAL" tvg-id="sichd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC SEM VPN
+#EXTINF:-1 group-title="PORTUGAL" group-title="NEWS WORLD" tvg-id="sichd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC SEM VPN
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
 https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
+
 
 
 #EXTINF:-1 group-title="PORTUGAL" tvg-id="sichd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC COM VPN
