@@ -1,6 +1,8 @@
 name: Executar STR2.py
 
-on: [push]
+on:
+  push:
+  workflow_dispatch:
 
 jobs:
   build:
