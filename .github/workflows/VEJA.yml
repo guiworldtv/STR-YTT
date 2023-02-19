@@ -1,0 +1,12 @@
+name: Executar STR2.py
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Executar script STR2.py
+      run: python STR2.py
