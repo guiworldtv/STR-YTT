@@ -10,6 +10,25 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      # Installing streamlink
+    - name: Install streamlink
+      run: |
+          pip install --user --upgrade streamlink   
+          
+      # Installing dependencies
+    - name: Install dependencies
+      run: |
+          pip install youtube-dl 
+          pip install requests 
+          pip install beautifulsoup4 
+          pip install fastapi 
+          pip install uvicorn 
+          pip install schedule
+          pip install selenium
+          pip install datetime
+          pip install pytz
+          pip install google-api-python-client
+          
     - name: Executar script STR2.py
       run: python STR2.py
 
