@@ -5,7 +5,7 @@ name: VEJA
 # Controls when the action will run. 
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '*/30 * * * *'
 
     
   pull_request:
