@@ -16,6 +16,9 @@ jobs:
         git config --global user.name "GitHub Action"
         
         # Installing streamlink
+    - name: Atualizar branch local com as alterações remotas
+      run: git pull origin main
+      
     - name: Install streamlink
       run: |
           pip install --user --upgrade streamlink   
@@ -36,18 +39,8 @@ jobs:
           
     - name: Executar script STR2.py
       run: python STR2.py
-
-
-         
-         
-      
-    - name: Add Changes to Git
+    - name: Fazer push das alterações para o Github
       run: |
-          git add -A
-          ls -la 
-          
-      # Commit and Push changes
-    - name: Commit & Push
-      run: |
-          git commit -m "links atualizados"
-          git push
+        git add .
+        git commit -m "Adiciona arquivo STR2.py"
+        git push origin main
