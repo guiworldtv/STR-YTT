@@ -37,6 +37,25 @@ jobs:
           git config --global user.email "vijayelectro2002@gmail.com"
           git config --global user.name "vijay6672"
 
+      - name: Install streamlink
+        run: |
+          pip install --user --upgrade streamlink   
+          
+      # Installing dependencies
+      - name: Install dependencies
+        run: |
+          pip install youtube-dl 
+          pip install requests 
+          pip install beautifulsoup4 
+          pip install fastapi 
+          pip install uvicorn 
+          pip install schedule
+          pip install selenium
+          pip install datetime
+          pip install pytz
+          pip install google-api-python-client
+          
+          
       - name: Main
         run: |
           curl https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location --output minhalocalização.txt
