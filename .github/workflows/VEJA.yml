@@ -10,7 +10,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-      # Installing streamlink
+    - name: config
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+        
+        # Installing streamlink
     - name: Install streamlink
       run: |
           pip install --user --upgrade streamlink   
