@@ -12,3 +12,18 @@ jobs:
     - uses: actions/checkout@v2
     - name: Executar script STR2.py
       run: python STR2.py
+
+
+         
+         
+      
+    - name: Add Changes to Git
+      run: |
+          git add -A
+          ls -la 
+          
+      # Commit and Push changes
+    - name: Commit & Push
+      run: |
+          git commit -m "links atualizados"
+          git push
