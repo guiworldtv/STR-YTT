@@ -161,6 +161,8 @@ https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/puJ88Pk.png" group-title="CHILE", La Red | FHD | Santiago
 https://unlimited1-cl-isp.dps.live/lared/lared.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/puJ88Pk.png" group-title="CHILE", La Red | FHD | Santiago 2
+https://d2ab26kihxq8p0.cloudfront.net/hls/live.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/3eb0Hhn.png" group-title="CHILE", UCV  | HD | Valparaíso
 https://unlimited2-cl-isp.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8
