@@ -276,51 +276,62 @@ https://hunq9fz8yk.zoeweb.tv/av85/av85.stream/chunklist_w123426081.m3u8
 
 
 
-#EXTINF:-1  group-title="Cameras Ao Vivo" tvg-logo="N/A",GOIÂNIA - Avenida Castelo Branco
+#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-logo="https://i.imgur.com/7DfRiz6.png", GOIÂNIA - Avenida Castelo Branco
 https://5a7d54e35f9d2.streamlock.net/avt7/avt7.stream/chunklist_w1549205327.m3u8
-#EXTINF:-1  group-title="Cameras Ao Vivo" tvg-logo="N/A",ARUANÃ - RIO VERMELHO - PRAIA DO CAVALO
+
+#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-logo="https://i.imgur.com/7DfRiz6.png", ARUANÃ - RIO VERMELHO - PRAIA DO CAVALO
 https://5a1c76baf08c0.streamlock.net/riovermelhocam01/rvcam01.stream/playlist.m3u8
-#EXTINF:-1  group-title="Cameras Ao Vivo" tvg-logo="N/A",Setor Central
+
+#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-logo="https://i.imgur.com/7DfRiz6.png", Setor Central
 https://5a1c76baf08c0.streamlock.net/araguaiacam01/acam01.stream/playlist.m3u8
-#EXTINF:-1  group-title="Cameras Ao Vivo" tvg-logo="N/A", Goiânia
+
+#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-logo="https://i.imgur.com/7DfRiz6.png", Goiânia
 https://hunq9fz8yk.zoeweb.tv/aquariuscenter/aquariuscenter.stream/playlist.m3u8
 
-#EXTINF:-1  group-title="Cameras Ao Vivo" tvg-logo="N/A",Rua 9 (Cartório Índio Artiaga), Setor Oeste
+#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-logo="https://i.imgur.com/7DfRiz6.png", Rua 9 (Cartório Índio Artiaga), Setor Oeste
 https://hunq9fz8yk.zoeweb.tv/r9oeste/r9oeste.stream/chunklist_w1793116402.m3u8
 
-
-
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",EXECUTIVA FM
+#EXTINF:-1 group-title="N/A" tvg-logo="https://i.imgur.com/pdM5uH7.png", EXECUTIVA FM
 https://live.ojc.com.br/c2f4/myStream.m3u8
-#EXTINF:-1  group-title="N/A" tvg-logo="N/A",GAUCHA FM
+
+#EXTINF:-1 group-title="N/A" tvg-logo="https://i.imgur.com/td9XjvR.png", GAUCHA FM
 https://liverdgaupoa.rbsdirect.com.br/primary/gaucha_rbs.sdp/playlist.m3u8
 
-
-#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="https://live.video.globo.com/d/preview/globo-go01.mp4",Teste MASTER FORA DO AR
+#EXTINF:-1 group-title="N/A" tvg-logo="https://i.imgur.com/ooWAB9C.png", Teste MASTER FORA DO AR
 https://raw.githubusercontent.com/guiworldtv/STR2/main/VideoOFFAir.m3u8
-#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",Salão Velório 1
+
+#EXTINF:-1 tvg-id="N/A" tvg-logo="https://i.imgur.com/pVrJzde.png" group-title="Salão Velório",Salão Velório 1
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://wrm7jsxguc.zoeweb.tv/zw943/zw943.stream/chunklist.m3u8
-#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",Salão Velório 2
+
+#EXTINF:-1 tvg-id="N/A" tvg-logo="https://i.imgur.com/pVrJzde.png" group-title="Salão Velório",Salão Velório 2
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://wrm7jsxguc.zoeweb.tv/zw944/zw944.stream/playlist.m3u8
-#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",AULA IDIOMAS
+
+#EXTINF:-1 tvg-id="N/A" tvg-logo="https://i.imgur.com/v6Ukx6T.png" group-title="Aula de Idiomas",Aula Idiomas
 https://raw.githubusercontent.com/guiworldtv/STR2/main/Languages.m3u8
-#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",CHURCH
+
+#EXTINF:-1 tvg-id="N/A" tvg-logo="https://i.imgur.com/gtMxhqj.png" group-title="Igrejas",Church
 https://raw.githubusercontent.com/guiworldtv/STR2/main/Church.m3u8
-#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",Teste Vídeo Gravado Youtube
+
+#EXTINF:-1 tvg-id="N/A" tvg-logo="https://i.imgur.com/7N68Gwi.png" group-title="Youtube",Teste Vídeo Gravado Youtube
 plugin://plugin.video.youtube/play/?video_id=nHO38JeCjVc
-#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",Teste Playlist Youtube
+
+#EXTINF:-1 tvg-id="N/A" tvg-logo="https://i.imgur.com/7N68Gwi.png" group-title="Youtube",Teste Playlist Youtube
 plugin://plugin.video.youtube/play/?video_id=nHO38JeCjVc&list=PLXZ6FSgBVB0QE3Cvp7ZyG2z5Zsk8KnSuN
-#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",Teste Canal ao vivo Youtube 1
+
+#EXTINF:-1 tvg-id="N/A" tvg-logo="https://i.imgur.com/7N68Gwi.png" group-title="Youtube",Teste Canal ao Vivo Youtube 1
 plugin://plugin.video.youtube/play/?video_id=showdelafe
-#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",Teste Canal ao vivo Youtube 1
+
+#EXTINF:-1 tvg-id="N/A" tvg-logo="https://i.imgur.com/7N68Gwi.png" group-title="Youtube",Teste Canal ao Vivo Youtube 2
 plugin://plugin.video.youtube/play/?channel_id=showdelafe
-#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",Teste Vídeo ao vivo twitch
+
+#EXTINF:-1 tvg-id="N/A" tvg-logo="https://i.imgur.com/Cv7rglx.png" group-title="Twitch",Teste Vídeo ao vivo Twitch
 plugin://plugin.video.twitch/play/?video_id=miaueissoai
-#EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",internet archive TESTE
+
+#EXTINF:-1 tvg-id="N/A" tvg-logo="https://i.imgur.com/2f8Zvya.png" group-title="Internet Archive",Internet Archive Teste
 https://archive.org/download/nike90secmov/tvc_90_sec_large_512kb.mp4
 
 
