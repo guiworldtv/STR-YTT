@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 ,#EXTVLCOPT:network-caching=1000
+#EXTINF:-1 , RBC RUSSIA
 http://e4.online.video.rbc.ru/online2/rbctv_480p/index.m3u8
 #EXTINF:-1 ,100 Automoto HD
 http://100automoto.tv:1935/bgtv1/autotv/playlist.m3u8
