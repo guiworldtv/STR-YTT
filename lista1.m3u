@@ -433,8 +433,10 @@ https://telemundolive.akamaized.net/hls/live/2093200/NEWS104/master_main104.m3u8
 #EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="N/A",NOTÍCIAS TELEMUNDO - SERVIÇO 2
 https://telemundolive.akamaized.net/hls/live/2093200/NEWS105/master_main105.m3u8
 
-
-
+#EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="https://files2.app.ertflix.gr/files/channels/ertnews2-logo-800x300-2023.png",ΕΡΤ NEWS 2
+https://cbd537474fbad4634b64787657ff6456.msvdn.net/news2/ert_news2_main/mainabr/playlist_dvr.m3u8
+#EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="https://files2.app.ertflix.gr/files/channels/ertnews3-logo-800x300-2023.png",ΕΡΤ NEWS 3
+https://cbd537474fbad4634b64787657ff6456.msvdn.net/news3/ert_news3_main/mainabr/playlist_dvr.m3u8
 
 #EXTINF:-1  tvg-id="N/A" group-title="NEWS WORLD" tvg-logo="https://media.telemundo51.com/2022/08/WSCV-tvOS_App-Store-1280x768-1.png",Telemundo Filadelfia / [Philadelphia] 
 https://nbculocallive.akamaized.net/hls/live/2035366/philadelphia/stream5/master.m3u8
